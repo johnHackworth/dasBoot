@@ -3,6 +3,8 @@ window.boot.stages = window.boot.stages || {};
 
 window.boot.stages.bootStage = function(options) {
   this.options = options;
+  console.log(options);
+  this.world = options.world;
   this.init(options);
 };
 
@@ -13,7 +15,8 @@ window.boot.stages.bootStage.prototype = {
       width: window.boot.config.width,
       height: window.boot.config.height,
       assets: [
-        'assets/vehicles/test.jpg'
+        'assets/vehicles/warship1.png',
+        'assets/vehicles/sub1.png',
       ],
       init: function(stage) {
         var self = this;
@@ -23,9 +26,10 @@ window.boot.stages.bootStage.prototype = {
         // this.engine.addEntity(this.world);
         this.sector = options.world.playerBoat.sector;
         this.playerBoat = options.world.playerBoat;
-
+        this.world = options.world;
         this.hudLayout = new window.boot.ui.HudLayout({
-          stage: this
+          stage: this,
+          world: this.world
         });
         document.getElementById('loader').remove();
       }

@@ -15,7 +15,7 @@ window.boot.directors.main.prototype = {
   testStart: function() {
     this.world.getPlainSeaWorld();
     window.world = this.world;
-    this.world.playerBoat = new window.boot.models.Submarine({
+    this.world.playerBoat = new window.boot.models.EarlyUboat({
       world: this.world
     });
     this.world.addVehicleToSector(this.world.playerBoat, 0, 0);
