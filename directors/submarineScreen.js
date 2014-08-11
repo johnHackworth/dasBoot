@@ -2,11 +2,10 @@ window.boot = window.boot || {};
 window.boot.stages = window.boot.stages || {};
 
 window.boot.stages.bootStage = function(options) {
+  pixEngine.utils.extend.call(this, pixEngine.utils.Eventable);
   this.options = options;
-  console.log(options);
-  this.world = options.world;
-  this.init(options);
 };
+
 
 window.boot.stages.bootStage.prototype = {
   init: function(options) {
@@ -17,9 +16,18 @@ window.boot.stages.bootStage.prototype = {
       assets: [
         'assets/vehicles/warship1.png',
         'assets/vehicles/sub1.png',
+        'assets/people/body_m_1_side_1.png',
+        'assets/people/body_m_1_side_2.png',
+        'assets/people/body_m_1.png',
+        'assets/people/head_m_1_side.png',
+        'assets/people/head_m_2.png',
+        'assets/people/head_m_3.png',
+        'assets/people/head_m_4.png',
+        'assets/people/head_m_5.png',
       ],
       init: function(stage) {
         var self = this;
+        this.world = options.world;
         // this.world = new moletube.models.World({
         //   stage: this
         // });

@@ -78,11 +78,19 @@ pixEngine.Stage.prototype.init = function() {
 
 pixEngine.Stage.prototype.tick = function(counter) {
   this.viewport.tick(counter);
+  this.trigger('tick');
 };
 
 pixEngine.Stage.prototype.addEntity = function(entity) {
-  this.pixiStage.addChild(entity.view);
+  if (entity.view.length > 0) {
+    for (var i in entity.view) {
+      this.pixiStage.addChild(entity.view[i]);
+    }
+  } else {
+    this.pixiStage.addChild(entity.view);
+  }
   this.engine.addEntity(entity);
+
 };
 
 pixEngine.Stage.prototype.removeEntity = function(entity) {
