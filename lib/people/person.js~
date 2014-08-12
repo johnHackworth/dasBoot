@@ -117,8 +117,8 @@ window.boot.models = window.boot.models || {};
       };
 
       legsview.adjustment = {
-        standing: [0, -3],
-        moving: [0, -3]
+        standing: [-3, 0],
+        moving: [-3, 0]
       };
       legsview.x = this.pos.x;
       legsview.y = this.pos.y;

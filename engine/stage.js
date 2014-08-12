@@ -15,8 +15,8 @@ pixEngine.Stage = function(options) {
   // this.pixiStage = new PIXI.Stage(0x67EBA1, true);
   this.pixiStage = new PIXI.Stage(0x444444, true);
 
-  if (this.supportsWebGL()) {
-    this.renderer = new PIXI.WebGLRenderer(
+//  if (this.supportsWebGL()) {
+    this.renderer = PIXI.autoDetectRenderer(
       options.width,
       options.height,
       null,
@@ -49,12 +49,12 @@ pixEngine.Stage = function(options) {
       x: Math.floor(options.width / 2),
       y: Math.floor(options.height / 2)
     });
-  } else {
+ /* } else {
     var loader = document.getElementById('loader');
     loader.innerHTML = 'Your browser doesn\'t support webGL, sorry';
     loader.setAttribute('class', 'warning');
     this.init = function() {};
-  }
+  }*/
 };
 
 pixEngine.Stage.prototype.baseEntityNumber = 0;
