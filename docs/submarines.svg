@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg4766"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="submarines.svg">
+  <defs
+     id="defs4768">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5365"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5324"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5320"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5316"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5312"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5308"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5304"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5300"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5296"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5292"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5288"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5288-3"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="165.02251"
+     inkscape:cy="845.91034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1311"
+     inkscape:window-height="744"
+     inkscape:window-x="55"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata4771">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#8a8a8a;fill-opacity:1;stroke:none"
+       id="path4774"
+       sodipodi:cx="384.28571"
+       sodipodi:cy="379.50504"
+       sodipodi:rx="312.85715"
+       sodipodi:ry="24.285715"
+       d="m 697.14285,379.50504 a 312.85715,24.285715 0 1 1 -625.714292,0 312.85715,24.285715 0 1 1 625.714292,0 z"
+       transform="matrix(1.378157,0,0,0.50685994,-225.09135,163.78961)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:#464646;fill-opacity:1;stroke:#262626;stroke-width:0.87300992px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 730.30542,356.90791 -66.90352,59.87628 -137.74253,17.19221 -390.99527,0 -68.470598,-2.27433 -35.412256,-25.59524 -138.698756,-23.38666 -18.4045,-26.4051 856.62743,0.59284"
+       id="path5286"
+       inkscape:path-effect="#path-effect5288"
+       inkscape:original-d="m 730.30542,356.90791 -66.90352,59.87628 -137.74253,17.19221 -390.99527,0 c 49.46464,3.51919 -68.215448,4.63484 -68.470598,-2.27433 l -35.412256,-25.59524 -138.698756,-23.38666 -18.4045,-26.4051 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:#555555;fill-opacity:1;stroke:none"
+       d="m 277.71102,369.50504 9.28052,-61.32704 48.29542,0 0.71244,-32.95867 120.66812,0 0,6.55638 -17.89648,-0.51469 0,28.77974 0,11.60714 0,46.42857 -161.06002,1.42857"
+       id="path5290"
+       inkscape:path-effect="#path-effect5292"
+       inkscape:original-d="m 277.71102,369.50504 9.28052,-61.32704 48.29542,0 0.71244,-32.95867 120.66812,0 0,6.55638 -17.89648,-0.51469 0,28.77974 0,11.60714 0,46.42857 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M -15.714286,365.21933 -2.8571429,330.93361 7.5512834,365.84982 -15.714286,365.21933"
+       id="path5294"
+       inkscape:path-effect="#path-effect5296"
+       inkscape:original-d="M -15.714286,365.21933 -2.8571429,330.93361 7.5512834,365.84982 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 302.85714,298.07647 -4.2857143,330.93361"
+       id="path5298"
+       inkscape:path-effect="#path-effect5300"
+       inkscape:original-d="M 302.85714,298.07647 -4.2857143,330.93361"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85996652px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 669.28743,351.41943 4.04129,-11.20388 4.16094,11.48038 -8.20223,-0.2765"
+       id="path5302"
+       inkscape:path-effect="#path-effect5304"
+       inkscape:original-d="m 669.28743,351.41943 c 2.02065,-2.24078 4.04129,-11.20388 4.04129,-11.20388 l 4.16094,11.48038 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85996652px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 730.55872,355.66577 672.97357,339.90529"
+       id="path5306"
+       inkscape:path-effect="#path-effect5308"
+       inkscape:original-d="M 730.55872,355.66577 672.97357,339.90529"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-y="-3.3611624"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 301.42857,298.79075 2.46497,9.19941 2.82681,-10.5498 -5.29178,1.35039"
+       id="path5310"
+       inkscape:path-effect="#path-effect5312"
+       inkscape:original-d="m 301.42857,298.79075 2.46497,9.19941 2.82681,-10.5498 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 363.65492,274.54472 0,-65.65991 0,0"
+       id="path5314"
+       inkscape:path-effect="#path-effect5316"
+       inkscape:original-d="m 363.65492,274.54472 0,-65.65991 0,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 382.84781,276.56503 0,-42.42641"
+       id="path5318"
+       inkscape:path-effect="#path-effect5320"
+       inkscape:original-d="m 382.84781,276.56503 0,-42.42641"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 425.27422,275.55488 0,-24.24367 2.02031,-2.0203"
+       id="path5322"
+       inkscape:path-effect="#path-effect5324"
+       inkscape:original-d="m 425.27422,275.55488 0,-24.24367 2.02031,-2.0203"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.70847324"
+       x="361.42856"
+       y="335.93362"
+       id="text5326"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997"><tspan
+         sodipodi:role="line"
+         id="tspan5328"
+         x="361.42856"
+         y="335.93362"
+         style="fill:#ececec">26</tspan></text>
+    <path
+       style="fill:#333333;stroke:#000000;stroke-width:0.76655966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -62.180286,390.24879 756.266336,0"
+       id="path5363"
+       inkscape:path-effect="#path-effect5365"
+       inkscape:original-d="m -62.180286,390.24879 756.266336,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+    <path
+       style="opacity:0.70847324;fill:#333333;fill-opacity:1;stroke:none"
+       d="m 128.71552,433.69115 c -0.27783,-0.16316 -4.67322,-0.38059 -9.76755,-0.48317 -12.77718,-0.25727 -37.265935,-1.04997 -47.153953,-1.52638 -4.641791,-0.22363 -8.233431,-0.92842 -7.634008,-1.49801 0.263372,-0.25026 -1.689961,-1.83325 -4.34074,-3.51774 -2.650779,-1.68449 -4.649248,-3.06271 -4.441037,-3.06271 0.208201,0 -2.408051,-2.00276 -5.813902,-4.45058 -3.40585,-2.44781 -6.644779,-4.45058 -7.197621,-4.45058 -0.552842,0 -0.769449,-0.22399 -0.481349,-0.49774 0.288098,-0.27377 -1.645002,-1.87597 -4.295779,-3.56047 -2.650778,-1.68449 -4.622779,-3.06272 -4.382223,-3.06272 0.240556,0 -0.12452,-0.3976 -0.811279,-0.88358 -0.686759,-0.48597 -1.612995,-0.75134 -2.058302,-0.58971 -0.445307,0.16163 -0.962159,0.0439 -1.148561,-0.26177 -0.1864,-0.3056 -1.703006,-0.64106 -3.370233,-0.74546 -1.667225,-0.1044 -3.26441,-0.37006 -3.549299,-0.59034 -0.284888,-0.22028 -1.87633,-0.48731 -3.536542,-0.5934 -1.660208,-0.1061 -3.251651,-0.37314 -3.536539,-0.59342 -0.284888,-0.22027 -1.876332,-0.48731 -3.536542,-0.59341 -1.6602092,-0.10609 -3.2516524,-0.37312 -3.5365411,-0.59341 -0.2848875,-0.22028 -1.8763309,-0.48731 -3.5365409,-0.59341 -1.660209,-0.10609 -3.2836713,-0.40355 -3.6076932,-0.66102 -0.324023,-0.25747 -1.91546647,-0.5245 -3.5365411,-0.59342 -1.6210756,-0.0689 -3.2125191,-0.33593 -3.5365409,-0.5934 -0.324023,-0.25747 -1.9154666,-0.52451 -3.5365412,-0.59341 -1.6210756,-0.0689 -3.2125196,-0.33594 -3.5365406,-0.59341 -0.324023,-0.25747 -1.915467,-0.5245 -3.536542,-0.59342 -1.621076,-0.0689 -3.240424,-0.36245 -3.598552,-0.65233 -0.358129,-0.28988 -2.06221,-0.55691 -3.786847,-0.59341 -1.724637,-0.0365 -3.13674,-0.29521 -3.138009,-0.5749 -0.0013,-0.2797 -0.684351,-0.35484 -1.517964,-0.16698 -0.833613,0.18787 -1.515661,0.0517 -1.515661,-0.30242 0,-0.3542 -0.909396,-0.50434 -2.02088,-0.33364 -1.111485,0.1707 -2.020881,0.0398 -2.020881,-0.29099 0,-0.33073 -0.65267,-0.45425 -1.450378,-0.27449 -0.797708,0.17978 -1.593429,0.0935 -1.76827,-0.19174 -0.174842,-0.28523 -1.681987,-0.60402 -3.349214,-0.70842 -1.667226,-0.10441 -3.262115,-0.36788 -3.544196,-0.5855 -0.282083,-0.21762 -1.873525,-0.50972 -3.536541,-0.64912 -17.275294,-1.44811 6.592131,-1.5518 365.534433,-1.58794 232.82378,-0.0234 373.61029,0.1728 373.61029,0.52077 0,0.30712 -0.4621,0.72613 -1.02692,0.93112 -0.56479,0.20501 -0.79476,0.59334 -0.51102,0.86296 0.28375,0.26963 -0.19235,0.64984 -1.058,0.84492 -0.86565,0.19508 -1.32034,0.59563 -1.01045,0.89012 0.30992,0.29448 -0.14479,0.69503 -1.01044,0.89011 -0.86565,0.19509 -1.32033,0.59564 -1.01043,0.89011 0.3099,0.29448 -0.1448,0.69504 -1.01044,0.89012 -0.86565,0.19509 -1.32035,0.59563 -1.01045,0.89012 0.30992,0.29448 -0.14479,0.69504 -1.01044,0.89012 -0.86565,0.19507 -1.32033,0.59563 -1.01044,0.89011 0.30991,0.29448 -0.14479,0.69503 -1.01043,0.89012 -0.86565,0.19508 -1.32035,0.59563 -1.01045,0.89011 0.30992,0.29448 -0.14479,0.69504 -1.01044,0.89012 -0.86565,0.19508 -1.29089,0.62361 -0.945,0.95229 0.34589,0.32868 0.18029,0.59761 -0.36801,0.59761 -1.03815,0 -8.43155,6.77363 -8.17923,7.49357 0.0792,0.22593 -0.58837,0.65147 -1.48347,0.94565 -0.89509,0.29418 -1.39314,0.75752 -1.10678,1.02963 0.28637,0.27213 -0.18757,0.65438 -1.05323,0.84946 -0.86565,0.19507 -1.32337,0.59275 -1.01718,0.8837 0.7062,0.67107 -7.00446,1.94888 -16.5802,2.74768 -2.49235,0.2079 -4.99318,0.57444 -5.55742,0.81454 -0.56426,0.24009 -2.04899,0.39075 -3.29941,0.3348 -1.25042,-0.056 -2.27349,0.0716 -2.27349,0.2835 0,0.21188 -0.79572,0.41907 -1.76827,0.46042 -3.02478,0.12864 -8.4475,0.71251 -10.71488,1.15369 -2.42417,0.4717 -3.2711,0.56804 -9.73107,1.10692 -2.49234,0.2079 -4.99318,0.57445 -5.55742,0.81454 -0.56425,0.24009 -2.04898,0.39076 -3.2994,0.3348 -1.25042,-0.0559 -2.2744,0.062 -2.27551,0.26231 -10e-4,0.20022 -1.64181,0.43291 -3.64596,0.51709 -2.00419,0.0842 -4.15509,0.33857 -4.77982,0.56532 -0.62471,0.22675 -1.82589,0.47488 -2.66928,0.5514 -0.84338,0.0765 -2.67016,0.27287 -4.05953,0.43631 -1.38935,0.16344 -4.05123,0.43809 -5.91528,0.61035 -1.86406,0.17225 -4.3649,0.50303 -5.55742,0.73507 -2.42418,0.47169 -3.2711,0.56803 -9.73107,1.10691 -2.49234,0.20791 -4.99318,0.57444 -5.55743,0.81454 -0.56424,0.24009 -2.04896,0.39075 -3.29939,0.33481 -1.25042,-0.056 -2.2735,0.0717 -2.2735,0.2835 0,0.21187 -0.79572,0.42123 -1.76826,0.46522 -4.21678,0.19077 -10.85963,0.88013 -11.81194,1.22577 -1.08052,0.39218 -1.28795,0.41697 -8.6065,1.02818 -2.4772,0.20688 -4.8211,0.49124 -5.20864,0.63191 -0.99659,0.36171 -399.06993,0.61624 -399.68405,0.25555 l 0,0 z"
+       id="path5388"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/sub1.png"
+       inkscape:export-xdpi="88.699997"
+       inkscape:export-ydpi="88.699997" />
+  </g>
+</svg>

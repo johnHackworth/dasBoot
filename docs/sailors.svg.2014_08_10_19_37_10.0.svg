@@ -189,9 +189,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1306.4998"
-     inkscape:cy="693.70796"
+     inkscape:zoom="0.7"
+     inkscape:cx="-154.3478"
+     inkscape:cy="-398.55139"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3336,5 +3336,35 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/head_m_1_back.png"
        inkscape:export-xdpi="134.03999"
        inkscape:export-ydpi="134.03999" />
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:#994141;stroke-width:0.20000000000000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.19200003;stroke-dasharray:none"
+       id="rect4733"
+       width="486.89352"
+       height="343.45187"
+       x="-206.07112"
+       y="1274.5957"
+       ry="3.1344373" />
+    <rect
+       style="fill:none;stroke:#c42626;stroke-width:7.46630526;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:44.79783228, 44.79783228;stroke-dashoffset:0"
+       id="rect4735"
+       width="194.58638"
+       height="266.9906"
+       x="-25.395164"
+       y="1133.3289"
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/destination.png"
+       inkscape:export-xdpi="34.529999"
+       inkscape:export-ydpi="34.529999" />
+    <rect
+       style="fill:#ffbcbc;fill-opacity:1;stroke:none;opacity:0.35114504"
+       id="rect4735-8"
+       width="194.58638"
+       height="266.9906"
+       x="-261.96597"
+       y="1130.5635"
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/destination.png"
+       inkscape:export-xdpi="138.75999"
+       inkscape:export-ydpi="138.75999" />
   </g>
 </svg>
