@@ -11,6 +11,7 @@ window.boot.stages.bootStage.prototype = {
   init: function(options) {
 
     window.boot.currentStage = new pixEngine.Stage({
+      fps: null,
       width: window.boot.config.width,
       height: window.boot.config.height,
       assets: [
@@ -40,7 +41,7 @@ window.boot.stages.bootStage.prototype = {
         world: this.world
       });
 
-    }
+    };
 
     window.boot.currentStage.init();
   }

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg4688"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="objects.svg">
+  <defs
+     id="defs4690" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="277.3901"
+     inkscape:cy="607.30074"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1311"
+     inkscape:window-height="744"
+     inkscape:window-x="55"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4693">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6786"
+       style="opacity:0.66030531"
+       transform="translate(185.24413,51.34228)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/objects/torpedo.png"
+       inkscape:export-xdpi="103.81"
+       inkscape:export-ydpi="103.81">
+      <path
+         d="m 568.25,347.98718 c 0,5.0396 -25.79959,9.125 -57.625,9.125 -31.82541,0 -57.625,-4.0854 -57.625,-9.125 0,-5.0396 25.79959,-9.125 57.625,-9.125 31.82541,0 57.625,4.0854 57.625,9.125 z"
+         sodipodi:ry="9.125"
+         sodipodi:rx="57.625"
+         sodipodi:cy="347.98718"
+         sodipodi:cx="510.625"
+         id="path6712"
+         style="fill:#aa0000;fill-opacity:1;stroke:#d89595;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.4369748;stroke-dasharray:none"
+         sodipodi:type="arc"
+         transform="translate(-316.92156,133.28271)" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="4.9741884"
+         sodipodi:start="1.3071732"
+         d="m 525.64093,356.79693 c -30.72591,1.31322 -62.35704,-1.56646 -70.65011,-6.43195 -8.29307,-4.86549 9.89233,-9.87433 40.61825,-11.18755 9.80024,-0.41886 20.12532,-0.42035 29.93038,-0.004"
+         sodipodi:ry="9.125"
+         sodipodi:rx="57.625"
+         sodipodi:cy="347.98718"
+         sodipodi:cx="510.625"
+         id="path6712-2"
+         style="fill:#708baf;fill-opacity:1;stroke:#d89595;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.4369748;stroke-dasharray:none"
+         sodipodi:type="arc"
+         transform="matrix(1.9258558,0,0,0.99578303,-794.16322,134.62516)" />
+      <path
+         transform="matrix(1.4533805,0,0,1.3441562,-496.87384,13.606813)"
+         sodipodi:end="7.8539816"
+         sodipodi:start="4.712389"
+         d="m 397,339.86218 c 5.38478,0 9.75,3.52576 9.75,7.875 0,4.34925 -4.36522,7.875 -9.75,7.875 l 0,-7.875 z"
+         sodipodi:ry="7.875"
+         sodipodi:rx="9.75"
+         sodipodi:cy="347.73718"
+         sodipodi:cx="397"
+         id="path6757"
+         style="fill:#a2a2a2;fill-opacity:1;stroke:#d89595;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.4369748;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#999999;fill-opacity:1;stroke:none"
+       id="path3435"
+       sodipodi:cx="257.14285"
+       sodipodi:cy="397.71933"
+       sodipodi:rx="25"
+       sodipodi:ry="23.214285"
+       d="m 282.14285,397.71933 a 25,23.214285 0 1 1 -50,0 25,23.214285 0 1 1 50,0 z"
+       transform="matrix(0.55357143,0,0,0.55357143,124.34949,227.01118)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/objects/projectile.png"
+       inkscape:export-xdpi="175.13879"
+       inkscape:export-ydpi="175.13879" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none"
+       id="path3437"
+       sodipodi:cx="267.41071"
+       sodipodi:cy="454.32648"
+       sodipodi:rx="14.553572"
+       sodipodi:ry="22.678572"
+       d="m 281.96428,454.32648 a 14.553572,22.678572 0 1 1 -29.10715,0 l 14.55358,0 z"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       transform="matrix(1,0,0,1.3543307,0,-160.98181)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/objects/projectile.png"
+       inkscape:export-xdpi="175.13879"
+       inkscape:export-ydpi="175.13879" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none"
+       id="path3439"
+       sodipodi:cx="271.33929"
+       sodipodi:cy="459.41574"
+       sodipodi:rx="15.982142"
+       sodipodi:ry="17.410715"
+       d="m 255.35715,459.41574 a 15.982142,17.410715 0 0 1 31.96429,0 l -15.98215,0 z"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       transform="matrix(0.90502793,0,0,0.92307693,21.841083,30.250385)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/objects/projectile.png"
+       inkscape:export-xdpi="175.13879"
+       inkscape:export-ydpi="175.13879" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#997b7b;stroke-opacity:1"
+       id="path4209"
+       sodipodi:cx="269.55356"
+       sodipodi:cy="483.52289"
+       sodipodi:rx="6.875"
+       sodipodi:ry="4.7321429"
+       d="m 276.42856,483.52289 a 6.875,4.7321429 0 1 1 -13.75,0 6.875,4.7321429 0 1 1 13.75,0 z"
+       transform="translate(-1.9642857,-3.0357143)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/objects/projectile.png"
+       inkscape:export-xdpi="175.13879"
+       inkscape:export-ydpi="175.13879" />
+  </g>
+</svg>

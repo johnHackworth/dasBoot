@@ -29,6 +29,8 @@ pixEngine.Stage = function(options) {
     stage: this
   });
 
+  this.engine.fps = options.fps;
+
   this.mouse = new pixEngine.Mouse(options.width, options.height, this);
   this.mouse.on('click', function(mousedata) {
     self.engine.running = true;
@@ -92,7 +94,26 @@ pixEngine.Stage.prototype.addEntity = function(entity) {
   this.engine.addEntity(entity);
 
 };
-
+pixEngine.Stage.prototype.addEntityAfter = function(entity, after) {
+  if (entity.view.length > 0) {
+    for (var i in entity.view) {
+      this.addViewAfter(entity.view[i], after);
+    }
+  } else {
+    this.addViewAfter(entity.view, after);
+  }
+  this.engine.addEntity(entity);
+};
+pixEngine.Stage.prototype.addEntityBefore = function(entity, before) {
+  if (entity.view.length > 0) {
+    for (var i in entity.view) {
+      this.addViewBefore(entity.view[i], before);
+    }
+  } else {
+    this.addViewBefore(entity.view, before);
+  }
+  this.engine.addEntity(entity);
+};
 pixEngine.Stage.prototype.removeEntity = function(entity) {
   this.removeView(entity.view);
   this.engine.removeEntity(entity);
@@ -122,7 +143,7 @@ pixEngine.Stage.prototype.addViewAfter = function(entity, afterEntity) {
 pixEngine.Stage.prototype.addViewBefore = function(entity, afterEntity) {
   this.pixiStage.addChild(entity);
   var i = this.pixiStage.children.indexOf(afterEntity);
-  var position = i > 1 ? i - 1 : 0;
+  var position = i > 1 ? i : 0;
   var pixiEntity = this.pixiStage.children.pop();
   this.pixiStage.children.splice(position, 0, pixiEntity);
 };
@@ -176,11 +197,19 @@ pixEngine.Stage.prototype.addText = function(text, options, destroyables) {
 
 
 pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
-  x = options.x || 0;
-  y = options.y || 0;
-  scale = options.scale || 1;
-  centered = options.centered || false;
+  var x = options.x || 0;
+  var y = options.y || 0;
+  var scale = options.scale || 1;
+  var centered = options.centered || false;
+  var height = options.height;
+  var width = options.width;
   var picture = new PIXI.Sprite.fromImage(image);
+  if (height) {
+    picture.height = height;
+  }
+  if (width) {
+    picture.width = width;
+  }
   picture.x = x;
   if (centered) {
     picture.x -= picture.width * scale / 2;
@@ -190,6 +219,8 @@ pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
   picture.viewType = 'text';
   if (options.after) {
     this.addViewAfter(picture, options.after);
+  } else if (options.before) {
+    this.addViewBefore(picture, options.before);
   } else {
     this.addVisualEntity(picture);
   }

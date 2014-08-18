@@ -4,15 +4,18 @@ pixEngine.Engine = function(options) {
   this.internalCounter = 0;
   this.entities = [];
   this.renderer = options.renderer;
-  this.stage = options.stage
-}
+  this.stage = options.stage;
+};
 
 pixEngine.Engine.prototype.speed = 6;
 
 pixEngine.Engine.prototype.gameloop = function() {
-  requestAnimFrame(this.gameloop.bind(this));
-
-  if (this.running == true) {
+  if (this.fps) {
+    setTimeout(this.gameloop.bind(this), Math.floor(1000 / this.fps));
+  } else {
+    requestAnimFrame(this.gameloop.bind(this));
+  }
+  if (this.running === true) {
     this.internalCounter++;
     if (this.internalCounter % this.speed === 0) {
       this.counter++;

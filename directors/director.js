@@ -8,6 +8,10 @@ window.boot.directors.main = function() {
 window.boot.directors.main.prototype = {
 
   init: function(stage) {
+    window.boot.width = window.innerWidth;
+    if (window.boot.width < 1050) {
+      window.boot.width = 1050;
+    }
     this.world = new window.boot.models.World();
     this.testStart();
 
