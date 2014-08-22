@@ -18,7 +18,7 @@ pixEngine.ParticleGenerator = function(options) {
   this.fadding = options.fadding;
   this.delay = options.delay || 0;
   this.delayRandom = options.delayRandom || 0;
-  this.direction = options.direction || 0;
+  this.direction = typeof options.direction == 'undefined' ? 0 : options.direction;
   this.spread = options.spread || 2 * Math.PI;
   this.init();
 };

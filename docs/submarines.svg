@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -117,7 +117,10 @@
      id="layer1">
     <g
        id="g4401"
-       transform="matrix(1.0921134,0,0,1.0921134,-94.083219,140.20853)">
+       transform="matrix(1.0921134,0,0,1.0921134,-94.083219,140.20853)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003">
       <rect
          y="604.36218"
          x="482"
@@ -212,7 +215,10 @@
     </g>
     <g
        id="g4401-5"
-       transform="matrix(1.0921134,0,0,1.0921134,-664.08319,139.95326)">
+       transform="matrix(1.0921134,0,0,1.0921134,-664.08319,139.95326)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003">
       <rect
          y="604.36218"
          x="482"
@@ -312,35 +318,50 @@
        height="84.38723"
        x="8.5714283"
        y="770.93359"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3876"
        width="131.31982"
        height="60.609154"
        x="193.9493"
-       y="714.97125" />
+       y="714.97125"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3878"
        width="58.588848"
        height="20.203051"
        x="208.09143"
-       y="694.76819" />
+       y="694.76819"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3880"
        width="34.345188"
        height="98.994949"
        x="208.09143"
-       y="634.15906" />
+       y="634.15906"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3882"
        width="38.385796"
        height="24.243662"
        x="224.25386"
-       y="638.19965" />
+       y="638.19965"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#555555;fill-opacity:1;stroke:none"
        d="m 299.9108,363.79075 9.28052,-74.45902 48.29542,-0.50508 0.71244,-19.32161 120.66812,0 0,6.55638 -17.89648,-0.51469 0,28.77974 0,11.60714 0,46.42857 -161.06002,1.42857"
@@ -499,7 +520,10 @@
        height="41.932476"
        x="-400.72089"
        y="851.85828"
-       ry="2.6313977" />
+       ry="2.6313977"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#999999;fill-opacity:1;stroke:none"
        id="rect3083"
@@ -507,7 +531,10 @@
        height="57.780922"
        x="-175.59189"
        y="820.0271"
-       ry="2.6313977" />
+       ry="2.6313977"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect3081-6"
@@ -515,68 +542,104 @@
        height="9.6075945"
        x="-400.93073"
        y="885.03412"
-       ry="0.60290748" />
+       ry="0.60290748"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3886"
        width="8.0812206"
        height="214.15234"
        x="44.446712"
-       y="571.5296" />
+       y="571.5296"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3888"
        width="6.0609155"
        height="129.29953"
        x="208.09143"
-       y="565.46863" />
+       y="565.46863"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#696666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 48.992398,749.31642 -0.505076,-3.03046 81.108768,-46.82817 1.89955,3.29011 z"
        id="path3892"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#696666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 210.71429,604.50504 -15.35715,-15.35714 30.35715,0 z"
        id="path3894"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 131.42857,700.93361 -79.999999,-125.71428 49.999999,140"
        id="path3896"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:none;stroke:#cccccc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 50.714286,572.36218 196.42857,588.79075"
        id="path3900"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#696666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="M 45.714286,645.21933 12.5,612.00504 13.928572,610.57647 45.625,642.2729 z"
        id="path3902"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#d6d6d6;stroke:#c4c4c4;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="M 14.647212,615.47121 38.385797,769.51947"
        id="path3904"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:none;stroke:#acacac;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 39.901026,769.01439 27.274119,627.08796"
        id="path3908"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#9e9b9b;fill-opacity:1;stroke:none"
        d="m 754.28571,883.79075 c -0.72817,-26.73157 2.90023,-36.19389 20.71429,-70 -286.35886,11.43244 -383.57143,8.57143 -383.57143,8.57143 0,0 223.42995,59.60318 362.85714,61.42857 z"
        id="path3910"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        style="fill:#9e9b9b;fill-opacity:1;stroke:none"
        d="m -400.52548,884.29805 -13.5108,-32.19861 16.16245,0 z"
        id="path3912"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        sodipodi:type="arc"
        style="fill:none;fill-opacity:1;stroke:#484848;stroke-opacity:1"
@@ -585,7 +648,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(30.004937,-0.27573079)"
        sodipodi:type="arc"
@@ -595,7 +661,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(15.540652,-0.09715959)"
        sodipodi:type="arc"
@@ -605,7 +674,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-66.204576,-0.17780079)"
        sodipodi:type="arc"
@@ -615,7 +687,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-36.199639,-0.45354079)"
        sodipodi:type="arc"
@@ -625,7 +700,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-50.663924,-0.27496079)"
        sodipodi:type="arc"
@@ -635,7 +713,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-139.94571,-0.68287706)"
        sodipodi:type="arc"
@@ -645,7 +726,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-109.94077,-0.95861706)"
        sodipodi:type="arc"
@@ -655,7 +739,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(-124.40506,-0.78003706)"
        sodipodi:type="arc"
@@ -665,7 +752,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(688.00057,-0.55660822)"
        sodipodi:type="arc"
@@ -675,7 +765,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(718.00551,-0.83234822)"
        sodipodi:type="arc"
@@ -685,7 +778,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(703.54122,-0.65376822)"
        sodipodi:type="arc"
@@ -695,7 +791,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(566.02465,-0.55660822)"
        sodipodi:type="arc"
@@ -705,7 +804,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(596.02959,-0.83234822)"
        sodipodi:type="arc"
@@ -715,7 +817,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(581.5653,-0.65376822)"
        sodipodi:type="arc"
@@ -725,7 +830,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(686.86415,18.004945)"
        sodipodi:type="arc"
@@ -735,7 +843,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(716.86908,17.729205)"
        sodipodi:type="arc"
@@ -745,7 +856,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(702.4048,17.907785)"
        sodipodi:type="arc"
@@ -755,7 +869,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(566.65599,16.994793)"
        sodipodi:type="arc"
@@ -765,7 +882,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(596.66093,16.719053)"
        sodipodi:type="arc"
@@ -775,7 +895,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(582.19665,16.897633)"
        sodipodi:type="arc"
@@ -785,7 +908,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(627.26515,0.83235187)"
        sodipodi:type="arc"
@@ -795,7 +921,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(657.27008,0.55661187)"
        sodipodi:type="arc"
@@ -805,7 +934,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(642.8058,0.73519187)"
        sodipodi:type="arc"
@@ -815,7 +947,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(20.163466,-54.220962)"
        sodipodi:type="arc"
@@ -825,7 +960,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(50.168404,-54.496702)"
        sodipodi:type="arc"
@@ -835,7 +973,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(35.704118,-54.318122)"
        sodipodi:type="arc"
@@ -845,7 +986,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(106.53151,-52.705733)"
        sodipodi:type="arc"
@@ -855,7 +999,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(136.53645,-52.981473)"
        sodipodi:type="arc"
@@ -865,7 +1012,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(122.07216,-52.802893)"
        sodipodi:type="arc"
@@ -875,7 +1025,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(197.44524,-55.231115)"
        sodipodi:type="arc"
@@ -885,7 +1038,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(227.45018,-55.506855)"
        sodipodi:type="arc"
@@ -895,7 +1051,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(212.98589,-55.328275)"
        sodipodi:type="arc"
@@ -905,7 +1064,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(195.42493,-90.586454)"
        sodipodi:type="arc"
@@ -915,7 +1077,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(225.42987,-90.862194)"
        sodipodi:type="arc"
@@ -925,7 +1090,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(210.96558,-90.683614)"
        sodipodi:type="arc"
@@ -935,7 +1103,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(151.98837,-53.210809)"
        sodipodi:type="arc"
@@ -945,7 +1116,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(181.99331,-53.486549)"
        sodipodi:type="arc"
@@ -955,7 +1129,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(167.52903,-53.307969)"
        sodipodi:type="arc"
@@ -965,7 +1142,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(63.094949,-53.715886)"
        sodipodi:type="arc"
@@ -975,7 +1155,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(93.099887,-53.991626)"
        sodipodi:type="arc"
@@ -985,7 +1168,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(78.635601,-53.813046)"
        sodipodi:type="arc"
@@ -995,7 +1181,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(328.25999,-52.705733)"
        sodipodi:type="arc"
@@ -1005,7 +1194,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(358.26493,-52.981473)"
        sodipodi:type="arc"
@@ -1015,7 +1207,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(343.80064,-52.802893)"
        sodipodi:type="arc"
@@ -1025,7 +1220,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(270.6813,-91.09153)"
        sodipodi:type="arc"
@@ -1035,7 +1233,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(300.68623,-91.36727)"
        sodipodi:type="arc"
@@ -1045,7 +1246,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <path
        transform="translate(286.22195,-91.18869)"
        sodipodi:type="arc"
@@ -1055,7 +1259,10 @@
        sodipodi:cy="835.49506"
        sodipodi:rx="1.9571706"
        sodipodi:ry="1.9571706"
-       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z" />
+       d="m 11.237948,835.49506 a 1.9571706,1.9571706 0 1 1 -3.9143416,0 1.9571706,1.9571706 0 1 1 3.9143416,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#ad6d6d;stroke-width:0.10000000000000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4154"
@@ -1063,7 +1270,10 @@
        height="22.22336"
        x="246.47722"
        y="812.45093"
-       ry="2.6313977" />
+       ry="2.6313977"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#686868;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-5"
@@ -1071,7 +1281,10 @@
        height="7.6999989"
        x="384.30243"
        y="813.65173"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156"
@@ -1079,7 +1292,10 @@
        height="7.6999989"
        x="359.04861"
        y="811.63141"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-8"
@@ -1087,7 +1303,10 @@
        height="7.6999989"
        x="341.37094"
        y="811.63141"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-84"
@@ -1095,7 +1314,10 @@
        height="7.6999989"
        x="377.73645"
        y="811.63141"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#686868;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-5-6"
@@ -1103,7 +1325,10 @@
        height="7.6999989"
        x="112.82394"
        y="813.14667"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-3"
@@ -1111,7 +1336,10 @@
        height="7.6999989"
        x="87.570129"
        y="811.12634"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-8-6"
@@ -1119,7 +1347,10 @@
        height="7.6999989"
        x="69.892448"
        y="811.12634"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-84-2"
@@ -1127,7 +1358,10 @@
        height="7.6999989"
        x="106.25796"
        y="811.12634"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#686868;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-5-6-1"
@@ -1135,7 +1369,10 @@
        height="7.6999989"
        x="195.65645"
        y="812.6416"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-3-3"
@@ -1143,7 +1380,10 @@
        height="7.6999989"
        x="170.40263"
        y="810.62128"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-8-6-9"
@@ -1151,7 +1391,10 @@
        height="7.6999989"
        x="152.72496"
        y="810.62128"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.41394621;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4156-84-2-5"
@@ -1159,6 +1402,9 @@
        height="7.6999989"
        x="189.09047"
        y="810.62128"
-       ry="0" />
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/earlBattleship_1_side.png"
+       inkscape:export-xdpi="68.120003"
+       inkscape:export-ydpi="68.120003" />
   </g>
 </svg>
