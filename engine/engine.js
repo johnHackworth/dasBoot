@@ -21,7 +21,9 @@ pixEngine.Engine.prototype.gameloop = function() {
       this.counter++;
     }
     this.stage.tick(this.counter);
+    var n = 0;
     for (var i in this.entities) {
+      n++;
       this.entities[i].tick(this.counter, this.internalCounter % this.speed === 0);
     }
 

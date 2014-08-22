@@ -115,7 +115,14 @@ pixEngine.Stage.prototype.addEntityBefore = function(entity, before) {
   this.engine.addEntity(entity);
 };
 pixEngine.Stage.prototype.removeEntity = function(entity) {
-  this.removeView(entity.view);
+  if (entity.view && entity.view.length) {
+    for (var l = entity.view.length - 1; l; l--) {
+      this.removeView(entity.view[l]);
+    }
+  } else if (entity.view) {
+    this.removeView(entity.view);
+  }
+
   this.engine.removeEntity(entity);
 };
 
