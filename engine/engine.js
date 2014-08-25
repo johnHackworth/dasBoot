@@ -7,7 +7,7 @@ pixEngine.Engine = function(options) {
   this.stage = options.stage;
 };
 
-pixEngine.Engine.prototype.speed = 6;
+pixEngine.Engine.prototype.speed = 1;
 
 pixEngine.Engine.prototype.gameloop = function() {
   if (this.fps) {
@@ -17,16 +17,15 @@ pixEngine.Engine.prototype.gameloop = function() {
   }
   if (this.running === true) {
     this.internalCounter++;
-    if (this.internalCounter % this.speed === 0) {
+    var moduleCounter = this.internalCounter % this.speed;
+    if (moduleCounter === 0) {
       this.counter++;
     }
     this.stage.tick(this.counter);
-    var n = 0;
-    for (var i in this.entities) {
-      n++;
-      this.entities[i].tick(this.counter, this.internalCounter % this.speed === 0);
-    }
 
+    for (var i in this.entities) {
+      this.entities[i].tick(this.counter, moduleCounter === 0);
+    }
   }
   this.renderer.render(this.stage.pixiStage);
 }

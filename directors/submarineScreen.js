@@ -27,6 +27,10 @@ window.boot.stages.bootStage.prototype = {
     window.boot.currentStage.initHud = function(options) {
       this.sector = options.world.playerBoat.sector;
       this.playerBoat = options.world.playerBoat;
+      this.addNotVisualEntity(this.playerBoat);
+      for (var i in this.sector.vehicles) {
+        this.sector.vehicles[i].addStage(this);
+      }
       this.world = options.world;
       this.hudLayout = new window.boot.ui.HudLayout({
         stage: this,
