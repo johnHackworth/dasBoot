@@ -101,6 +101,11 @@ pixEngine.ParticleGenerator.prototype = {
           x: 0,
           y: 0
         }, size);
+      } else if (this.type == 'line') {
+        this.createLineParticle(particle, {
+          x: 0,
+          y: 0
+        }, size);
       } else {
         this.createSquareParticle(particle, {
           x: 0,
@@ -159,6 +164,16 @@ pixEngine.ParticleGenerator.prototype = {
     particle.lineTo(center.x - size / 2 + cut, center.y);
     particle.lineTo(center.x, center.y);
   },
+  createLineParticle: function(particle, center, size) {
+    var cut = 1; //size / 4;
+    var linewidth = Math.ceil(size / 10);
+    particle.moveTo(center.x, center.y);
+    particle.lineTo(center.x + size / 2 - cut, center.y);
+    particle.lineTo(center.x + size / 2, center.y + linewidth);
+    particle.lineTo(center.x - size / 2, center.y + linewidth);
+    particle.lineTo(center.x - size / 2 + cut, center.y);
+    particle.lineTo(center.x, center.y);
+  },
   tick: function(counter) {
     if (this.options.debug) {
       debugger;
@@ -199,6 +214,10 @@ pixEngine.ParticleGenerator.prototype = {
         if (Math.random() > this.brittle) {
           this.view[i].y += 1 - Math.randInt(3);
         }
+        if (Math.random() > this.brittle) {
+          this.view[i].rotation = (1 - Math.randInt(3)) * 0.01;
+        }
+
       }
       this.view[i].duration--;
       if (!this.view[i].duration) {
