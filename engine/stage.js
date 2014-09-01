@@ -15,48 +15,48 @@ pixEngine.Stage = function(options) {
   // this.pixiStage = new PIXI.Stage(0x67EBA1, true);
   this.pixiStage = new PIXI.Stage(0x444444, true);
 
-  //  if (this.supportsWebGL()) {
-  this.renderer = PIXI.autoDetectRenderer(
-    options.width,
-    options.height,
-    null,
-    null,
-    true
-  );
-  this.assets = options.assets;
-  this.engine = new window.pixEngine.Engine({
-    renderer: this.renderer,
-    stage: this
-  });
+  if (this.supportsWebGL()) {
+    this.renderer = new PIXI.WebGLRenderer(
+      options.width,
+      options.height,
+      null,
+      null,
+      true
+    );
+    this.assets = options.assets;
+    this.engine = new window.pixEngine.Engine({
+      renderer: this.renderer,
+      stage: this
+    });
 
-  this.engine.fps = options.fps;
+    this.engine.fps = options.fps;
 
-  this.mouse = new pixEngine.Mouse(options.width, options.height, this);
-  this.mouse.on('click', function(mousedata) {
-    self.engine.running = true;
-    self.trigger('click', mousedata);
-  });
-  this.initStage = options.init;
+    this.mouse = new pixEngine.Mouse(options.width, options.height, this);
+    this.mouse.on('click', function(mousedata) {
+      self.engine.running = true;
+      self.trigger('click', mousedata);
+    });
+    this.initStage = options.init;
 
-  this.keyManager = new pixEngine.utils.Keyboard();
+    this.keyManager = new pixEngine.utils.Keyboard();
 
-  this.viewport = new pixEngine.Viewport({
-    keyManager: this.keyManager,
-    maxX: options.maxX || options.width,
-    maxY: options.maxY || options.height,
-    minX: options.minX || 0,
-    minY: options.minY || 0,
-    width: options.width,
-    height: options.height,
-    x: Math.floor(options.width / 2),
-    y: Math.floor(options.height / 2)
-  });
-  /* } else {
+    this.viewport = new pixEngine.Viewport({
+      keyManager: this.keyManager,
+      maxX: options.maxX || options.width,
+      maxY: options.maxY || options.height,
+      minX: options.minX || 0,
+      minY: options.minY || 0,
+      width: options.width,
+      height: options.height,
+      x: Math.floor(options.width / 2),
+      y: Math.floor(options.height / 2)
+    });
+  } else {
     var loader = document.getElementById('loader');
     loader.innerHTML = 'Your browser doesn\'t support webGL, sorry';
     loader.setAttribute('class', 'warning');
     this.init = function() {};
-  }*/
+  }
 };
 
 pixEngine.Stage.prototype.baseEntityNumber = 0;
