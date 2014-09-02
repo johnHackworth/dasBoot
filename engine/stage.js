@@ -83,34 +83,40 @@ pixEngine.Stage.prototype.tick = function(counter) {
   this.trigger('tick');
 };
 
-pixEngine.Stage.prototype.addEntity = function(entity) {
+pixEngine.Stage.prototype.addEntity = function(entity, parent) {
   if (entity.view.length > 0) {
     for (var i in entity.view) {
       this.pixiStage.addChild(entity.view[i]);
+      if (parent) {
+        parent.addChild(entity.view[i]);
+      }
     }
   } else {
     this.pixiStage.addChild(entity.view);
+    if (parent) {
+      parent.addChild(entity.view);
+    }
   }
   this.engine.addEntity(entity);
 
 };
-pixEngine.Stage.prototype.addEntityAfter = function(entity, after) {
+pixEngine.Stage.prototype.addEntityAfter = function(entity, after, parent) {
   if (entity.view.length > 0) {
     for (var i in entity.view) {
-      this.addViewAfter(entity.view[i], after);
+      this.addViewAfter(entity.view[i], after, parent);
     }
   } else {
-    this.addViewAfter(entity.view, after);
+    this.addViewAfter(entity.view, after, parent);
   }
   this.engine.addEntity(entity);
 };
-pixEngine.Stage.prototype.addEntityBefore = function(entity, before) {
+pixEngine.Stage.prototype.addEntityBefore = function(entity, before, parent) {
   if (entity.view.length > 0) {
     for (var i in entity.view) {
-      this.addViewBefore(entity.view[i], before);
+      this.addViewBefore(entity.view[i], before, parent);
     }
   } else {
-    this.addViewBefore(entity.view, before);
+    this.addViewBefore(entity.view, before, parent);
   }
   this.engine.addEntity(entity);
 };
@@ -126,11 +132,14 @@ pixEngine.Stage.prototype.removeEntity = function(entity) {
   this.engine.removeEntity(entity);
 };
 
-pixEngine.Stage.prototype.addVisualEntity = function(entity) {
+pixEngine.Stage.prototype.addVisualEntity = function(entity, parent) {
   this.pixiStage.addChild(entity);
+  if (parent) {
+    parent.addChild(entity);
+  }
 };
 
-pixEngine.Stage.prototype.addNotVisualEntity = function(entity) {
+pixEngine.Stage.prototype.addNotVisualEntity = function(entity, parent) {
   this.engine.addEntity(entity);
 };
 
@@ -138,8 +147,11 @@ pixEngine.Stage.prototype.removeView = function(entity) {
   this.pixiStage.removeChild(entity);
 };
 
-pixEngine.Stage.prototype.addViewAfter = function(entity, afterEntity) {
+pixEngine.Stage.prototype.addViewAfter = function(entity, afterEntity, parent) {
   this.pixiStage.addChild(entity);
+  if (parent) {
+    parent.addChild(entity);
+  }
   var i = this.pixiStage.children.indexOf(afterEntity);
   i = i > this.baseEntityNumber ? i : this.baseEntityNumber;
   if (i >= 0) {
@@ -147,8 +159,11 @@ pixEngine.Stage.prototype.addViewAfter = function(entity, afterEntity) {
     this.pixiStage.children.splice(i + 1, 0, pixiEntity);
   }
 };
-pixEngine.Stage.prototype.addViewBefore = function(entity, afterEntity) {
+pixEngine.Stage.prototype.addViewBefore = function(entity, afterEntity, parent) {
   this.pixiStage.addChild(entity);
+  if (parent) {
+    parent.addChild(entity);
+  }
   var i = this.pixiStage.children.indexOf(afterEntity);
   var position = i > 1 ? i : 0;
   var pixiEntity = this.pixiStage.children.pop();
@@ -237,7 +252,7 @@ pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
   return picture;
 };
 
-pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables) {
+pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent) {
   x = x || 0;
   y = y || 0;
   width = width || 500;
@@ -256,7 +271,7 @@ pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, o
   background.endFill();
   background.alpha = opacity;
   background.viewType = 'text';
-  this.addVisualEntity(background);
+  this.addVisualEntity(background, parent);
   if (destroyables) {
     destroyables.push(background);
   }
