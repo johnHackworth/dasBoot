@@ -121,15 +121,19 @@ pixEngine.Stage.prototype.addEntityBefore = function(entity, before, parent) {
   this.engine.addEntity(entity);
 };
 pixEngine.Stage.prototype.removeEntity = function(entity) {
-  if (entity.view && entity.view.length) {
-    for (var l = entity.view.length - 1; l; l--) {
-      this.removeView(entity.view[l]);
+  try {
+    if (entity.view && entity.view.length) {
+      for (var l = entity.view.length - 1; l; l--) {
+        this.removeView(entity.view[l]);
+      }
+    } else if (entity.view) {
+      this.removeView(entity.view);
     }
-  } else if (entity.view) {
-    this.removeView(entity.view);
-  }
 
-  this.engine.removeEntity(entity);
+    this.engine.removeEntity(entity);
+  } catch(err) {
+    console.log(err);
+  }
 };
 
 pixEngine.Stage.prototype.addVisualEntity = function(entity, parent) {
@@ -144,7 +148,11 @@ pixEngine.Stage.prototype.addNotVisualEntity = function(entity, parent) {
 };
 
 pixEngine.Stage.prototype.removeView = function(entity) {
-  this.pixiStage.removeChild(entity);
+  try {
+    this.pixiStage.removeChild(entity);
+  } catch(err) {
+    console.log(err);
+  }
 };
 
 pixEngine.Stage.prototype.addViewAfter = function(entity, afterEntity, parent) {
