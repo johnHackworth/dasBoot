@@ -1772,9 +1772,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98304445"
-     inkscape:cx="518.02643"
-     inkscape:cy="1629.3418"
+     inkscape:zoom="0.6951174"
+     inkscape:cx="1678.7636"
+     inkscape:cy="1801.1067"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7121,5 +7121,118 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/minimize.png"
        inkscape:export-xdpi="113"
        inkscape:export-ydpi="113" />
+    <rect
+       style="fill:#84ee9c;fill-opacity:1;stroke:none"
+       id="rect4146-6-8-7"
+       width="184.64893"
+       height="184.64893"
+       x="1570.704"
+       y="-1039.6245"
+       ry="3.1344373"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixActive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4934-8-5-3"
+       width="170.89766"
+       height="170.89766"
+       x="1577.316"
+       y="-1033.521"
+       ry="3.1344373"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixActive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
+    <g
+       id="g6037-4"
+       transform="matrix(0.70996324,-0.45737008,0.56136709,0.53865609,817.74028,-671.0404)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixActive.png"
+       inkscape:export-xdpi="133.84"
+       inkscape:export-ydpi="133.84"
+       inkscape:transform-center-x="-49.910823"
+       inkscape:transform-center-y="46.904017">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5234-44"
+         d="m 949.99999,225.04725 0,150.51272 14.64286,0 0,-150.51272 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6004-2"
+         d="m 949.64285,231.65439 -11.5211,-11.5211 0,-18.66396 11.5211,-11.5211 0,12.23538 -3.39285,3.39286 0,12.76786 3.39285,3.39285 13.92858,0 3.21428,-3.21428 0,-12.85715 -2.90178,-2.90178 0,-13.08036 10.87053,10.87054 0,21.27232 -9.82792,9.82792 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6004-7-5"
+         d="m 949.99046,405.13329 -11.5211,-11.5211 0,-18.66396 11.5211,-11.5211 0,12.23538 -3.39285,3.39286 0,12.76786 3.39285,3.39285 13.92858,0 3.21428,-3.21428 0,-12.85715 -2.90178,-2.90178 0,-13.08036 10.87053,10.87054 0,21.27232 -9.82792,9.82792 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       style="fill:#eeb484;fill-opacity:1;stroke:none"
+       id="rect4146-6-8-7-1"
+       width="184.64893"
+       height="184.64893"
+       x="1828.2144"
+       y="-1041.0631"
+       ry="3.1344373"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixInactive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4934-8-5-3-1"
+       width="170.89766"
+       height="170.89766"
+       x="1834.8264"
+       y="-1034.9596"
+       ry="3.1344373"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixInactive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
+    <g
+       id="g6037-4-1"
+       transform="matrix(0.70996324,-0.45737008,0.56136709,0.53865609,1075.2507,-672.479)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixInactive.png"
+       inkscape:export-xdpi="133.84"
+       inkscape:export-ydpi="133.84"
+       inkscape:transform-center-x="-49.910823"
+       inkscape:transform-center-y="46.904017">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5234-44-0"
+         d="m 949.99999,225.04725 0,150.51272 14.64286,0 0,-150.51272 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6004-2-1"
+         d="m 949.64285,231.65439 -11.5211,-11.5211 0,-18.66396 11.5211,-11.5211 0,12.23538 -3.39285,3.39286 0,12.76786 3.39285,3.39285 13.92858,0 3.21428,-3.21428 0,-12.85715 -2.90178,-2.90178 0,-13.08036 10.87053,10.87054 0,21.27232 -9.82792,9.82792 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6004-7-5-1"
+         d="m 949.99046,405.13329 -11.5211,-11.5211 0,-18.66396 11.5211,-11.5211 0,12.23538 -3.39285,3.39286 0,12.76786 3.39285,3.39285 13.92858,0 3.21428,-3.21428 0,-12.85715 -2.90178,-2.90178 0,-13.08036 10.87053,10.87054 0,21.27232 -9.82792,9.82792 z"
+         style="fill:#828282;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ff0000;stroke-width:14;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path9175"
+       sodipodi:cx="2019.8027"
+       sodipodi:cy="-663.89465"
+       sodipodi:rx="83.43914"
+       sodipodi:ry="83.43914"
+       d="m 2103.2419,-663.89465 a 83.43914,83.43914 0 1 1 -166.8783,0 83.43914,83.43914 0 1 1 166.8783,0 z"
+       transform="matrix(0.46711902,0,0,0.46711902,980.64717,-639.34011)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixInactive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.53966618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1897.2554,-921.23393 53.76,-53.76001"
+       id="path9177"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/fixInactive.png"
+       inkscape:export-xdpi="133"
+       inkscape:export-ydpi="133" />
   </g>
 </svg>
