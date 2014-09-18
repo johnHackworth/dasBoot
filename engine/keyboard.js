@@ -12,6 +12,7 @@ window.pixEngine.utils.Keyboard.prototype = {
   UP_CURSOR: 38,
   RIGHT_CURSOR: 39,
   DOWN_CURSOR: 40,
+  SHIFT: 16,
   keysPressed: 0,
   bindEvents: function() {
     document.body.addEventListener('keydown', this.keydown.bind(this));

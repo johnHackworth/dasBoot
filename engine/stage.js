@@ -131,7 +131,7 @@ pixEngine.Stage.prototype.removeEntity = function(entity) {
     }
 
     this.engine.removeEntity(entity);
-  } catch(err) {
+  } catch (err) {
     console.log(err);
   }
 };
@@ -150,7 +150,7 @@ pixEngine.Stage.prototype.addNotVisualEntity = function(entity, parent) {
 pixEngine.Stage.prototype.removeView = function(entity) {
   try {
     this.pixiStage.removeChild(entity);
-  } catch(err) {
+  } catch (err) {
     console.log(err);
   }
 };
@@ -260,14 +260,14 @@ pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
   return picture;
 };
 
-pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent) {
+pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
   x = x || 0;
   y = y || 0;
   width = width || 500;
   height = height || 500;
   color = color || 0xD2F47A;
   opacity = opacity || 0.5;
-  background = new PIXI.Graphics();
+  var background = new PIXI.Graphics();
   background.clear();
   background.beginFill(color);
 
@@ -279,6 +279,12 @@ pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, o
   background.endFill();
   background.alpha = opacity;
   background.viewType = 'text';
+
+  if (interactive) {
+    background.buttonMode = true;
+    background.hitArea = new PIXI.Rectangle(x, y, width, height);
+  }
+
   this.addVisualEntity(background, parent);
   if (destroyables) {
     destroyables.push(background);

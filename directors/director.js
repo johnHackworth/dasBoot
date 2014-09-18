@@ -13,10 +13,28 @@ window.boot.directors.main.prototype = {
       window.boot.width = 1050;
     }
     this.world = new window.boot.models.World();
-    this.testStart();
+    this.testStartSectors();
 
   },
-  testStart: function() {
+  testStartSectors: function() {
+    this.stage = new window.boot.stages.sectorsStage();
+    this.stage.init({});
+    this.world.getPlainSeaWorld();
+    window.world = this.world;
+    this.world.player = new boot.dataModels.Player({
+      world: this.world
+    });
+    this.world.player.sector = this.world.sectors[0][0];
+    this.world.playerBoat = new window.boot.models.EarlyUboat({
+      world: this.world,
+      player: this.world.player
+    });
+    window.boot.currentStage.initUI({
+      world: this.world
+    });
+    boot.currentStage.engine.running = true;
+  },
+  testStartSubmarine: function() {
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
     this.world.getPlainSeaWorld();
@@ -24,7 +42,7 @@ window.boot.directors.main.prototype = {
     this.world.playerBoat = new window.boot.models.EarlyUboat({
       world: this.world
     });
-    this.world.addVehicleToSector(this.world.playerBoat, 0, 0);
+    this.world.playerBoat.sector = this.world.sectors[0][0];
 
 
     for (var i = 0; i < 6; i++) {
@@ -34,7 +52,8 @@ window.boot.directors.main.prototype = {
       this.world.playerBoat.addPerson(person);
     }
     window.boot.currentStage.initHud({
-      world: this.world
+      world: this.world,
+      sector: this.world.sectors[0][0]
     });
     boot.currentStage.engine.running = true;
   }
