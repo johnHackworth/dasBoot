@@ -19,7 +19,8 @@ window.boot.directors.main.prototype = {
   testStartSectors: function() {
     this.stage = new window.boot.stages.sectorsStage();
     this.stage.init({});
-    this.world.getPlainSeaWorld();
+    this.world.getWorldFromArray(window.boot.worldMap);
+    this.world.getRandomShips();
     window.world = this.world;
     this.world.player = new boot.dataModels.Player({
       world: this.world
