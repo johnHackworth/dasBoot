@@ -9,23 +9,28 @@ window.boot.stages.bootStage = function(options) {
 
 window.boot.stages.bootStage.prototype = {
   init: function(options) {
+    if (window.boot.currentStage) {
+      window.boot.currentStage.destroy();
+    } else {
+      window.boot.currentStage = new pixEngine.Stage({
+        fps: null,
+        width: window.boot.config.width,
+        height: window.boot.config.height,
+        assets: [
+          'assets/vehicles/warship1.png',
+          'assets/vehicles/sub1.png'
+        ],
+        init: function(stage) {
+          var self = this;
 
-    window.boot.currentStage = new pixEngine.Stage({
-      fps: null,
-      width: window.boot.config.width,
-      height: window.boot.config.height,
-      assets: [
-        'assets/vehicles/warship1.png',
-        'assets/vehicles/sub1.png'
-      ],
-      init: function(stage) {
-        var self = this;
-
-        document.getElementById('loader').remove();
-      }
-    });
+          // document.getElementById('loader').remove();
+        }
+      });
+      window.boot.currentStage.init();
+    }
     window.boot.currentStage.initHud = function(options) {
       this.sector = options.sector;
+      this.firstAmbient = null;
       this.playerBoat = options.world.playerBoat;
       this.addNotVisualEntity(this.playerBoat);
 
@@ -38,6 +43,5 @@ window.boot.stages.bootStage.prototype = {
 
     };
 
-    window.boot.currentStage.init();
   }
 };

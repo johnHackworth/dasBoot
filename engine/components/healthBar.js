@@ -11,7 +11,8 @@ window.pixEngine.components.HealthBar.prototype = {
       posY: options.y, // this.viewY + this.view.height - 2,
       width: options.width, //this.view.width - 60,
       height: options.height, //10
-      attr: options.attribute
+      attr: options.attribute,
+      origin: options.origin || this
     };
     this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
     this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
@@ -36,10 +37,10 @@ window.pixEngine.components.HealthBar.prototype = {
       this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
       this.healthBar.background.visible = this.healthBar.visible;
     }
-    if (this[this.healthBar.attr] < 100) {
+    if (this.healthBar.origin[this.healthBar.attr] < 100) {
       this.setHealthBarVisibility(true);
       this.stage.removeView(this.healthBar.progress);
-      var width = Math.floor(this.healthBar.width * this[this.healthBar.attr] / 100);
+      var width = Math.floor(this.healthBar.width * this.healthBar.origin[this.healthBar.attr] / 100);
       this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
     } else {
       this.setHealthBarVisibility(false);
@@ -47,8 +48,8 @@ window.pixEngine.components.HealthBar.prototype = {
 
   },
   getBarColor: function() {
-    var redPercentage = Math.floor(255 * (1 - this[this.healthBar.attr] / 100)).toString(16);
-    var greenPercentage = Math.floor(255 * (this[this.healthBar.attr] / 100)).toString(16);
+    var redPercentage = Math.floor(255 * (1 - this.healthBar.origin[this.healthBar.attr] / 100)).toString(16);
+    var greenPercentage = Math.floor(255 * (this.healthBar.origin[this.healthBar.attr] / 100)).toString(16);
     return 1 * ('0x' + redPercentage + greenPercentage + '00');
   }
 };

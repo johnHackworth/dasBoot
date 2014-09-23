@@ -9,17 +9,21 @@ window.boot.stages.sectorsStage = function(options) {
 
 window.boot.stages.sectorsStage.prototype = {
   init: function(options) {
-
-    window.boot.currentStage = new pixEngine.Stage({
-      fps: null,
-      width: window.boot.config.width,
-      height: window.boot.config.height,
-      assets: [],
-      init: function(stage) {
-        var self = this;
-        document.getElementById('loader').remove();
-      }
-    });
+    if (window.boot.currentStage) {
+      window.boot.currentStage.destroy();
+    } else {
+      window.boot.currentStage = new pixEngine.Stage({
+        fps: null,
+        width: window.boot.config.width,
+        height: window.boot.config.height,
+        assets: [],
+        init: function(stage) {
+          var self = this;
+          document.getElementById('loader').remove();
+        }
+      });
+      window.boot.currentStage.init();
+    }
     window.boot.currentStage.initUI = function(options) {
       this.playerBoat = options.world.playerBoat;
 
@@ -30,7 +34,6 @@ window.boot.stages.sectorsStage.prototype = {
         sector: this.sector
       });
     };
-    window.boot.currentStage.init();
 
   }
 };

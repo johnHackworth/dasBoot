@@ -260,6 +260,17 @@ pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
   return picture;
 };
 
+pixEngine.Stage.prototype.destroy = function() {
+  while (this.engine.entities.length) {
+    this.removeEntity(this.engine.entities[0]);
+  }
+  while (this.pixiStage.children.length) {
+    this.pixiStage.removeChild(this.pixiStage.children[0]);
+  }
+
+
+};
+
 pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
   x = x || 0;
   y = y || 0;

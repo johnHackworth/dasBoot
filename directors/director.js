@@ -12,13 +12,14 @@ window.boot.directors.main.prototype = {
     if (window.boot.width < 1050) {
       window.boot.width = 1050;
     }
-    this.world = new window.boot.models.World();
     this.testStartSectors();
 
   },
-  testStartSectors: function() {
-    this.stage = new window.boot.stages.sectorsStage();
-    this.stage.init({});
+  initializeWorld: function() {
+    if (this.world) {
+      return;
+    }
+    this.world = new window.boot.models.World();
     this.world.getWorldFromArray(window.boot.worldMap);
     this.world.getRandomShips();
     window.world = this.world;
@@ -26,10 +27,22 @@ window.boot.directors.main.prototype = {
       world: this.world
     });
     this.world.player.sector = this.world.sectors[0][0];
-    this.world.playerBoat = new window.boot.models.EarlyUboat({
-      world: this.world,
-      player: this.world.player
-    });
+    this.initializePersons();
+  },
+  initializePersons: function() {
+    for (var i = 0; i < 20; i++) {
+      var person = new window.boot.dataModels.Person({});
+
+      if (i < 7) {
+        this.world.player.addPerson(person);
+      }
+    }
+  },
+  testStartSectors: function() {
+    this.stage = new window.boot.stages.sectorsStage();
+    this.stage.init({});
+
+    this.initializeWorld();
     window.boot.currentStage.initUI({
       world: this.world
     });
@@ -38,23 +51,23 @@ window.boot.directors.main.prototype = {
   testStartSubmarine: function() {
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
-    this.world.getPlainSeaWorld();
-    window.world = this.world;
+
+    this.initializeWorld();
     this.world.playerBoat = new window.boot.models.EarlyUboat({
-      world: this.world
+      world: this.world,
+      player: this.world.player
     });
-    this.world.playerBoat.sector = this.world.sectors[0][0];
-
-
-    for (var i = 0; i < 6; i++) {
+    this.world.playerBoat.sector = this.world.player.sector;
+    for (var i in this.world.player.people) {
       var person = new window.boot.models.Person({
-        stage: boot.currentStage
+        stage: boot.currentStage,
+        model: this.world.player.people[i]
       });
       this.world.playerBoat.addPerson(person);
     }
     window.boot.currentStage.initHud({
       world: this.world,
-      sector: this.world.sectors[0][0]
+      sector: this.world.player.sector
     });
     boot.currentStage.engine.running = true;
   }
