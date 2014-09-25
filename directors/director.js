@@ -21,12 +21,13 @@ window.boot.directors.main.prototype = {
     }
     this.world = new window.boot.models.World();
     this.world.getWorldFromArray(window.boot.worldMap);
+    this.world.createPorts(window.boot.worldMap.ports);
     this.world.getRandomShips();
     window.world = this.world;
     this.world.player = new boot.dataModels.Player({
       world: this.world
     });
-    this.world.player.sector = this.world.sectors[0][0];
+    this.world.player.sector = this.world.ports[0].sector;
     this.initializePersons();
   },
   initializePersons: function() {
