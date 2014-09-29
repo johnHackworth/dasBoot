@@ -1,28 +1,39 @@
 window.boot.data = window.boot.data || {};
 window.boot.data.nations = {
-  "spain": {
-    "name": "spain",
+  "Spain": {
+    "name": "Spain",
     "enemies": [],
-    "allies": []
+    "allies": [],
+    "color": 0xFF0000
   },
-  "germany": {
-    "name": "germany",
+  "Germany": {
+    "name": "Germany",
     "enemies": [],
-    "allies": []
+    "allies": [],
+    "color": 0x000000,
   },
-  "england": {
-    "name": "england",
+  "England": {
+    "name": "England",
     "enemies": [],
-    "allies": ["england"]
+    "allies": ["France"],
+    "color": 0xFFFFFF
   },
-  "france": {
-    "name": "france",
+  "France": {
+    "name": "France",
     "enemies": [],
-    "allies": ["france"]
+    "allies": ["England"],
+    "color": 0x000099
   },
-  "russia": {
-    "name": "russia",
+  "Norway": {
+    "name": "Norway",
     "enemies": [],
-    "allies": []
+    "allies": [],
+    "color": 0x660000
   },
+  "Netherlands": {
+    "name": "Netherlands",
+    "enemies": [],
+    "allies": [],
+    "color": 0xCC9900
+  }
 };

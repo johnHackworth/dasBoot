@@ -22,7 +22,7 @@ window.boot.directors.main.prototype = {
     this.world = new window.boot.models.World();
     this.world.getWorldFromArray(window.boot.worldMap);
     this.world.createPorts(window.boot.worldMap.ports);
-    this.world.getRandomShips();
+    // this.world.getRandomShips();
     window.world = this.world;
     this.world.player = new boot.dataModels.Player({
       world: this.world

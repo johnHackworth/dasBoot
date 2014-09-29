@@ -33,3 +33,16 @@ Object.defineProperty(Array.prototype, "lookFor", {
   enumerable: false,
   configurable: true
 });
+
+Object.defineProperty(Array.prototype, "getRandom", {
+  value: function(property, value) {
+    var i = this.length;
+    if (!i) {
+      return null;
+    }
+    return this[Math.floor(Math.random() * i)];
+  },
+  writable: false,
+  enumerable: false,
+  configurable: true
+});
