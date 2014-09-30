@@ -203,15 +203,22 @@ pixEngine.Stage.prototype.toFrontPixiView = function(condition, value) {
 };
 
 pixEngine.Stage.prototype.addText = function(text, options, destroyables) {
-  fontSize = options.fontSize || '30px';
-  color = options.color || '#333333';
-  x = options.x || 0;
-  y = options.y || 0;
-  centered = options.centered || 0;
-  var textView = new PIXI.Text(text, {
-    font: fontSize + " Verdana",
+  var fontSize = options.fontSize || '30px';
+  var color = options.color || '#333333';
+  var x = options.x || 0;
+  var y = options.y || 0;
+  var width = options.width || null;
+  var centered = options.centered || 0;
+  var fontName = options.fontName || 'Verdana';
+  var optionsDictionary = {
+    font: fontSize + " " + fontName,
     fill: color
-  });
+  };
+  if (width) {
+    optionsDictionary.wordWrap = true;
+    optionsDictionary.wordWrapWidth = width;
+  }
+  var textView = new PIXI.Text(text, optionsDictionary);
   textView.x = x;
   if (centered) {
     textView.x -= textView.width / 2;
