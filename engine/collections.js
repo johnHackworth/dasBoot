@@ -46,3 +46,16 @@ Object.defineProperty(Array.prototype, "getRandom", {
   enumerable: false,
   configurable: true
 });
+
+Object.defineProperty(Array.prototype, "getLast", {
+  value: function(property, value) {
+    var i = this.length;
+    if (!i) {
+      return null;
+    }
+    return this[i - 1];
+  },
+  writable: false,
+  enumerable: false,
+  configurable: true
+});

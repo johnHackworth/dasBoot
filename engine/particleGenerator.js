@@ -90,7 +90,6 @@ pixEngine.ParticleGenerator.prototype = {
         y: Math.sin(particle.direction) * speed
       };
       particle.duration = this.duration + (1 * Math.randInt(this.randomDuration));
-
       if (this.type == 'hexagon') {
         this.createHexagonParticle(particle, {
           x: 0,
@@ -106,8 +105,18 @@ pixEngine.ParticleGenerator.prototype = {
           x: 0,
           y: 0
         }, size);
-      } else {
+      } else if (this.type == 'line') {
         this.createSquareParticle(particle, {
+          x: 0,
+          y: 0
+        }, size);
+      } else if (this.type == 'round') {
+        this.createRoundParticle(particle, {
+          x: 0,
+          y: 0
+        }, size);
+      } else {
+        this.createHexagonParticle(particle, {
           x: 0,
           y: 0
         }, size);
@@ -136,6 +145,9 @@ pixEngine.ParticleGenerator.prototype = {
       particle.y = center.y;
       this.view.push(particle);
     }
+  },
+  createRoundParticle: function(particle, center, size) {
+    particle.drawCircle(center.x, center.y, size);
   },
   createSquareParticle: function(particle, center, size) {
     particle.moveTo(center.x, center.y);
