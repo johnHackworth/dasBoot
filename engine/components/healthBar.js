@@ -29,18 +29,21 @@ window.pixEngine.components.HealthBar.prototype = {
     this.healthBar.progress.visible = value;
   },
   updateHealthBar: function(x, y) {
+    var width = null;
     if (x && y) {
       this.healthBar.posX = x;
       this.healthBar.posY = y;
       this.stage.removeView(this.healthBar.background);
-      var width = this.healthBar.width;
+      width = this.healthBar.width;
+      width = width > 0 ? width : 1;
       this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
       this.healthBar.background.visible = this.healthBar.visible;
     }
     if (this.healthBar.origin[this.healthBar.attr] < 100) {
       this.setHealthBarVisibility(true);
       this.stage.removeView(this.healthBar.progress);
-      var width = Math.floor(this.healthBar.width * this.healthBar.origin[this.healthBar.attr] / 100);
+      width = Math.floor(this.healthBar.width * this.healthBar.origin[this.healthBar.attr] / 100);
+      width = width > 0 ? width : 1;
       this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
     } else {
       this.setHealthBarVisibility(false);
