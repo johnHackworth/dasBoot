@@ -29,6 +29,13 @@ pixEngine.Stage = function(options) {
       stage: this
     });
 
+    var windowWidth = window.innerWidth;
+    var renderWidth = this.renderer.view.width;
+    var relation = windowWidth / renderWidth;
+
+    this.renderer.view.style.width = windowWidth;
+    this.renderer.view.style.width = Math.floor(renderWidth * relation);
+
     this.engine.fps = options.fps;
 
     this.mouse = new pixEngine.Mouse(options.width, options.height, this);
