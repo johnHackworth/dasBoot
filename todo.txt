@@ -4,6 +4,11 @@ Combat:
   - hidrophone
   - Max depth
   - coast background / city background
+  - sun & clouds
 
+new screen:
+- Crew & equipment
 
-
+Map screen:
+- Improved weather
+- Date & time

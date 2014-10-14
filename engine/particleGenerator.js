@@ -27,6 +27,7 @@ pixEngine.ParticleGenerator = function(options) {
   this.bottomY = options.bottomY;
   this.after = options.after;
   this.before = options.before;
+  this.tint = options.tint;
   this.randomOrigin = options.randomOrigin || {
     x: 0,
     y: 0
@@ -143,6 +144,10 @@ pixEngine.ParticleGenerator.prototype = {
       }
       particle.x = center.x;
       particle.y = center.y;
+
+      if (this.tint) {
+        particle.tint = this.tint;
+      }
       this.view.push(particle);
     }
   },
