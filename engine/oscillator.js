@@ -24,7 +24,7 @@ pixEngine.Oscillator.prototype = {
     var max = this.origin.x + this.width;
     while (pointer < max) {
       this.createParticle(pointer);
-      pointer += this.particleWidth;
+      pointer += this.particleWidth - Math.floor(this.particleWidth / 2);
     }
 
     if (this.after) {
@@ -43,13 +43,19 @@ pixEngine.Oscillator.prototype = {
       x: pointer,
       y: this.origin.y + this.particleHeight / 2
     };
-    this.createSquareParticle(particle, center);
+    this.createSquareParticle(particle);
     particle.aggregated = 0;
     particle.endFill();
     particle.viewType = 'particle';
     this.view.push(particle);
+    particle.x = center.x;
+    particle.y = center.y;
   },
-  createSquareParticle: function(particle, center) {
+  createSquareParticle: function(particle) {
+    var center = {
+      x: 0,
+      y: 0
+    };
     particle.moveTo(center.x, center.y);
     particle.lineTo(center.x + this.particleWidth, center.y);
     particle.lineTo(center.x + this.particleWidth, center.y + this.particleHeight);
@@ -60,8 +66,7 @@ pixEngine.Oscillator.prototype = {
     if (counter % this.period === 0) {
       counter = counter / this.period;
       for (var l = this.view.length; l; l--) {
-        this.view[l - 1].aggregated = 1 - Math.randInt(3);
-        this.view[l - 1].y = this.origin.y + this.view[l - 1].aggregated + Math.cos(counter + l) * this.oscillationHeight;
+        this.view[l - 1].y = this.view[l - 1].y + Math.cos(counter + l) * this.oscillationHeight;
       }
     }
   },
@@ -73,6 +78,15 @@ pixEngine.Oscillator.prototype = {
   setActive: function() {
     for (var l = this.view.length; l; l--) {
       this.view[l - 1].visible = true;
+    }
+  },
+  moveTo: function(pos) {
+    var pointer = pos.x;
+    var max = pos.x + this.width;
+    for (var i in this.view) {
+      this.view[i].x = pointer + this.particleWidth * i;
+      this.view[i].y = pos.y;
+      pointer += this.particleWidth;
     }
   }
 };
