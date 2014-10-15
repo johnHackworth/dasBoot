@@ -1772,9 +1772,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.34755869"
-     inkscape:cx="2719.6267"
-     inkscape:cy="1692.1993"
+     inkscape:zoom="0.49152221"
+     inkscape:cx="2368.6323"
+     inkscape:cy="972.4299"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1791,7 +1791,7 @@
        id="guide12924" />
     <sodipodi:guide
        orientation="0,1"
-       position="90.509666,914.99615"
+       position="2744.5352,909.41973"
        id="guide3991" />
     <sodipodi:guide
        orientation="1,0"
@@ -1809,6 +1809,10 @@
        orientation="0,1"
        position="928.97977,1016.3751"
        id="guide7162" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2598.0515,1352.9399"
+       id="guide4374" />
   </sodipodi:namedview>
   <metadata
      id="metadata4693">
@@ -7342,5 +7346,46 @@
            y="-742.06329"
            style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#878787;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans" /></flowRegion><flowPara
          id="flowPara5247-6-1"
-         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#878787;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Crew View</flowPara></flowRoot>  </g>
+         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#878787;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Crew View</flowPara></flowRoot>    <path
+       sodipodi:type="arc"
+       style="opacity:0.85114504000000002;fill:#fff6a5;fill-opacity:0.10504202;stroke:#8f0000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4376"
+       sodipodi:cx="2425.1194"
+       sodipodi:cy="137.36603"
+       sodipodi:rx="274.12988"
+       sodipodi:ry="274.12988"
+       d="m 2699.2493,137.36603 a 274.12988,274.12988 0 1 1 -548.2598,0 274.12988,274.12988 0 1 1 548.2598,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/target.png"
+       inkscape:export-xdpi="39.55891"
+       inkscape:export-ydpi="39.55891" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.85114500999999998;fill:none;stroke:#8f0000;stroke-width:20.50834475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4378"
+       sodipodi:cx="2425.1194"
+       sodipodi:cy="137.36603"
+       sodipodi:rx="195.31161"
+       sodipodi:ry="195.31161"
+       d="m 2620.431,137.36603 a 195.31161,195.31161 0 1 1 -390.6232,0 195.31161,195.31161 0 1 1 390.6232,0 z"
+       transform="matrix(0.69598805,0.22485689,-0.22485689,0.69598805,768.15296,-503.5439)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/target.png"
+       inkscape:export-xdpi="39.55891"
+       inkscape:export-ydpi="39.55891" />
+    <path
+       style="fill:none;stroke:#8f0000;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 2425.1193,-196.81839 0,667.3147"
+       id="path5166"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/target.png"
+       inkscape:export-xdpi="39.55891"
+       inkscape:export-ydpi="39.55891" />
+    <path
+       style="fill:none;stroke:#8f0000;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 2089.4274,138.87346 667.3147,0"
+       id="path5166-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/target.png"
+       inkscape:export-xdpi="39.55891"
+       inkscape:export-ydpi="39.55891" />
+  </g>
 </svg>
