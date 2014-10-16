@@ -3,6 +3,7 @@ window.pixEngine = window.pixEngine || {};
 pixEngine.ParticleGenerator = function(options) {
   this.options = options;
   this.stage = options.stage;
+  this.container = options.container;
   this.origin = options.origin;
   this.speed = typeof(options.speed) != "undefined" ? options.speed : 10;
   this.randomSpeed = options.randomSpeed || 0;
@@ -47,12 +48,16 @@ pixEngine.ParticleGenerator.prototype = {
     for (var n = this.amount + randomAmount; n; n--) {
       setTimeout(this.createParticle.bind(this), this.delay + Math.randInt(this.delayRandom));
     }
-    if (this.after) {
-      this.stage.addEntityAfter(this, this.after);
-    } else if (this.before) {
-      this.stage.addEntityBefore(this, this.before);
+    if (this.container) {
+      this.stage.addNotVisualEntity(this);
     } else {
-      this.stage.addEntity(this);
+      if (this.after) {
+        this.stage.addEntityAfter(this, this.after);
+      } else if (this.before) {
+        this.stage.addEntityBefore(this, this.before);
+      } else {
+        this.stage.addEntity(this);
+      }
     }
   },
   getRandomColor: function() {
@@ -135,12 +140,16 @@ pixEngine.ParticleGenerator.prototype = {
       }
 
       particle.viewType = 'particle';
-      if (this.after) {
-        this.stage.addViewAfter(particle, this.after);
-      } else if (this.before) {
-        this.stage.addViewBefore(particle, this.before);
+      if (this.container) {
+        this.container.addChild(particle);
       } else {
-        this.stage.addVisualEntity(particle);
+        if (this.after) {
+          this.stage.addViewAfter(particle, this.after);
+        } else if (this.before) {
+          this.stage.addViewBefore(particle, this.before);
+        } else {
+          this.stage.addVisualEntity(particle);
+        }
       }
       particle.x = center.x;
       particle.y = center.y;
@@ -246,13 +255,18 @@ pixEngine.ParticleGenerator.prototype = {
   removeDeprecated: function(removables) {
     while (removables.length) {
       var particle = removables.pop();
+
+      if (this.container) {
+        this.container.removeChild(particle);
+      } else {
+        this.stage.removeView(particle);
+      }
       this.view.removeElement(particle);
-      this.stage.removeView(particle);
       this.liveParticles--;
     }
     if (!this.view.length && !this.view.liveParticles) {
-      this.view = null;
       this.stage.removeEntity(this);
+      this.view = null;
     }
 
   }

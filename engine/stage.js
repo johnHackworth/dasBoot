@@ -155,9 +155,13 @@ pixEngine.Stage.prototype.addNotVisualEntity = function(entity, parent) {
 };
 
 pixEngine.Stage.prototype.removeView = function(entity) {
+  if (!entity || entity.length === 0) {
+    return;
+  }
   try {
     this.pixiStage.removeChild(entity);
   } catch (err) {
+    console.log(entity);
     console.log(err);
   }
 };
@@ -210,6 +214,18 @@ pixEngine.Stage.prototype.toFrontPixiView = function(condition, value) {
 };
 
 pixEngine.Stage.prototype.addText = function(text, options, destroyables) {
+  var textView = this.createText(text, options, destroyables);
+  this.addVisualEntity(textView);
+  return textView;
+};
+
+pixEngine.Stage.prototype.addTextToContainer = function(container, text, options, destroyables) {
+  var textView = this.createText(text, options, destroyables);
+  container.addChild(textView);
+  return textView;
+};
+
+pixEngine.Stage.prototype.createText = function(text, options, destroyables) {
   var fontSize = options.fontSize || '30px';
   var color = options.color || '#333333';
   var x = options.x || 0;
@@ -232,7 +248,6 @@ pixEngine.Stage.prototype.addText = function(text, options, destroyables) {
   }
   textView.y = y;
   textView.viewType = 'text';
-  this.addVisualEntity(textView);
   if (destroyables) {
     destroyables.push(textView);
   }
@@ -285,7 +300,7 @@ pixEngine.Stage.prototype.destroy = function() {
 
 };
 
-pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
+pixEngine.Stage.prototype.createBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
   x = x || 0;
   y = y || 0;
   width = width || 500;
@@ -309,7 +324,19 @@ pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, o
     background.buttonMode = true;
     background.hitArea = new PIXI.Rectangle(x, y, width, height);
   }
+  return background;
+};
 
+PIXI.DisplayObjectContainer.prototype.addVisualEntity = PIXI.DisplayObjectContainer.prototype.addChild;
+
+pixEngine.Stage.prototype.addBackgroundToContainer = function(container, x, y, width, height, color, opacity, destroyables, parent, interactive) {
+  var background = this.createBackground(x, y, width, height, color, opacity, destroyables, parent, interactive);
+  container.addChild(background);
+  return background;
+};
+
+pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
+  var background = this.createBackground(x, y, width, height, color, opacity, destroyables, parent, interactive);
   this.addVisualEntity(background, parent);
   if (destroyables) {
     destroyables.push(background);
