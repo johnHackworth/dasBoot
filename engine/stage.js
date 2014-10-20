@@ -31,6 +31,9 @@ pixEngine.Stage = function(options) {
 
     var windowWidth = window.innerWidth;
     var renderWidth = this.renderer.view.width;
+    if(windowWidth > 1600) {
+      windowWidth = 1600;
+    }
     var relation = windowWidth / renderWidth;
 
     this.renderer.view.style.width = windowWidth;

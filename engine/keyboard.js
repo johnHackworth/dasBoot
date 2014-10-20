@@ -13,10 +13,18 @@ window.pixEngine.utils.Keyboard.prototype = {
   RIGHT_CURSOR: 39,
   DOWN_CURSOR: 40,
   SHIFT: 16,
+  SPACE: 32,
   keysPressed: 0,
   bindEvents: function() {
     document.body.addEventListener('keydown', this.keydown.bind(this));
     document.body.addEventListener('keyup', this.keyup.bind(this));
+  },
+  whenPress: function(key, callback) {
+    this.on('keyPress', function(code) {
+      if(key === code) {
+        callback();
+      }
+    });
   },
   keydown: function(ev) {
     var code = ev.keyCode;
