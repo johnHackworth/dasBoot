@@ -8,6 +8,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -18,6 +19,18 @@
    sodipodi:docname="rooms.svg.2014_08_27_23_42_32.0.svg">
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10622">
+      <stop
+         style="stop-color:#008033;stop-opacity:1;"
+         offset="0"
+         id="stop10624" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop10626" />
+    </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="25 : 473.18109 : 1"
@@ -2402,19 +2415,6 @@
        effect="spiro"
        id="path-effect3085-7-8-3-5"
        is_visible="true" />
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter10151-8"
-       x="-0.12378532"
-       width="1.2475706"
-       y="-0.029379504"
-       height="1.058759">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.0973414"
-         id="feGaussianBlur10153-5" />
-    </filter>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect4981-4-5-4-7-8-1-7-6-6-83"
@@ -2447,19 +2447,6 @@
        effect="spiro"
        id="path-effect5043-8-9-0-5-5-2-0-0-05"
        is_visible="true" />
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter10147-4"
-       x="-0.12378532"
-       width="1.2475706"
-       y="-0.029379504"
-       height="1.058759">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.0973414"
-         id="feGaussianBlur10149-51" />
-    </filter>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect4981-4-5-4-7-8-1-7-4-8"
@@ -2540,6 +2527,17 @@
        effect="spiro"
        id="path-effect5043-8-9-0-5-5-2-0-21"
        is_visible="true" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10622"
+       id="radialGradient10628"
+       cx="-357.79599"
+       cy="562.33722"
+       fx="-357.79599"
+       fy="562.33722"
+       r="313.95541"
+       gradientTransform="matrix(2.1848125,-0.00623531,0.00558566,1.9571697,420.7801,-540.4831)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2548,13 +2546,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="244.51584"
-     inkscape:cy="109.618"
+     inkscape:zoom="0.52608177"
+     inkscape:cx="-461.96037"
+     inkscape:cy="466.65751"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1311"
+     inkscape:window-width="1305"
      inkscape:window-height="744"
      inkscape:window-x="55"
      inkscape:window-y="24"
@@ -8174,6 +8172,201 @@
          id="path7558-4-6-0-2-0-2-8-1"
          style="fill:none;stroke:#5b5b5b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:url(#radialGradient10628);fill-opacity:1;stroke:none;opacity:0.85877863"
+       id="rect9842"
+       width="627.91083"
+       height="329.51175"
+       x="-671.7514"
+       y="397.58133"
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10632"
+       sodipodi:cx="-451.13412"
+       sodipodi:cy="165.6503"
+       sodipodi:rx="74.953316"
+       sodipodi:ry="77.781746"
+       d="m -376.18081,165.6503 a 74.953316,77.781746 0 1 1 -149.8933,-1.4671"
+       sodipodi:start="0"
+       sodipodi:end="3.1604555"
+       sodipodi:open="true"
+       transform="matrix(-0.65104805,0.00437777,-0.00742114,-0.68071443,-633.53341,675.72487)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(1.054366,0,0,1.054366,169.95488,531.59878)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(0.67909364,0,0,0.67909364,12.971537,549.47997)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686-0"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(1.5818728,0,0,1.5818728,384.43027,508.65607)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686-1"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(-1.054366,0,0,1.054366,-854.7881,520.60054)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686-5"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(-0.67909364,0,0,0.67909364,-697.80477,538.48172)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686-0-3"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <path
+       transform="matrix(-1.5818728,0,0,1.5818728,-1069.2635,497.65783)"
+       sodipodi:type="arc"
+       style="opacity:0.22519084;fill:none;stroke:#3e3e3e;stroke-width:7.51034498000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10686-1-4"
+       sodipodi:cx="-403.25"
+       sodipodi:cy="38.112209"
+       sodipodi:rx="49.25"
+       sodipodi:ry="49.25"
+       d="m -378.625,-4.5395407 a 49.25,49.25 0 0 1 0,85.3035017"
+       sodipodi:start="5.2359878"
+       sodipodi:end="7.3303829"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172" />
+    <g
+       transform="translate(-17.107608,-239.50651)"
+       id="g10818-1"
+       style="opacity:0.22519084"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172">
+      <path
+         transform="matrix(0.75441032,0,0,0.51531464,31.19261,687.08119)"
+         d="m -533.86558,250.14957 c 0,31.4372 -5.22361,56.92209 -11.66726,56.92209 -6.44365,0 -11.66726,-25.48489 -11.66726,-56.92209 0,-31.43721 5.22361,-56.9221 11.66726,-56.9221 6.44365,0 11.66726,25.48489 11.66726,56.9221 z"
+         sodipodi:ry="56.922096"
+         sodipodi:rx="11.667261"
+         sodipodi:cy="250.14957"
+         sodipodi:cx="-545.53284"
+         id="path10634-0"
+         style="fill:#000000;fill-opacity:1;stroke:#3e3e3e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-x="7.0924868"
+         d="m -533.86558,250.14957 c 0,31.4372 -5.22361,56.92209 -11.66726,56.92209 -6.44365,0 -11.66726,-25.48489 -11.66726,-56.92209 0,-31.43721 5.22361,-56.9221 11.66726,-56.9221 6.44365,0 11.66726,25.48489 11.66726,56.9221 z"
+         sodipodi:ry="56.922096"
+         sodipodi:rx="11.667261"
+         sodipodi:cy="250.14957"
+         sodipodi:cx="-545.53284"
+         id="path10634-3-8"
+         style="fill:#000000;fill-opacity:1;stroke:#3e3e3e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         transform="matrix(0.52791015,0,0,0.52791015,-79.11894,683.3705)" />
+      <rect
+         y="784.99164"
+         x="-381.12189"
+         height="60.870632"
+         width="13.462949"
+         id="rect10654-05"
+         style="fill:#434343;fill-opacity:1;stroke:#3e3e3e;stroke-width:6.77423573000000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="translate(83.637189,-238.55608)"
+       id="g10818-4"
+       style="opacity:0.22519084"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/ui/hydrophoneBackground.png"
+       inkscape:export-xdpi="172"
+       inkscape:export-ydpi="172">
+      <path
+         transform="matrix(0.75441032,0,0,0.51531464,31.19261,687.08119)"
+         d="m -533.86558,250.14957 c 0,31.4372 -5.22361,56.92209 -11.66726,56.92209 -6.44365,0 -11.66726,-25.48489 -11.66726,-56.92209 0,-31.43721 5.22361,-56.9221 11.66726,-56.9221 6.44365,0 11.66726,25.48489 11.66726,56.9221 z"
+         sodipodi:ry="56.922096"
+         sodipodi:rx="11.667261"
+         sodipodi:cy="250.14957"
+         sodipodi:cx="-545.53284"
+         id="path10634-5"
+         style="fill:#000000;fill-opacity:1;stroke:#3e3e3e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         inkscape:transform-center-x="7.0924868"
+         d="m -533.86558,250.14957 c 0,31.4372 -5.22361,56.92209 -11.66726,56.92209 -6.44365,0 -11.66726,-25.48489 -11.66726,-56.92209 0,-31.43721 5.22361,-56.9221 11.66726,-56.9221 6.44365,0 11.66726,25.48489 11.66726,56.9221 z"
+         sodipodi:ry="56.922096"
+         sodipodi:rx="11.667261"
+         sodipodi:cy="250.14957"
+         sodipodi:cx="-545.53284"
+         id="path10634-3-7"
+         style="fill:#000000;fill-opacity:1;stroke:#3e3e3e;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         transform="matrix(0.52791015,0,0,0.52791015,-79.11894,683.3705)" />
+      <rect
+         y="784.99164"
+         x="-381.12189"
+         height="60.870632"
+         width="13.462949"
+         id="rect10654-3"
+         style="fill:#434343;fill-opacity:1;stroke:#3e3e3e;stroke-width:6.77423573000000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
   </g>
 </svg>
