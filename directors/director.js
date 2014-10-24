@@ -50,7 +50,7 @@ window.boot.directors.main.prototype = {
     });
     boot.currentStage.engine.running = true;
   },
-  testStartSubmarine: function() {
+  starBoatView: function() {
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
 
@@ -60,6 +60,7 @@ window.boot.directors.main.prototype = {
       player: this.world.player
     });
     this.world.playerBoat.sector = this.world.player.sector;
+    console.log(this.world.playerBoat.sector);
     for (var i in this.world.player.people) {
       var person = new window.boot.models.Person({
         stage: boot.currentStage,

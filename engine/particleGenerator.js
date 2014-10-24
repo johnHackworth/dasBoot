@@ -106,6 +106,11 @@ pixEngine.ParticleGenerator.prototype = {
           x: 0,
           y: 0
         }, size);
+      } else if (this.type == 'thinLine') {
+        this.createThinLineParticle(particle, {
+          x: 0,
+          y: 0
+        }, size);
       } else if (this.type == 'line') {
         this.createLineParticle(particle, {
           x: 0,
@@ -193,6 +198,16 @@ pixEngine.ParticleGenerator.prototype = {
   createLineParticle: function(particle, center, size) {
     var cut = 1; //size / 4;
     var linewidth = Math.ceil(size / 10);
+    particle.moveTo(center.x, center.y);
+    particle.lineTo(center.x + size / 2 - cut, center.y);
+    particle.lineTo(center.x + size / 2, center.y + linewidth);
+    particle.lineTo(center.x - size / 2, center.y + linewidth);
+    particle.lineTo(center.x - size / 2 + cut, center.y);
+    particle.lineTo(center.x, center.y);
+  },
+  createThinLineParticle: function(particle, center, size) {
+    var cut = 1; //size / 4;
+    var linewidth = Math.ceil(size / 30);
     particle.moveTo(center.x, center.y);
     particle.lineTo(center.x + size / 2 - cut, center.y);
     particle.lineTo(center.x + size / 2, center.y + linewidth);
