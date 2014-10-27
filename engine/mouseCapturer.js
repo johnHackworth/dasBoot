@@ -15,7 +15,7 @@ window.pixEngine = window.pixEngine || {};
       type = 'pixi';
       this.element = new PIXI.Graphics();
       this.element.hitArea = new PIXI.Rectangle(0, 0, w, h);
-      this.element.setInteractive(true);
+      this.element.interactive = true;
       container.addVisualEntity(this.element);
     } else {
       eventPrefix = 'on';

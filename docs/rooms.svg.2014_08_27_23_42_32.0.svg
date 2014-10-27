@@ -19,6 +19,80 @@
    sodipodi:docname="rooms.svg.2014_08_27_23_42_32.0.svg">
   <defs
      id="defs4">
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineStart"
+       id="InfiniteLineStart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g8662"
+         style="fill:#000000"
+         transform="translate(-13,0)">
+        <circle
+           d="M 3.8,0 C 3.8,0.44182781 3.4418278,0.80000001 3,0.80000001 2.5581722,0.80000001 2.2,0.44182781 2.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
+           id="circle8664"
+           r="0.8"
+           cy="0"
+           cx="3" />
+        <circle
+           d="M 7.3,0 C 7.3,0.44182781 6.9418278,0.80000001 6.5,0.80000001 6.0581722,0.80000001 5.7,0.44182781 5.7,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
+           id="circle8666"
+           r="0.8"
+           cy="0"
+           cx="6.5" />
+        <circle
+           d="M 10.8,0 C 10.8,0.44182781 10.441828,0.80000001 10,0.80000001 9.5581722,0.80000001 9.2,0.44182781 9.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.441828,0 0.8,0.3581722 0.8,0.80000001 z"
+           id="circle8668"
+           r="0.8"
+           cy="0"
+           cx="10" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Club"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Club"
+       style="overflow:visible">
+      <path
+         id="path8647"
+         d="M -1.5971367,-7.0977635 C -3.4863874,-7.0977635 -5.0235187,-5.5606321 -5.0235187,-3.6713813 C -5.0235187,-3.0147015 -4.7851656,-2.4444556 -4.4641095,-1.9232271 C -4.5028609,-1.8911157 -4.5437814,-1.8647646 -4.5806531,-1.8299921 C -5.2030765,-2.6849849 -6.1700514,-3.2751330 -7.3077730,-3.2751330 C -9.1970245,-3.2751331 -10.734155,-1.7380016 -10.734155,0.15124914 C -10.734155,2.0404999 -9.1970245,3.5776313 -7.3077730,3.5776313 C -6.3143268,3.5776313 -5.4391540,3.1355702 -4.8137404,2.4588126 C -4.9384274,2.8137041 -5.0235187,3.1803000 -5.0235187,3.5776313 C -5.0235187,5.4668819 -3.4863874,7.0040135 -1.5971367,7.0040135 C 0.29211394,7.0040135 1.8292454,5.4668819 1.8292454,3.5776313 C 1.8292454,2.7842354 1.5136868,2.0838028 1.0600576,1.5031550 C 2.4152718,1.7663868 3.7718375,2.2973711 4.7661444,3.8340272 C 4.0279463,3.0958289 3.5540908,1.7534117 3.5540908,-0.058529361 L 2.9247554,-0.10514681 L 3.5074733,-0.12845553 C 3.5074733,-1.9403966 3.9580199,-3.2828138 4.6962183,-4.0210121 C 3.7371277,-2.5387813 2.4390549,-1.9946496 1.1299838,-1.7134486 C 1.5341802,-2.2753578 1.8292454,-2.9268556 1.8292454,-3.6713813 C 1.8292454,-5.5606319 0.29211394,-7.0977635 -1.5971367,-7.0977635 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.74587913pt"
+         transform="scale(0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path8482"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path8479"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7477"
+       is_visible="true" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient10622">
@@ -2538,6 +2612,141 @@
        r="313.95541"
        gradientTransform="matrix(2.1848125,-0.00623531,0.00558566,1.9571697,420.7801,-540.4831)"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4193-2-7-0"
+       x="-0.21203008"
+       width="1.4240602"
+       y="-0.14387755"
+       height="1.2877551">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.1989796"
+         id="feGaussianBlur4195-0-0-3" />
+    </filter>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3097-9-6-3-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3089-2-9-6-9"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3085-7-8-9-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7477-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7477-6-5"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8482-0"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8482-8"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9990"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9992"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8482-04"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9990-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9992-0"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8482-4"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9990-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9992-7"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7477-6-5-8"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2546,9 +2755,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.52608177"
-     inkscape:cx="-461.96037"
-     inkscape:cy="466.65751"
+     inkscape:zoom="1.4879839"
+     inkscape:cx="595.48671"
+     inkscape:cy="173.628"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7679,16 +7888,6 @@
          sodipodi:type="arc" />
     </g>
     <path
-       style="fill:#808080;fill-opacity:1;stroke:none"
-       d="m 785.43172,755.69169 1.10173,-0.1353 -14.30214,0 0.61988,0.13434 12.58053,9.6e-4"
-       id="path3083-4-9-7-9-5"
-       inkscape:path-effect="#path-effect3085-7-8-3-0-8"
-       inkscape:original-d="m 785.43172,755.69169 1.10173,-0.1353 -14.30214,0 0.61988,0.13434 z"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/hatchStairs.png"
-       inkscape:export-xdpi="76.338608"
-       inkscape:export-ydpi="76.338608" />
-    <path
        style="fill:#9a9996;fill-opacity:1;stroke:none"
        d="m 562.46442,732.55317 c -1.66671,0.13326 -3.4172,-0.033 -5.02709,0.34251 -0.10193,0.68991 0.27481,1.49701 -0.35908,2.08265 -0.25551,0.45584 -1.04347,1.30536 -0.25964,1.6628 1.23345,-0.25815 2.23693,-1.25502 3.45412,-1.64596 1.49832,-0.74811 3.1588,-1.02741 4.71076,-1.58574 0.61058,-0.68955 -0.52504,-1.00452 -1.04409,-0.87283 -0.49178,2.7e-4 -0.98352,-0.006 -1.47498,0.0166 z"
        id="path6178"
@@ -7929,16 +8128,6 @@
        sodipodi:ry="9.875"
        d="m 577.75,745.98718 a 14.125,9.875 0 1 1 -28.25,0 14.125,9.875 0 1 1 28.25,0 z"
        transform="matrix(-1.380531,0,0,1.1012658,1440.3708,-77.295056)"
-       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/hatchStairs.png"
-       inkscape:export-xdpi="76.338608"
-       inkscape:export-ydpi="76.338608" />
-    <path
-       style="fill:#808080;fill-opacity:1;stroke:none"
-       d="m 450.61497,755.54139 1.48303,-0.1353 -19.25189,0 0.83441,0.13434 16.93445,9.6e-4"
-       id="path3083-4-9-7-9-5-3"
-       inkscape:path-effect="#path-effect3085-7-8-3-0-8-62"
-       inkscape:original-d="m 450.61497,755.54139 1.48303,-0.1353 -19.25189,0 0.83441,0.13434 z"
-       inkscape:connector-curvature="0"
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/hatchStairs.png"
        inkscape:export-xdpi="76.338608"
        inkscape:export-ydpi="76.338608" />
@@ -8368,5 +8557,838 @@
          id="rect10654-3"
          style="fill:#434343;fill-opacity:1;stroke:#3e3e3e;stroke-width:6.77423573000000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
+    <rect
+       style="fill:#296a88;fill-opacity:1;stroke:#8a99e1;stroke-width:0.17793782000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.19200002999999999;stroke-dasharray:none"
+       id="rect2985-0-7-0-2"
+       width="314.18207"
+       height="138.317"
+       x="472.34857"
+       y="803.27942"
+       ry="2.648411"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6702-8-1"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.08778627;fill:#000000;fill-opacity:1;stroke:#8b4545;stroke-opacity:0.19200003;font-family:Sans"
+       transform="translate(70.892387,484.24781)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76"><flowRegion
+         id="flowRegion6704-8-8"><rect
+           id="rect6706-9-9"
+           width="267.99347"
+           height="135.05739"
+           x="454.66965"
+           y="339.59854"
+           style="fill:#000000;fill-opacity:1;stroke:#8b4545;stroke-opacity:0.19200003" /></flowRegion><flowPara
+         id="flowPara6710-8-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;opacity:0.08396948;fill:#000000;fill-opacity:1;stroke:#8b4545;stroke-opacity:0.19200003;font-family:Impact;-inkscape-font-specification:Impact Bold">COMMS ROOM</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;opacity:0.08396948;fill:#000000;fill-opacity:1;stroke:#8b4545;stroke-opacity:0.19200003;font-family:Impact;-inkscape-font-specification:Impact Bold"
+         id="flowPara7251" /></flowRoot>    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.16430116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 731.67354,905.63107 -7.75354,-14.92981 0.42248,-63.8054 7.54367,10.01701 z"
+       id="path7457-5-0-7-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       d="m 785.0071,940.31373 27.27477,22.3884 -354.06694,0 15.34594,-22.22972 311.44623,-0.15868"
+       id="path3083-4-9-8-9"
+       inkscape:path-effect="#path-effect3085-7-8-9-1"
+       inkscape:original-d="m 785.0071,940.31373 27.27477,22.3884 -354.06694,0 15.34594,-22.22972 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998" />
+    <path
+       style="fill:#26566c;fill-opacity:1;stroke:none"
+       d="m 812.29153,963.18347 0,-159.90405 -27.27625,0 0,137.91724 27.27625,21.98681"
+       id="path3087-2-2-4-2"
+       inkscape:path-effect="#path-effect3089-2-9-6-9"
+       inkscape:original-d="m 812.29153,963.18347 0,-159.90405 -27.27625,0 0,137.91724 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998" />
+    <path
+       style="fill:#26566c;fill-opacity:1;stroke:none"
+       d="m 472.85368,941.59642 -15.38062,21.0835 0,-159.4005 14.87549,0 0.50513,138.317"
+       id="path3095-6-7-0-2"
+       inkscape:path-effect="#path-effect3097-9-6-3-6"
+       inkscape:original-d="m 472.85368,941.59642 -15.38062,21.0835 0,-159.4005 14.87549,0 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998" />
+    <path
+       transform="matrix(1.0000239,0,0,0.96977038,418.70448,474.29952)"
+       sodipodi:type="arc"
+       style="opacity:0;fill:#445500;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.19200003;stroke-dasharray:none"
+       id="path3386-7-4-9"
+       sodipodi:cx="200.53572"
+       sodipodi:cy="371.29074"
+       sodipodi:rx="5.8928571"
+       sodipodi:ry="7.1428571"
+       d="m 206.42858,371.29074 a 5.8928571,7.1428571 0 1 1 -11.78572,0 5.8928571,7.1428571 0 1 1 11.78572,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998" />
+    <rect
+       style="fill:#fff7ad;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.19200003;stroke-dasharray:none;filter:url(#filter4193-2-7-0)"
+       id="rect4179-8-0-3"
+       width="13.571428"
+       height="20"
+       x="598.85095"
+       y="134.75223"
+       ry="6.7857141"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76.099998"
+       inkscape:export-ydpi="76.099998"
+       transform="matrix(1.0000239,0,0,0.96977038,31.987097,676.32619)" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 750.4185,924.87545 -4.01648,0"
+       id="path7580-7-9-1-6-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#c9c9c9;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.1971375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 789.73486,906.76129 0,45.88367 -57.97672,0 0,-68.82552 58.7602,0 z"
+       id="path7403-0-9-7-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.15855749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 790.53569,883.82749 -58.62359,0.0709 -7.48387,-9.99128 57.23769,0 z"
+       id="path7455-4-9-8-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.16430116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 731.61019,952.72028 -7.75354,-14.92981 0.42248,-63.8054 7.54367,10.01701 z"
+       id="path7457-5-0-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-1.2102313,0,0,0.95779559,1433.1475,296.72729)"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-3-1-3-8-7-3"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 8.485281,8.485281 0 1 1 16.97057,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <g
+       id="g7560-8-0-0-4"
+       transform="matrix(-1.1079931,0,0,0.87688265,1436.197,341.43091)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7554-8-8-9-1"
+         d="m 596.79812,652.13974 c 0.0149,2.09955 0.0588,4.17652 0.0884,6.27558 -2.12726,0.99171 -3.30448,3.66496 -4.86137,5.39169"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7556-5-4-7-6"
+         d="m 597.24007,658.68048 c 2.9317,-0.13382 3.55178,3.62143 4.5078,4.5962"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="m 589.19671,628.62842 c 0,4.68629 -3.79899,8.48528 -8.48528,8.48528 -4.6863,0 -8.48529,-3.79899 -8.48529,-8.48528 0,-4.68629 3.79899,-8.48528 8.48529,-8.48528 4.68629,0 8.48528,3.79899 8.48528,8.48528 z"
+         sodipodi:ry="8.485281"
+         sodipodi:rx="8.485281"
+         sodipodi:cy="628.62842"
+         sodipodi:cx="580.71143"
+         id="path7459-3-0-5-8-8-2"
+         style="fill:none;stroke:#5b5b5b;stroke-width:2.32698202;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         transform="matrix(0.85948234,0,0,0.85948234,98.040462,118.38546)" />
+      <path
+         d="m 598.30075,659.21082 c 0,0.73223 -0.65295,1.32582 -1.4584,1.32582 -0.80546,0 -1.45841,-0.59359 -1.45841,-1.32582 0,-0.73224 0.65295,-1.32583 1.45841,-1.32583 0.80545,0 1.4584,0.59359 1.4584,1.32583 z"
+         sodipodi:ry="1.3258252"
+         sodipodi:rx="1.4584078"
+         sodipodi:cy="659.21082"
+         sodipodi:cx="596.84235"
+         id="path7558-4-7-5-6"
+         style="fill:none;stroke:#5b5b5b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       transform="matrix(-1.1079931,0,0,0.87688265,1418.4691,346.6922)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#5b5b5b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7566-1-1-0-7"
+       sodipodi:cx="604.6875"
+       sodipodi:cy="655.04968"
+       sodipodi:rx="1.9375"
+       sodipodi:ry="1.9375"
+       d="m 606.625,655.04968 a 1.9375,1.9375 0 1 1 -3.875,0 1.9375,1.9375 0 1 1 3.875,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#3e3e3e;stroke-width:1.77423751;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 748.41027,922.02559 c -0.68136,2.70521 -0.19126,5.75164 -0.27701,8.33038"
+       id="path7570-8-1-3-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 777.19935,931.25324 c -0.78347,0 -1.56694,0 -2.3504,0"
+       id="path7578-4-1-0-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 776.87183,927.61571 -4.01648,0"
+       id="path7580-8-9-4-5-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 777.84133,933.09623 -4.01648,0"
+       id="path7580-69-0-3-6-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 691.57172,924.87545 -4.01648,0"
+       id="path7580-7-9-6-5-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#c9c9c9;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.1971375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 730.88809,906.76129 0,45.88367 -57.97674,0 0,-68.82552 58.76022,0 z"
+       id="path7403-0-1-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.15855749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 731.68891,883.82749 -58.62359,0.0709 -7.48388,-9.99128 57.23771,0 z"
+       id="path7455-4-5-9-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.16430116;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 672.7634,952.72028 -7.75354,-14.92981 0.42249,-63.8054 7.54367,10.01701 z"
+       id="path7457-5-4-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#363636;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-4-8-0-5"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 8.485281,8.485281 0 1 1 16.97057,0 z"
+       transform="matrix(-1.2102313,0,0,0.95779559,1405.115,296.36788)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-1.2102313,0,0,0.95779559,1404.9011,296.53721)"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-0-1-5-5-1"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 l 8.48529,0 z"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-1.1079931,0,0,0.87688265,1359.6223,346.6922)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#5b5b5b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7566-1-0-4-5"
+       sodipodi:cx="604.6875"
+       sodipodi:cy="655.04968"
+       sodipodi:rx="1.9375"
+       sodipodi:ry="1.9375"
+       d="m 606.625,655.04968 a 1.9375,1.9375 0 1 1 -3.875,0 1.9375,1.9375 0 1 1 3.875,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#3e3e3e;stroke-width:1.77423751;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 689.70197,921.03909 c -0.50989,-2.94153 0.28522,-5.94384 0.41552,-8.65922"
+       id="path7568-8-3-8-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 718.35258,931.25324 c -0.78349,0 -1.56695,0 -2.35041,0"
+       id="path7578-4-3-6-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:1.25266135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 705.9857,908.62515 -5.10433,0"
+       id="path7580-9-3-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 685.61626,905.36482 -4.01648,0"
+       id="path7580-6-6-3-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 718.02504,927.61571 -4.01648,0"
+       id="path7580-8-9-0-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:0.98568749px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 718.99454,933.09623 -4.01647,0"
+       id="path7580-69-0-9-2-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#c9c9c9;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.1971375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 789.79821,859.67207 0,45.88368 -57.97672,0 0,-68.82552 58.7602,0 z"
+       id="path7403-0-9-7-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.15855749;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 790.59904,836.73827 -58.62359,0.0709 -7.48387,-9.99129 57.23769,0 z"
+       id="path7455-4-9-8-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-2.3031733,0,0,1.8227666,2099.1934,-288.18294)"
+       sodipodi:type="arc"
+       style="fill:#005500;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-3-9-2-4-9-9"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 8.485281,8.485281 0 1 1 16.97057,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-1.6217731,-1.3179247,-1.6060161,1.283496,2712.3832,815.85624)"
+       sodipodi:type="arc"
+       style="fill:#2ca02c;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-0-2-1-0-3-7-2"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 580.71143,637.1137 a 8.485281,8.485281 0 0 1 -8.48529,-8.48528 l 8.48529,0 z"
+       sodipodi:start="1.5707963"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="opacity:0.30152672;fill:none;stroke:#000000;stroke-width:2.38392115px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 767.21564,877.57191 -9.71401,0"
+       id="path7580-5-3-7-5-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#331d0c;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.21583956000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 472.93927,915.14537 0,36.3512 87.72369,0 0,-54.52682 -88.90916,0 z"
+       id="path7403-0-4-0-3-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#4d3830;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.17472698000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 471.7359,897.09323 88.67015,0.0604 5.39867,-8.52653 -85.15374,0 z"
+       id="path7455-4-1-7-3-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#4d3830;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.12441269000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 560.5799,951.96927 5.52344,-12.01691 -0.30095,-51.35659 -5.37394,8.06264 z"
+       id="path7457-5-5-0-2-22"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.15117228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 473.79604,871.44013 0,24.84057 62.97331,0 0,-37.26086 -63.82433,0 z"
+       id="path7403-0-4-0-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.12237736;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 472.93217,859.10423 63.65274,0.0412 3.8755,-5.82658 -61.12845,0 z"
+       id="path7455-4-1-7-3-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#9a9a9a;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.08713761;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 536.70973,896.6037 3.96505,-8.21174 -0.21605,-35.09445 -3.85772,5.50958 z"
+       id="path7457-5-5-0-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#642222;stroke-width:1.96007812;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 545.64916,896.27962 -0.79291,-2.24375 c -0.34293,-0.97041 -0.67382,-1.9614 -0.72342,-2.98942 -0.0496,-1.02803 0.19468,-2.0832 0.77796,-2.93118 0.58329,-0.84798 1.49543,-1.46326 2.50065,-1.68425 1.00521,-0.221 2.08307,-0.0519 2.99517,0.42493 0.89518,0.468 1.63501,1.2274 2.07947,2.13449 0.44447,0.90709 0.59123,1.95709 0.41252,2.95128"
+       id="path7475"
+       inkscape:path-effect="#path-effect7477-6-5"
+       inkscape:original-d="m 545.64916,896.27962 -0.79291,-2.24375 c 0,0 -4.98397,-13.61195 5.55036,-7.17992 10.53432,6.43201 2.49199,5.08577 2.49199,5.08577"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.40755163,0,0,0.37707182,277.77036,599.43618)"
+       sodipodi:type="arc"
+       style="fill:#005500;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7455"
+       sodipodi:cx="664.22656"
+       sodipodi:cy="790.99597"
+       sodipodi:rx="4.8709159"
+       sodipodi:ry="3.8016903"
+       d="m 664.22656,794.79766 a 4.8709159,3.8016903 0 0 1 -4.87091,-3.80169 l 4.87091,0 z"
+       sodipodi:start="1.5707963"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-0.40755163,0,0,-0.37707182,825.21163,1190.4058)"
+       sodipodi:type="arc"
+       style="fill:#005500;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7455-9"
+       sodipodi:cx="664.22656"
+       sodipodi:cy="790.99597"
+       sodipodi:rx="4.8709159"
+       sodipodi:ry="3.8016903"
+       d="m 664.22656,794.79766 a 4.8709159,3.8016903 0 0 1 -4.87091,-3.80169 l 4.87091,0 z"
+       sodipodi:start="1.5707963"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 539.5367,861.18186 c 0,0.56973 0,1.13947 0,1.7092"
+       id="path8410"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 539.74197,861.9415 c 0.10263,-0.1266 0.20527,-0.25322 0.30791,-0.37983 0.0341,-0.095 0.0468,-0.19903 0.10262,-0.28487 0.0498,-0.0768 0.14902,-0.11707 0.20526,-0.1899 0.11594,-0.15018 0.19725,-0.32123 0.3079,-0.47479 0.0269,-0.0371 0.0757,-0.0577 0.10263,-0.095 0.0424,-0.0589 0.0485,-0.13984 0.10262,-0.1899 0.15101,0 0.0785,0.0224 0.20525,-0.095 0.0684,-0.0633 0.12476,-0.14025 0.20528,-0.18991 0.0285,-0.0176 0.0786,0.0224 0.10262,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10263,0 0.0341,0 0.0684,0 0.10261,0"
+       id="path8412"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 537.86929,864.24315 c 0,0.56973 0,1.13948 0,1.70922"
+       id="path8410-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 538.07457,865.00281 c 0.10262,-0.12662 0.20527,-0.25324 0.3079,-0.37984 0.0341,-0.095 0.0468,-0.19903 0.10262,-0.28487 0.0498,-0.0768 0.14902,-0.11707 0.20525,-0.18992 0.11595,-0.15017 0.19726,-0.32121 0.30791,-0.47478 0.0269,-0.0371 0.0757,-0.0577 0.10262,-0.095 0.0424,-0.0589 0.0485,-0.13986 0.10263,-0.18991 0.15101,0 0.0785,0.0224 0.20526,-0.095 0.0684,-0.0633 0.12475,-0.14025 0.20526,-0.18992 0.0285,-0.0176 0.0785,0.0224 0.10263,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10262,0 0.0341,0 0.0684,0 0.10262,0"
+       id="path8412-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 539.719,868.08406 c 0,0.56975 0,1.13949 0,1.70923"
+       id="path8410-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 539.92428,868.84373 c 0.10263,-0.12662 0.20527,-0.25323 0.30791,-0.37984 0.0341,-0.095 0.0468,-0.19903 0.10261,-0.28487 0.0498,-0.0768 0.14902,-0.11706 0.20528,-0.18992 0.11593,-0.15018 0.19724,-0.32121 0.30789,-0.47476 0.0269,-0.0373 0.0757,-0.0577 0.10261,-0.095 0.0424,-0.0589 0.0485,-0.13986 0.10264,-0.18992 0.151,0 0.0785,0.0224 0.20525,-0.095 0.0684,-0.0633 0.12476,-0.14027 0.20527,-0.18993 0.0284,-0.0176 0.0785,0.0224 0.10262,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10264,0 0.0341,0 0.0684,0 0.10261,0"
+       id="path8412-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 538.0516,871.14536 c 0,0.56975 0,1.13948 0,1.70922"
+       id="path8410-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 538.25688,871.90503 c 0.10262,-0.12662 0.20525,-0.25323 0.30789,-0.37983 0.0341,-0.095 0.0468,-0.19904 0.10263,-0.28487 0.0498,-0.0768 0.14902,-0.11707 0.20526,-0.18993 0.11594,-0.15018 0.19724,-0.32121 0.3079,-0.47477 0.0269,-0.0371 0.0757,-0.0577 0.10262,-0.095 0.0423,-0.0589 0.0485,-0.13986 0.10263,-0.18991 0.151,0 0.0785,0.0224 0.20526,-0.095 0.0684,-0.0633 0.12475,-0.14026 0.20525,-0.18993 0.0285,-0.0176 0.0785,0.0224 0.10264,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10262,0 0.0342,0 0.0684,0 0.10262,0"
+       id="path8412-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 539.35614,875.73856 c 0,0.56976 0,1.13947 0,1.70922"
+       id="path8410-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 539.56143,876.49821 c 0.10262,-0.1266 0.20525,-0.25321 0.30789,-0.37982 0.0341,-0.095 0.0469,-0.19905 0.10262,-0.28489 0.0498,-0.0768 0.14902,-0.11704 0.20527,-0.18989 0.11594,-0.15019 0.19723,-0.32122 0.30789,-0.47479 0.0269,-0.0373 0.0757,-0.0577 0.10262,-0.095 0.0424,-0.0589 0.0485,-0.13985 0.10263,-0.18991 0.151,0 0.0785,0.0224 0.20527,-0.095 0.0684,-0.0633 0.12474,-0.14026 0.20525,-0.18992 0.0285,-0.0176 0.0785,0.0224 0.10263,0 0.0243,-0.0224 -0.0242,-0.0726 0,-0.095 0.0243,-0.0224 0.0684,0 0.10262,0 0.0341,0 0.0684,0 0.10263,0"
+       id="path8412-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 537.68873,878.79985 c 0,0.56976 0,1.13949 0,1.70922"
+       id="path8410-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 537.89402,879.55951 c 0.10261,-0.12661 0.20525,-0.25323 0.30789,-0.37983 0.0341,-0.095 0.0468,-0.19904 0.10261,-0.28487 0.0498,-0.0768 0.14903,-0.11706 0.20528,-0.18991 0.11593,-0.15018 0.19724,-0.32123 0.30789,-0.47479 0.0269,-0.0373 0.0757,-0.0577 0.10262,-0.095 0.0424,-0.0589 0.0485,-0.13985 0.10264,-0.18991 0.15099,0 0.0785,0.0224 0.20526,-0.095 0.0684,-0.0633 0.12475,-0.14026 0.20525,-0.18992 0.0285,-0.0176 0.0786,0.0224 0.10262,0 0.0243,-0.0224 -0.0242,-0.0726 0,-0.095 0.0243,-0.0224 0.0684,0 0.10264,0 0.0341,0 0.0684,0 0.10261,0"
+       id="path8412-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 539.50128,883.46021 c 0,0.56973 0,1.13947 0,1.7092"
+       id="path8410-78"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 539.70656,884.21986 c 0.10262,-0.12662 0.20526,-0.25322 0.3079,-0.37984 0.0342,-0.095 0.0469,-0.19903 0.10261,-0.28487 0.0498,-0.0768 0.14903,-0.11706 0.20529,-0.18991 0.11593,-0.15017 0.19722,-0.3212 0.30789,-0.47479 0.0269,-0.0371 0.0757,-0.0577 0.10261,-0.095 0.0424,-0.0589 0.0485,-0.13986 0.10264,-0.18991 0.15099,0 0.0785,0.0224 0.20525,-0.095 0.0684,-0.0633 0.12476,-0.14024 0.20526,-0.18991 0.0285,-0.0176 0.0785,0.0224 0.10263,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10264,0 0.0341,0 0.0684,0 0.10261,0"
+       id="path8412-02"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17515242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 537.83386,886.52149 c 0,0.56975 0,1.13948 0,1.70923"
+       id="path8410-0-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:#6c6753;stroke:#636363;stroke-width:0.70509148;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
+       d="m 538.03915,887.28115 c 0.10262,-0.1266 0.20526,-0.25322 0.3079,-0.37984 0.0341,-0.095 0.0468,-0.19903 0.10262,-0.28487 0.0498,-0.0768 0.14902,-0.11707 0.20527,-0.1899 0.11594,-0.15018 0.19724,-0.32121 0.3079,-0.4748 0.0269,-0.0371 0.0757,-0.0577 0.10261,-0.095 0.0424,-0.0589 0.0485,-0.13986 0.10264,-0.18991 0.151,0 0.0785,0.0224 0.20525,-0.095 0.0684,-0.0633 0.12476,-0.14025 0.20526,-0.18992 0.0284,-0.0176 0.0785,0.0224 0.10263,0 0.0242,-0.0224 -0.0242,-0.0726 0,-0.095 0.0242,-0.0224 0.0684,0 0.10263,0 0.0341,0 0.0684,0 0.10262,0"
+       id="path8412-0-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.6166,426.25444)"
+       sodipodi:type="arc"
+       style="fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10082"
+       sodipodi:cx="419.37396"
+       sodipodi:cy="891.50317"
+       sodipodi:rx="5.2273245"
+       sodipodi:ry="4.2769017"
+       d="m 424.60129,891.50317 a 5.2273245,4.2769017 0 1 1 -10.45465,0 5.2273245,4.2769017 0 1 1 10.45465,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.77772,426.71906)"
+       sodipodi:type="arc"
+       style="fill:#32321f;fill-opacity:1;stroke:#484848;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.6, 1.8;stroke-dashoffset:0"
+       id="path10105"
+       sodipodi:cx="419.10733"
+       sodipodi:cy="889.81"
+       sodipodi:rx="4.6203456"
+       sodipodi:ry="3.5282638"
+       d="m 423.72768,889.81 a 4.6203456,3.5282638 0 1 1 -9.2407,0 4.6203456,3.5282638 0 1 1 9.2407,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.77325,426.04978)"
+       sodipodi:type="arc"
+       style="fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10082-5"
+       sodipodi:cx="419.37396"
+       sodipodi:cy="891.50317"
+       sodipodi:rx="5.2273245"
+       sodipodi:ry="4.2769017"
+       d="m 424.60129,891.50317 a 5.2273245,4.2769017 0 1 1 -10.45465,0 5.2273245,4.2769017 0 1 1 10.45465,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.93437,426.5144)"
+       sodipodi:type="arc"
+       style="fill:#32321f;fill-opacity:1;stroke:#484848;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.6, 1.8;stroke-dashoffset:0"
+       id="path10105-6"
+       sodipodi:cx="419.10733"
+       sodipodi:cy="889.81"
+       sodipodi:rx="4.6203456"
+       sodipodi:ry="3.5282638"
+       d="m 423.72768,889.81 a 4.6203456,3.5282638 0 1 1 -9.2407,0 4.6203456,3.5282638 0 1 1 9.2407,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,337.15318,426.18406)"
+       sodipodi:type="arc"
+       style="fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10082-7"
+       sodipodi:cx="419.37396"
+       sodipodi:cy="891.50317"
+       sodipodi:rx="5.2273245"
+       sodipodi:ry="4.2769017"
+       d="m 424.60129,891.50317 a 5.2273245,4.2769017 0 1 1 -10.45465,0 5.2273245,4.2769017 0 1 1 10.45465,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,337.3143,426.64868)"
+       sodipodi:type="arc"
+       style="fill:#32321f;fill-opacity:1;stroke:#484848;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.6, 1.8;stroke-dashoffset:0"
+       id="path10105-0"
+       sodipodi:cx="419.10733"
+       sodipodi:cy="889.81"
+       sodipodi:rx="4.6203456"
+       sodipodi:ry="3.5282638"
+       d="m 423.72768,889.81 a 4.6203456,3.5282638 0 1 1 -9.2407,0 4.6203456,3.5282638 0 1 1 9.2407,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.6281,432.15996)"
+       sodipodi:type="arc"
+       style="fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10082-73"
+       sodipodi:cx="419.37396"
+       sodipodi:cy="891.50317"
+       sodipodi:rx="5.2273245"
+       sodipodi:ry="4.2769017"
+       d="m 424.60129,891.50317 a 5.2273245,4.2769017 0 1 1 -10.45465,0 5.2273245,4.2769017 0 1 1 10.45465,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,344.78923,432.62455)"
+       sodipodi:type="arc"
+       style="fill:#32321f;fill-opacity:1;stroke:#484848;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.6, 1.8;stroke-dashoffset:0"
+       id="path10105-5"
+       sodipodi:cx="419.10733"
+       sodipodi:cy="889.81"
+       sodipodi:rx="4.6203456"
+       sodipodi:ry="3.5282638"
+       d="m 423.72768,889.81 a 4.6203456,3.5282638 0 1 1 -9.2407,0 4.6203456,3.5282638 0 1 1 9.2407,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,337.15318,432.36138)"
+       sodipodi:type="arc"
+       style="fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path10082-9"
+       sodipodi:cx="419.37396"
+       sodipodi:cy="891.50317"
+       sodipodi:rx="5.2273245"
+       sodipodi:ry="4.2769017"
+       d="m 424.60129,891.50317 a 5.2273245,4.2769017 0 1 1 -10.45465,0 5.2273245,4.2769017 0 1 1 10.45465,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.4415928,0,0,0.50933449,337.3143,432.82599)"
+       sodipodi:type="arc"
+       style="fill:#32321f;fill-opacity:1;stroke:#484848;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.6, 1.8;stroke-dashoffset:0"
+       id="path10105-9"
+       sodipodi:cx="419.10733"
+       sodipodi:cy="889.81"
+       sodipodi:rx="4.6203456"
+       sodipodi:ry="3.5282638"
+       d="m 423.72768,889.81 a 4.6203456,3.5282638 0 1 1 -9.2407,0 4.6203456,3.5282638 0 1 1 9.2407,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-0.90599851,0,0,0.82319134,1052.1478,350.5697)"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-3-1-3-8-7-3-2"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 8.485281,8.485281 0 1 1 16.97057,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#363636;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-4-8-0-5-8"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 8.485281,8.485281 0 1 1 16.97057,0 z"
+       transform="matrix(-0.90599851,0,0,0.82319134,1031.1621,350.26079)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-0.90599851,0,0,0.82319134,1031.002,350.40633)"
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#8a8a8a;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7459-0-1-5-5-1-7"
+       sodipodi:cx="580.71143"
+       sodipodi:cy="628.62842"
+       sodipodi:rx="8.485281"
+       sodipodi:ry="8.485281"
+       d="m 589.19671,628.62842 a 8.485281,8.485281 0 1 1 -16.97057,0 l 8.48529,0 z"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#642222;stroke-width:1.85629308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 717.367,877.10098 0.8046,1.98317 c 0.38167,0.94073 0.74888,1.90943 0.79327,2.92366 0.0444,1.01423 -0.25188,2.05534 -0.8996,2.83707 -0.64771,0.78173 -1.62446,1.27331 -2.63615,1.35766 -1.01169,0.0843 -2.03622,-0.22255 -2.88972,-0.77226 -1.50391,-0.96862 -2.48179,-2.70694 -2.52874,-4.49517"
+       id="path7475-3"
+       inkscape:path-effect="#path-effect7477-6-5-8"
+       inkscape:original-d="m 717.367,877.10098 0.8046,1.98317 c 0,0 5.05748,12.03121 -5.6322,6.34613 -10.68967,-5.68508 -2.52874,-4.49517 -2.52874,-4.49517"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(-0.41356164,0,0,-0.33328273,989.19611,1139.4722)"
+       sodipodi:type="arc"
+       style="fill:#005500;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7455-95"
+       sodipodi:cx="664.22656"
+       sodipodi:cy="790.99597"
+       sodipodi:rx="4.8709159"
+       sodipodi:ry="3.8016903"
+       d="m 664.22656,794.79766 a 4.8709159,3.8016903 0 0 1 -4.87091,-3.80169 l 4.87091,0 z"
+       sodipodi:start="1.5707963"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       transform="matrix(0.41356164,0,0,0.33328273,433.68192,617.13149)"
+       sodipodi:type="arc"
+       style="fill:#005500;fill-opacity:1;stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path7455-9-6"
+       sodipodi:cx="664.22656"
+       sodipodi:cy="790.99597"
+       sodipodi:rx="4.8709159"
+       sodipodi:ry="3.8016903"
+       d="m 664.22656,794.79766 a 4.8709159,3.8016903 0 0 1 -4.87091,-3.80169 l 4.87091,0 z"
+       sodipodi:start="1.5707963"
+       sodipodi:end="3.1415927"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.11292863px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 723.60554,888.43168 c 0,-0.50358 0,-1.00715 0,-1.51073"
+       id="path8410-78-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/commsRoom.png"
+       inkscape:export-xdpi="76"
+       inkscape:export-ydpi="76" />
   </g>
 </svg>

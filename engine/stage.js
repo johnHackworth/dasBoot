@@ -16,12 +16,15 @@ pixEngine.Stage = function(options) {
   this.pixiStage = new PIXI.Stage(0x444444, true);
 
   if (this.supportsWebGL()) {
+    var rendererOptions = {
+      antialiasing: false,
+      transparent: false,
+      resolution: 1
+    };
     this.renderer = new PIXI.WebGLRenderer(
       options.width,
       options.height,
-      null,
-      null,
-      true
+      rendererOptions
     );
     this.assets = options.assets;
     this.engine = new window.pixEngine.Engine({
@@ -31,7 +34,7 @@ pixEngine.Stage = function(options) {
 
     var windowWidth = window.innerWidth;
     var renderWidth = this.renderer.view.width;
-    if(windowWidth > 1600) {
+    if (windowWidth > 1600) {
       windowWidth = 1600;
     }
     var relation = windowWidth / renderWidth;
