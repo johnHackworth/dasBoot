@@ -13,6 +13,7 @@ window.boot.models = window.boot.models || {};
     this.spriteWidth = options.spriteWidth || 70;
     this.spriteNumber = options.spriteNumber || 5;
     this.spriteOffset = options.spriteOffset || 0;
+    this.spriteTint = options.spriteTint;
     this.step = options.step || 10;
     this.init(options);
   };
@@ -39,6 +40,10 @@ window.boot.models = window.boot.models || {};
       this.view = new PIXI.Sprite(this.textures[0]);
       this.view.x = this.x;
       this.view.y = this.y;
+      if (this.spriteTint) {
+        console.log(this.spriteTint);
+        this.view.tint = this.spriteTint;
+      }
 
       this.stage.addEntity(this);
     },
