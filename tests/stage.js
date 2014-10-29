@@ -133,7 +133,7 @@ window.boot.stages.testStage.prototype = {
           step: 20,
           spriteHeight: 30,
           spriteWidth: 30,
-          spriteName: 'tests/heads.png',
+          spriteName: 'tests/heads-model2.png',
           spriteNumber: 2
         });
         window.testitchhair2 = new boot.models.SpriteTest({
