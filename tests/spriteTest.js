@@ -41,7 +41,6 @@ window.boot.models = window.boot.models || {};
       this.view.x = this.x;
       this.view.y = this.y;
       if (this.spriteTint) {
-        console.log(this.spriteTint);
         this.view.tint = this.spriteTint;
       }
 
