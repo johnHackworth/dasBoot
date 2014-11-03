@@ -261,7 +261,7 @@ pixEngine.Stage.prototype.createText = function(text, options, destroyables) {
 };
 
 
-pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
+pixEngine.Stage.prototype.createImage = function(image, options, destroyables) {
   var x = options.x || 0;
   var y = options.y || 0;
   var scale = options.scale || 1;
@@ -282,6 +282,12 @@ pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
   picture.y = y;
   picture.scale.set(scale);
   picture.viewType = 'text';
+  return picture;
+};
+
+pixEngine.Stage.prototype.addImage = function(image, options, destroyables) {
+  var picture = this.createImage(image, options, destroyables);
+
   if (options.after) {
     this.addViewAfter(picture, options.after);
   } else if (options.before) {

@@ -12,6 +12,7 @@ pixEngine.Oscillator = function(options) {
   this.period = options.period || 10;
   this.after = options.after;
   this.before = options.before;
+  this.container = options.container;
   this.init();
 };
 pixEngine.Oscillator.prototype = {
@@ -19,6 +20,7 @@ pixEngine.Oscillator.prototype = {
     this.initParticles();
   },
   initParticles: function() {
+    this.particleContainer = new PIXI.DisplayObjectContainer();
     this.view = [];
     var pointer = this.origin.x;
     var max = this.origin.x + this.width;
@@ -27,20 +29,15 @@ pixEngine.Oscillator.prototype = {
       pointer += this.particleWidth - Math.floor(this.particleWidth / 2);
     }
 
-    if (this.after) {
-      this.stage.addEntityAfter(this, this.after);
-    } else if (this.before) {
-      this.stage.addEntityBefore(this, this.before);
-    } else {
-      this.stage.addEntity(this);
-    }
+    this.stage.addNotVisualEntity(this);
+    this.container.addChild(this.particleContainer);
   },
   createParticle: function(pointer) {
     var particle = new PIXI.Graphics();
     particle.clear();
     particle.beginFill(this.color);
     var center = {
-      x: pointer,
+      x: pointer - Math.floor(this.particleWidth / 2),
       y: this.origin.y + this.particleHeight / 2
     };
     this.createSquareParticle(particle);
@@ -48,6 +45,7 @@ pixEngine.Oscillator.prototype = {
     particle.endFill();
     particle.viewType = 'particle';
     this.view.push(particle);
+    this.particleContainer.addChild(particle);
     particle.x = center.x;
     particle.y = center.y;
   },
