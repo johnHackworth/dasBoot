@@ -116,7 +116,7 @@ pixEngine.ParticleGenerator.prototype = {
           x: 0,
           y: 0
         }, size);
-      } else if (this.type == 'line') {
+      } else if (this.type == 'square') {
         this.createSquareParticle(particle, {
           x: 0,
           y: 0
