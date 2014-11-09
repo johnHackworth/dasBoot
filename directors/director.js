@@ -28,7 +28,16 @@ window.boot.directors.main.prototype = {
       world: this.world
     });
     this.world.player.sector = this.world.ports[0].sector;
+    this.initializeTestShip();
     this.initializePersons();
+  },
+  initializeTestShip: function() {
+    var port = this.world.ports[0];
+    var ship = this.world.getRandomShip(port.country);
+    this.world.addVehicleToSector(ship, port.sector.x, port.sector.y);
+    ship.path = [];
+    ship.origin = port;
+    port.sector.addNewShip(ship);
   },
   initializePersons: function() {
     for (var i = 0; i < 20; i++) {
@@ -60,7 +69,6 @@ window.boot.directors.main.prototype = {
       player: this.world.player
     });
     this.world.playerBoat.sector = this.world.player.sector;
-    console.log(this.world.playerBoat.sector);
     for (var i in this.world.player.people) {
       var person = new window.boot.models.Person({
         stage: boot.currentStage,

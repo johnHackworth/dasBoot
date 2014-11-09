@@ -339,6 +339,32 @@ pixEngine.Stage.prototype.createBackground = function(x, y, width, height, color
   return background;
 };
 
+pixEngine.Stage.prototype.createSquare = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
+  x = x || 0;
+  y = y || 0;
+  width = width || 500;
+  height = height || 500;
+  color = color || 0xD2F47A;
+  opacity = opacity || 0.5;
+  var background = new PIXI.Graphics();
+  background.clear();
+  background.lineStyle(1, color);
+
+  background.moveTo(x, y);
+  background.lineTo(x + width, y);
+  background.lineTo(x + width, y + height);
+  background.lineTo(x, y + height);
+  background.lineTo(x, y);
+  background.endFill();
+  background.alpha = opacity;
+  background.viewType = 'text';
+
+  if (interactive) {
+    background.buttonMode = true;
+    background.hitArea = new PIXI.Rectangle(x, y, width, height);
+  }
+  return background;
+};
 PIXI.DisplayObjectContainer.prototype.addVisualEntity = PIXI.DisplayObjectContainer.prototype.addChild;
 
 pixEngine.Stage.prototype.addBackgroundToContainer = function(container, x, y, width, height, color, opacity, destroyables, parent, interactive) {
@@ -349,6 +375,16 @@ pixEngine.Stage.prototype.addBackgroundToContainer = function(container, x, y, w
 
 pixEngine.Stage.prototype.addBackground = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
   var background = this.createBackground(x, y, width, height, color, opacity, destroyables, parent, interactive);
+  this.addVisualEntity(background, parent);
+  if (destroyables) {
+    destroyables.push(background);
+  }
+
+  return background;
+};
+
+pixEngine.Stage.prototype.addSquare = function(x, y, width, height, color, opacity, destroyables, parent, interactive) {
+  var background = this.createSquare(x, y, width, height, color, opacity, destroyables, parent, interactive);
   this.addVisualEntity(background, parent);
   if (destroyables) {
     destroyables.push(background);
