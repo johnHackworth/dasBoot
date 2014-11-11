@@ -28,7 +28,7 @@ window.boot.directors.main.prototype = {
       world: this.world
     });
     this.world.player.sector = this.world.ports[0].sector;
-    this.initializeTestShip();
+    // this.initializeTestShip();
     this.initializePersons();
   },
   initializeTestShip: function() {

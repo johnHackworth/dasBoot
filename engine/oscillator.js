@@ -64,7 +64,7 @@ pixEngine.Oscillator.prototype = {
     if (counter % this.period === 0) {
       counter = counter / this.period;
       for (var l = this.view.length; l; l--) {
-        this.view[l - 1].y = this.view[l - 1].y + Math.cos(counter + l) * this.oscillationHeight;
+        this.view[l - 1].y = this.originY + Math.cos(counter + l) * this.oscillationHeight;
       }
     }
   },
@@ -82,9 +82,9 @@ pixEngine.Oscillator.prototype = {
     var pointer = pos.x;
     var max = pos.x + this.width;
     for (var i in this.view) {
-      this.view[i].x = pointer + this.particleWidth * i;
+      this.view[i].x = pointer;
       this.view[i].y = pos.y;
-      pointer += this.particleWidth;
+      pointer += this.particleWidth - Math.floor(this.particleWidth / 2);
     }
   }
 };
