@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -17,6 +18,27 @@
    sodipodi:docname="submarines.svg">
   <defs
      id="defs4768">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern7070"
+       patternTransform="matrix(0.05643253,-3.4600997,-1.7523632,-0.02858018,0,0)" />
+    <pattern
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect6336"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect5313"
@@ -73,6 +95,59 @@
        effect="spiro"
        id="path-effect5288-3"
        is_visible="true" />
+    <filter
+       inkscape:collect="always"
+       id="filter7187">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter7187-1">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189-9" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter7187-1-4">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189-9-3" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter7187-1-9">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189-9-6" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter7187-1-0">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189-9-4" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter7187-1-08">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.13085041"
+         id="feGaussianBlur7189-9-36" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -81,9 +156,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="323.91193"
-     inkscape:cy="782.13216"
+     inkscape:zoom="2"
+     inkscape:cx="-64.130222"
+     inkscape:cy="-1336.7644"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -123,6 +198,175 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.71374045;fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7272"
+       sodipodi:cx="-32"
+       sodipodi:cy="2350.1123"
+       sodipodi:rx="133.5"
+       sodipodi:ry="4.25"
+       d="m 101.5,2350.1123 a 133.5,4.25 0 1 1 -267,0 133.5,4.25 0 1 1 267,0 z"
+       transform="matrix(1,0,0,0.88235294,0,275.9838)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,-35.866029,-508.76598)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,-35.280344,-658.78263)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072-1"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,-6.8746402,-510.00323)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074-4"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,-6.2889602,-660.01983)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072-5"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,23.530946,-508.32387)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074-6"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,24.116626,-658.34057)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072-1-3"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,52.522336,-509.56117)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074-4-8"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,53.108016,-659.57777)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072-18"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,81.160148,-509.03097)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074-8"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,81.745828,-659.04767)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7072-1-8"
+       sodipodi:cx="-106.24279"
+       sodipodi:cy="2337.7056"
+       sodipodi:rx="12.551146"
+       sodipodi:ry="7.601398"
+       d="m -93.691645,2337.7056 a 12.551146,7.601398 0 1 1 -25.102295,0 12.551146,7.601398 0 1 1 25.102295,0 z"
+       transform="matrix(0.82828283,0,0,1.2166756,110.15154,-510.26827)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#26221f;fill-opacity:1;stroke:none"
+       id="path7074-4-2"
+       sodipodi:cx="-107.65701"
+       sodipodi:cy="2335.5842"
+       sodipodi:rx="17.500893"
+       sodipodi:ry="14.318913"
+       d="m -90.15612,2335.5842 a 17.500893,14.318913 0 1 1 -35.00179,0 17.500893,14.318913 0 1 1 35.00179,0 z"
+       transform="matrix(0.82828283,0,0,1.291779,110.73722,-660.28487)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:none"
        id="rect3886-4-7-6"
@@ -8032,5 +8276,121 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/1930Destroyer_1_side.png"
        inkscape:export-xdpi="68.052208"
        inkscape:export-ydpi="68.052208" />
+    <rect
+       style="fill:#4c1f00;fill-opacity:1;stroke:none"
+       id="rect4792-9"
+       width="226.27417"
+       height="22.91169"
+       x="-146.63708"
+       y="2350.4062"
+       ry="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4c1f00;fill-opacity:1;stroke:none"
+       id="path5593"
+       sodipodi:cx="-38.5"
+       sodipodi:cy="2409.1123"
+       sodipodi:rx="114.5"
+       sodipodi:ry="7.75"
+       d="m 76,2409.1123 a 114.5,7.75 0 1 1 -229,0 114.5,7.75 0 1 1 229,0 z"
+       transform="translate(6,-35.5)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4c1f00;fill-opacity:1;stroke:none"
+       id="path5595"
+       sodipodi:cx="-67.5"
+       sodipodi:cy="2484.6123"
+       sodipodi:rx="22"
+       sodipodi:ry="19.25"
+       d="m -45.5,2484.6123 a 22,19.25 0 1 1 -43.66577,-3.3427 l 21.66577,3.3427 z"
+       sodipodi:start="0"
+       sodipodi:end="3.3161256"
+       transform="matrix(1.6136364,0,0,1.3896104,-21.079545,-1102.0307)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4c1f00;fill-opacity:1;stroke:none"
+       id="path5595-0"
+       sodipodi:cx="-67.5"
+       sodipodi:cy="2484.6123"
+       sodipodi:rx="22"
+       sodipodi:ry="19.25"
+       d="M -45.834229,2481.2696 A 22,19.25 0 1 1 -89.5,2484.6123 l 22,0 z"
+       sodipodi:start="6.1086524"
+       sodipodi:end="9.424778"
+       transform="matrix(1.6817612,0,0,1.3896104,178.26762,-1102.2809)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="fill:url(#pattern7070);fill-opacity:1;stroke:none;opacity:0.27862595"
+       d="m -78.470841,2380.5668 c -26.717869,-0.7747 -54.241629,-2.7596 -62.597199,-4.5141 -5.91846,-1.2429 -13.98533,-5.925 -18.15314,-10.5364 -4.23853,-4.6896 -6.79819,-12.0073 -6.01859,-17.206 l 0.34154,-2.2776 1.8387,0.2968 c 1.01128,0.1633 8.6852,1.1928 17.05316,2.2878 l 15.21448,1.991 97.035524,0.01 97.035525,1.0099 18.668665,-3.3402 c 15.759778,-2.8197 18.740396,-2.2346 19.149866,-1.6314 0.26466,0.3899 0.39857,2.5513 0.29758,4.8031 -0.26285,5.861 -2.495786,10.2772 -7.612516,15.0557 -4.299735,4.0155 -11.84444,8.0811 -17.253595,9.2974 -9.270315,2.0846 -33.66427,3.8668 -65.75,4.8035 -19.2026847,0.5606 -69.27307,0.5368 -89.25,-0.042 z"
+       id="path5615"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssccscccscsssscc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="fill:none;stroke:#d49b7e;stroke-width:1.60000000000000009;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter7187);opacity:0.71374046"
+       d="m -157.33126,2348.8425 c 0,0 15.55635,29.3449 38.18377,3.5355"
+       id="path7161"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="opacity:0.71374045;fill:none;stroke:#d49b7e;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7187-1)"
+       d="m -118.79394,2353.785 c 0,0 15.55635,29.3449 38.183768,3.5355"
+       id="path7161-7"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.99874388,-0.0501064,0.0501064,0.99874388,-118.37743,-4.4698618)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="opacity:0.71374045;fill:none;stroke:#d49b7e;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7187-1-4)"
+       d="m -118.79394,2353.785 c 0,0 15.55635,29.3449 38.183768,3.5355"
+       id="path7161-7-6"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.99874388,-0.0501064,0.0501064,0.99874388,-79.616183,-3.5644054)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="opacity:0.71374045;fill:none;stroke:#d49b7e;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7187-1-9)"
+       d="m -118.79394,2353.785 c 0,0 15.55635,29.3449 38.183768,3.5355"
+       id="path7161-7-1"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.98369755,-0.1798308,0.1798308,0.98369755,-347.49036,18.993493)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="opacity:0.71374045;fill:none;stroke:#d49b7e;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7187-1-0)"
+       d="m -118.79394,2353.785 c 0,0 15.55635,29.3449 38.183768,3.5355"
+       id="path7161-7-64"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.99874388,-0.0501064,0.0501064,0.99874388,-1.8344405,-3.2108521)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
+    <path
+       style="opacity:0.71374045;fill:none;stroke:#d49b7e;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7187-1-08)"
+       d="m -118.79394,2353.785 c 0,0 15.55635,29.3449 38.183768,3.5355"
+       id="path7161-7-19"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.97913396,-0.20321585,0.20321585,0.97913396,-325.73814,27.784858)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/vehicles/lifeboat.png"
+       inkscape:export-xdpi="67.349998"
+       inkscape:export-ydpi="67.349998" />
   </g>
 </svg>
