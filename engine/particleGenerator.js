@@ -261,7 +261,7 @@ pixEngine.ParticleGenerator.prototype = {
 
       }
       this.view[i].duration--;
-      if (!this.view[i].duration) {
+      if (!this.view[i].duration || this.view[i].duration <= 0) {
         removables.push(this.view[i]);
       }
     }
