@@ -1,0 +1,16 @@
+{
+  "name": "dasBoat",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "engines": {
+    "node": "0.10.26"
+  },
+  "dependencies": {
+    "connect": "2.12.0",
+    "http": "0.0.0"
+  },
+  "scripts": {
+
+  }
+}
