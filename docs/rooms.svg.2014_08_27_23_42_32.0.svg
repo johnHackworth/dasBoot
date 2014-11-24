@@ -4254,6 +4254,62 @@
        effect="spiro"
        id="path-effect3085-7-8-1"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5578-4-9-2-80-1-5-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5582-0-3-9-4-3-3-4"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5578-4-9-2-80-7-05-1-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5582-0-3-9-4-1-4-2-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3089-2-9-2-3-9"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3085-7-8-3-5-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4981-4-5-4-7-8-1-7-6-94-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-8-2-3-3-2-1-6-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-7-13-9-8-7-0-2-0"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-8-7-11-1-4-5-8-60-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-7-5-13-2-4-2-0-00-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-8-1-2-7-6-2-3-7-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-7-56-15-9-3-7-2-4-3"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5043-8-9-0-5-5-2-0-21-2"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -4262,9 +4318,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="1153.2423"
-     inkscape:cy="669.86682"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="832.72115"
+     inkscape:cy="275.69255"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -17437,5 +17493,93 @@
        inkscape:export-xdpi="203.78999"
        inkscape:export-ydpi="203.78999"
        sodipodi:nodetypes="cccc" />
+    <g
+       transform="matrix(0,0.93671139,-3.1965293,0,3624.7165,458.10358)"
+       id="g7795-9-2-8"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/deck.png"
+       inkscape:export-xdpi="76.254677"
+       inkscape:export-ydpi="76.254677"
+       style="stroke-width:0.4328467;stroke-miterlimit:4;stroke-dasharray:none">
+      <path
+         inkscape:export-ydpi="76.099998"
+         inkscape:export-xdpi="76.099998"
+         inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/bunks.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 514.40825,741.67563 -0.85677,89.54458 c 46.17934,-26.78439 -25.49689,-13.13923 -20.17581,-5.69334 l 0.0535,-5.59654 0.0535,-5.59653 0.0536,-5.59654 0.21419,-22.38614 0.21419,-22.38615 0.0535,-5.59654 0.0536,-5.59653 0.0535,-5.59654 c -1.98669,-7.26156 4.97195,-5.57299 20.28295,-5.49973 z"
+         inkscape:path-effect="#path-effect4981-4-5-4-7-8-1-7-6-94-6"
+         id="path4979-5-2-30-2-3-0"
+         d="m 514.40825,741.67563 -0.85677,89.54458 -20.17581,-5.69334 c 0.0178,-1.86551 0.0357,-3.73103 0.0535,-5.59654 0.0178,-1.86551 0.0356,-3.73102 0.0535,-5.59653 0.0179,-1.86551 0.0357,-3.73103 0.0536,-5.59654 0.0715,-7.46205 0.14279,-14.92409 0.21419,-22.38614 0.0714,-7.46205 0.14288,-14.9241 0.21419,-22.38615 0.0178,-1.86551 0.0356,-3.73103 0.0535,-5.59654 0.0179,-1.86551 0.0357,-3.73102 0.0536,-5.59653 0.0179,-1.86551 0.0357,-3.73103 0.0535,-5.59654 2.81977,-2.20289 6.13498,-3.75122 9.61497,-4.58397 3.47999,-0.83275 7.08974,-0.91576 10.66798,-0.91576 l 5e-5,0"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="cccccccccccc" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.92422,752.75308 -20.15147,-0.0964"
+         inkscape:path-effect="#path-effect5043-8-2-3-3-2-1-6-5"
+         id="path5041-1-4-0-6-8-6"
+         d="m 513.92422,752.75308 -20.15147,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.81752,763.90456 -20.15147,-0.0964"
+         inkscape:path-effect="#path-effect5043-7-13-9-8-7-0-2-0"
+         id="path5041-4-37-4-1-9-8"
+         d="m 513.81752,763.90456 -20.15147,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.71083,775.05604 -20.15148,-0.0964"
+         inkscape:path-effect="#path-effect5043-8-7-11-1-4-5-8-60-1"
+         id="path5041-1-8-3-50-5-3-6"
+         d="m 513.71083,775.05604 -20.15148,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.60411,786.20751 -20.15146,-0.0964"
+         inkscape:path-effect="#path-effect5043-7-5-13-2-4-2-0-00-1"
+         id="path5041-4-5-6-5-8-9-3"
+         d="m 513.60411,786.20751 -20.15146,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.49742,797.359 -20.15147,-0.0964"
+         inkscape:path-effect="#path-effect5043-8-1-2-7-6-2-3-7-5"
+         id="path5041-1-2-7-20-5-12-3"
+         d="m 513.49742,797.359 -20.15147,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.39072,808.51045 -20.15147,-0.0964"
+         inkscape:path-effect="#path-effect5043-7-56-15-9-3-7-2-4-3"
+         id="path5041-4-9-4-12-8-42-3"
+         d="m 513.39072,808.51045 -20.15147,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 513.28402,819.66195 -20.15147,-0.0964"
+         inkscape:path-effect="#path-effect5043-8-9-0-5-5-2-0-21-2"
+         id="path5041-1-9-4-6-4-6-3"
+         d="m 513.28402,819.66195 -20.15147,-0.0964"
+         style="fill:none;stroke:#707070;stroke-width:0.4328467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="opacity:0.17175574;fill:#808080;fill-opacity:1;stroke:none"
+       d="m 1264.1541,932.54726 27.2748,22.3884 -354.06694,0 15.34594,-22.22972 311.4462,-0.15868"
+       id="path3083-4-9-7-2-2"
+       inkscape:path-effect="#path-effect3085-7-8-3-5-5"
+       inkscape:original-d="m 1264.1541,932.54726 27.2748,22.3884 -354.06694,0 15.34594,-22.22972 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/deck.png"
+       inkscape:export-xdpi="76.254677"
+       inkscape:export-ydpi="76.254677" />
+    <path
+       style="opacity:0.09541985;fill:#eeeeee;fill-opacity:1;stroke:none"
+       d="m 1291.4386,797.417 0,-1.90405 -7.4773,0 0,1.64225 7.4773,0.2618"
+       id="path3087-2-2-0-8-1"
+       inkscape:path-effect="#path-effect3089-2-9-2-3-9"
+       inkscape:original-d="m 1291.4386,797.417 0,-1.90405 -7.4773,0 0,1.64225 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/rooms/deck.png"
+       inkscape:export-xdpi="76.254677"
+       inkscape:export-ydpi="76.254677" />
   </g>
 </svg>
