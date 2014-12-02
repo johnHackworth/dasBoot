@@ -14,8 +14,15 @@ window.pixEngine.components.HealthBar.prototype = {
       attr: options.attribute,
       origin: options.origin || this
     };
-    this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
-    this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
+    if (options.container) {
+      this.container = options.container;
+      this.healthBar.background = this.stage.addBackgroundToContainer(options.container, this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
+      this.healthBar.progress = this.stage.addBackgroundToContainer(options.container, this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
+    } else {
+      this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
+      this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
+
+    }
     this.healthBar.background.visible = false;
     this.healthBar.progress.visible = false;
     this.healthBar.visible = false;
@@ -33,18 +40,34 @@ window.pixEngine.components.HealthBar.prototype = {
     if (x && y && this.healthBar) {
       this.healthBar.posX = x;
       this.healthBar.posY = y;
-      this.stage.removeView(this.healthBar.background);
       width = this.healthBar.width;
       width = width > 0 ? width : 1;
-      this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
+      if (this.container) {
+        this.container.removeChild(this.healthBar.background);
+        this.healthBar.background = this.stage.addBackgroundToContainer(this.container, this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
+
+      } else {
+        this.stage.removeView(this.healthBar.background);
+        this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
+
+      }
+
       this.healthBar.background.visible = this.healthBar.visible;
     }
     if (this.healthBar && this.healthBar.origin[this.healthBar.attr] < 100) {
       this.setHealthBarVisibility(true);
-      this.stage.removeView(this.healthBar.progress);
       width = Math.floor(this.healthBar.width * this.healthBar.origin[this.healthBar.attr] / 100);
       width = width > 0 ? width : 1;
-      this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
+      if (this.container) {
+        this.container.removeChild(this.healthBar.progress);
+        this.healthBar.progress = this.stage.addBackgroundToContainer(this.container, this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
+
+      } else {
+        this.stage.removeView(this.healthBar.progress);
+        this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
+
+      }
+
     } else {
       this.setHealthBarVisibility(false);
     }
