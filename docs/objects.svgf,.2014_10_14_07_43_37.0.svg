@@ -2080,15 +2080,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.73077428"
-     inkscape:cx="-527.18361"
-     inkscape:cy="1318.5198"
+     inkscape:zoom="0.51673545"
+     inkscape:cx="1876.3031"
+     inkscape:cy="-1666.6232"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1305"
-     inkscape:window-height="744"
-     inkscape:window-x="55"
+     inkscape:window-width="1861"
+     inkscape:window-height="1056"
+     inkscape:window-x="59"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
@@ -9721,7 +9721,10 @@
     </g>
     <g
        transform="translate(-25.427686,444.87222)"
-       id="g7702-5">
+       id="g7702-5"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27">
       <path
          transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
          d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
@@ -10194,5 +10197,606 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/warning.png"
        inkscape:export-xdpi="25.379999"
        inkscape:export-ydpi="25.379999" />
+    <path
+       style="fill:#585858;fill-opacity:1;stroke:none"
+       d="m 750.5081,2112.5107 118.17413,-253.4693 7.93131,9.8215 -116.31934,249.4911 z"
+       id="path12015"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <path
+       style="fill:#acacac;fill-opacity:1;stroke:none"
+       d="m 867.02565,1872.5819 c -6.03028,14.075 -11.70414,28.5127 -17.0751,43.0598 0.44966,2.6885 3.34061,3.4709 4.77994,5.1952 8.84303,6.6478 18.01615,14.4055 28.47657,15.0494 3.76583,0.431 7.76531,-0.9818 10.11506,-5.1058 5.3739,-6.0583 12.30364,-12.4549 19.78329,-10.6399 7.01721,2.179 9.71689,12.3382 11.15286,20.5493 0.72174,3.0034 0.65805,6.3374 1.46727,9.2284 2.13102,-0.9253 2.26535,-5.7449 3.62196,-8.1348 3.95857,-12.0262 8.82459,-23.6011 12.15977,-35.94 1.11638,-5.8869 -0.91475,-11.8255 -2.06477,-17.4445 -1.85374,-6.8994 -5.75134,-14.8458 -12.01081,-14.5853 -7.95739,0.1103 -14.37761,7.2774 -19.99993,13.8891 -3.5494,3.2242 -8.24331,1.8818 -12.28817,1.6831 -9.96959,-3.0595 -18.76569,-10.3997 -27.52214,-17.0182 l -0.41804,0.1502 -0.17776,0.064 z"
+       id="path12039"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <path
+       style="fill:#c6c6c6;fill-opacity:1;stroke:none"
+       d="m 774.75025,1961.688 -3.18974,39.4725 8.50598,-0.4934 0.53164,31.578 36.15046,0 16.3207,-26.2361 c 0,0 3.45602,-62.2112 0,-63.0705 -3.45604,-0.8594 -21.68514,-5.3928 -21.68514,-5.3928 l -27.59628,0 -8.48732,7.8772 z"
+       id="path11225"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       d="m 827.93836,2039.3691 -138.68027,-18.5225 -36.20612,-4.9868 0,4.2745 16.10796,4.9867 0.69317,10.3776 13.1155,5.2021 5.07997,-10.5373 -0.2419,12.6479 c 0,0 125.1743,42.8638 129.20129,41.439 4.02699,-1.4248 23.01137,-14.9603 23.01137,-14.9603 l -2.87643,-18.5225 z"
+       id="path12041"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccsccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 780.18977,1972.4033 0.57528,4.2744 12.08098,0 -0.57528,-4.2744 z"
+       id="path12043"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/heroic.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <g
+       transform="translate(401.51791,436.04607)"
+       id="g7702-5-0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/paramedic.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path12131"
+       sodipodi:cx="1232.9388"
+       sodipodi:cy="2004.7766"
+       sodipodi:rx="77.999458"
+       sodipodi:ry="77.999458"
+       d="m 1310.9383,2004.7766 a 77.999458,77.999458 0 1 1 -155.9989,0 77.999458,77.999458 0 1 1 155.9989,0 z"
+       transform="translate(-16.020141,-7.2428565)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/paramedic.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <rect
+       style="fill:#c80000;fill-opacity:1;stroke:none"
+       id="rect12133"
+       width="88.946754"
+       height="34.210289"
+       x="1174.498"
+       y="1979.2465"
+       ry="3.5497291"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/paramedic.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <rect
+       style="fill:#c80000;fill-opacity:1;stroke:none"
+       id="rect12133-5"
+       width="88.946754"
+       height="34.210289"
+       x="1951.692"
+       y="-1235.3925"
+       ry="3.5497291"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/paramedic.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <g
+       transform="translate(793.17302,423.58474)"
+       id="g7702-5-0-0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/snipper.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#696666;stroke-opacity:1;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path12131-9"
+       sodipodi:cx="1232.9388"
+       sodipodi:cy="2004.7766"
+       sodipodi:rx="77.999458"
+       sodipodi:ry="77.999458"
+       d="m 1310.9383,2004.7766 a 77.999458,77.999458 0 1 1 -155.9989,0 77.999458,77.999458 0 1 1 155.9989,0 z"
+       transform="translate(375.63502,-19.704163)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/snipper.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <rect
+       style="fill:#686868;fill-opacity:1;stroke:none"
+       id="rect12133-5-2"
+       width="221.50974"
+       height="8.0847349"
+       x="1870.5302"
+       y="-1614.4685"
+       ry="0.83888859"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/snipper.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <rect
+       style="fill:#686868;fill-opacity:1;stroke:none"
+       id="rect12133-5-2-5"
+       width="220.54213"
+       height="8.0847349"
+       x="-1719.4116"
+       y="-1983.8617"
+       ry="0.83888859"
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/snipper.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <g
+       transform="translate(-69.937892,807.72715)"
+       id="g7702-5-0-0-1"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/repairman.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <rect
+       style="fill:#552200;fill-opacity:1;stroke:none"
+       id="rect12241"
+       width="30.930864"
+       height="214.66019"
+       x="-441.27649"
+       y="2343.126"
+       ry="0.53632075"
+       transform="matrix(0.88808526,-0.45967877,0.45967877,0.88808526,0,0)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/repairman.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732" />
+    <path
+       style="fill:#686868;fill-opacity:1;stroke:none"
+       d="m 654.95982,2315.5919 15.32951,29.6162 131.25839,-67.9403 -5.52777,-10.0065 c 0,0 -30.36701,19.9082 -43.78999,5.5495 -13.42298,-14.3587 -38.2157,0.444 -38.2157,0.444 l -64.00334,33.1285 z"
+       id="path12237"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsccc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/repairman.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732" />
+    <g
+       transform="translate(394.67586,806.88561)"
+       id="g7702-5-0-0-1-6"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1-5"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7-9"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       style="fill:#c9c9c9;fill-opacity:1;stroke:none"
+       d="m 1237.067,2332.4997 c -5.7442,-3.7256 -14.1564,2.7064 -19.4689,6.9849 -13.6193,10.9687 -27.1315,44.1413 -27.1315,44.1413 l -29.8395,-35.5358 4.8771,-6.4172 -2.1318,-5.6387 c 0,0 -3.6751,-4.0836 -6.2239,-4.834 -2.9424,-0.866 -6.4293,-0.537 -9.1967,0.758 -2.8474,1.3326 -4.8054,4.0984 -6.4843,6.6834 -1.6236,2.4996 -3.2745,5.3095 -3.2911,8.2577 -0.012,1.7045 0.6084,3.5776 1.8484,4.7936 1.5313,1.5014 4.0323,1.6326 6.1033,2.3039 1.5761,0.5111 4.8005,1.3087 4.8005,1.3087 l 32.9277,47.6456 8.27,4.4313 36.1657,-43.2152 c 0,0 7.7757,-8.2338 9.3225,-13.3999 1.7525,-5.8533 4.6986,-14.8649 -0.5475,-18.2676 z"
+       id="path12300"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccccssssssccccss"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       style="fill:#dcdcdc;fill-opacity:1;stroke:none"
+       d="m 1221.1647,2330.3541 c 24.9563,-1.583 43.5898,50.5908 43.5898,50.5908 l -5.2392,64.4469 c 0,0 -10.5486,14.0033 -19.4897,14.1784 -8.8166,0.1724 -20.1183,-13.2118 -20.1183,-13.2118 0,0 -12.574,-87.0032 -11.7356,-89.581 0.8383,-2.578 0.7868,-25.6491 12.993,-26.4233 z"
+       id="path12338"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscss"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 1257.2396,2359.5094 c -5.7171,-4.977 -16.1003,0.7632 -22.6943,4.6257 -16.9041,9.902 -37.4458,44.1553 -37.4458,44.1553 l -26.9616,-43.5895 6.4746,-6.2741 -1.4018,-6.5115 c 0,0 -3.3703,-5.0474 -6.0597,-6.2664 -3.1046,-1.4071 -7.0134,-1.589 -10.2904,-0.6004 -3.3716,1.0174 -6.003,3.744 -8.2954,6.3156 -2.2167,2.4869 -4.5162,5.3094 -5.0333,8.5382 -0.299,1.8665 0.067,4.0154 1.2318,5.5412 1.4379,1.8837 4.1794,2.4168 6.3542,3.4749 1.6551,0.8052 5.083,2.1812 5.083,2.1812 l 28.3258,57.3421 8.3887,6.1434 47.2717,-41.7346 c 0,0 9.9847,-7.814 12.5676,-13.2353 2.9265,-6.1421 7.7062,-15.56 2.4849,-20.1058 z"
+       id="path12300-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccccssssssccccss"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       style="fill:#c1c1c1;fill-opacity:1;stroke:none"
+       d="m 1210.4292,2298.4122 -3.9314,25.9873 6.35,-0.028 -0.8504,20.8979 26.9048,1.2672 13.1818,-16.775 c 0,0 5.0268,-41.0127 2.4886,-41.7021 -2.5383,-0.6894 -15.9263,-4.3258 -15.9263,-4.3258 l -20.5383,-0.9674 -6.6275,4.9109 z"
+       id="path11225-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       d="m 1215.3844,2306.3632 1.2841,2.6181 8.6602,-2.1886 -1.2841,-2.618 z"
+       id="path12043-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/fighter.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27" />
+    <g
+       transform="translate(790.14681,831.51702)"
+       id="g7702-5-0-0-1-6-4"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/robust.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1-5-7"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7-9-0"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 1584.7405,2373.1727 c -1.1855,-6.7432 -7.0032,-8.525 -13.7544,-9.4996 -4.3269,-0.6247 -7.648,-8.7846 -13.2217,-7.9448 -5.5735,0.8398 -7.0165,-0.2166 -12.2845,1.2154 -5.2679,1.432 -11.6997,7.5021 -15.1098,8.6541 -3.41,1.1521 -15.878,9.6173 -15.878,9.6173 0,0 6.182,-15.5246 7.3194,-23.7209 1.0846,-7.8146 -0.556,-23.6622 -0.556,-23.6622 l 8.0203,-0.8009 2.6758,-5.4018 c 0,0 0.4861,-5.4723 -0.7008,-7.8494 -1.3704,-2.7441 -3.9866,-5.0727 -6.8198,-6.2165 -2.9152,-1.1768 -6.2738,-0.7261 -9.3099,-0.1942 -2.936,0.5141 -6.1177,1.2196 -8.2873,3.2158 -1.2561,1.1523 -2.2047,2.8825 -2.2502,4.6186 -0.056,2.1438 1.5516,4.0642 2.4708,6.0375 0.6995,1.502 2.3121,4.4059 2.3121,4.4059 l -12.4503,56.5626 2.3895,9.073 56.2737,-2.9619 c 0,0 11.3248,0.084 16.1605,-2.3032 5.479,-2.7043 14.0832,-6.6863 13.0006,-12.8448 z"
+       id="path12300-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssscscccssssssccccss"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/robust.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 1622.848,2373.8099 c 1.1855,-6.7432 7.0032,-8.525 13.7544,-9.4996 4.3269,-0.6247 7.648,-8.7846 13.2217,-7.9448 5.5735,0.8398 7.0165,-0.2166 12.2845,1.2154 5.2679,1.432 11.6997,7.5021 15.1098,8.6541 3.41,1.1521 15.878,9.6173 15.878,9.6173 0,0 -6.182,-15.5246 -7.3194,-23.7209 -1.0846,-7.8146 0.556,-23.6622 0.556,-23.6622 l -8.0203,-0.8009 -2.6758,-5.4018 c 0,0 -0.4861,-5.4723 0.7008,-7.8494 1.3704,-2.7441 3.9866,-5.0727 6.8198,-6.2165 2.9152,-1.1768 6.2738,-0.7261 9.3099,-0.1942 2.936,0.5141 6.1177,1.2196 8.2873,3.2158 1.2561,1.1523 2.2047,2.8825 2.2502,4.6186 0.056,2.1438 -1.5516,4.0642 -2.4708,6.0375 -0.6995,1.502 -2.3121,4.4059 -2.3121,4.4059 l 12.4503,56.5626 -2.3895,9.073 -56.2737,-2.9619 c 0,0 -11.3248,0.084 -16.1605,-2.3032 -5.479,-2.7043 -14.0832,-6.6863 -13.0006,-12.8448 z"
+       id="path12300-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssscscccssssssccccss"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/robust.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 1590.756,2355.7371 -20.8037,7.7409 c 0,0 -3.3867,17.417 -7.2571,20.3198 -3.8705,2.9029 1.9352,48.3807 4.8381,54.6702 2.9028,6.2895 3.8398,15.9316 10.1599,19.836 14.6809,9.0696 37.8163,10.6405 51.7673,0.4839 13.1132,-9.5466 15.4818,-18.8685 14.5142,-46.4455 -0.9676,-27.5769 -3.8705,-38.2207 -4.3543,-41.1235 -0.4838,-2.9029 -14.5142,-14.998 -14.5142,-14.998 z"
+       id="path12459"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscsssscc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/robust.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path12463"
+       sodipodi:cx="1605.754"
+       sodipodi:cy="2332.7563"
+       sodipodi:rx="19.352262"
+       sodipodi:ry="23.464619"
+       d="m 1625.1063,2332.7563 a 19.352262,23.464619 0 1 1 -38.7045,0 19.352262,23.464619 0 1 1 38.7045,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/robust.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <g
+       transform="translate(1200.5381,435.19609)"
+       id="g7702-5-0-0-1-6-4-9"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27.272732"
+       inkscape:export-ydpi="27.272732">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1-5-7-4"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7-9-0-8"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 2027.7284,1956.8976 c 2.008,16.1253 7.2919,48.2008 7.2919,48.2008 l -11.7778,-0.052 0.1971,4.8451 0.1972,4.8452 0.1972,4.8451 -11.4685,1.7045 11.8628,7.9858 0.1971,4.8451 0.1972,4.8452 0.1972,4.8451 -49.9026,2.3504 c 0,0 -19.7681,-18.7823 -24.4494,-31.114 -9.1667,-24.1473 -9.3236,-76.0697 -4.6158,-77.3484 4.708,-1.2787 19.4606,-6.4366 29.5398,-8.0234 12.5575,-1.9768 25.9323,-5.4941 38.0941,-1.7943 4.879,1.4842 9.7792,4.6712 12.2926,9.1086 3.2867,5.8027 1.1259,13.2934 1.9499,19.9111 z"
+       id="path11225-9-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27.27"
+       inkscape:export-ydpi="27.27"
+       sodipodi:nodetypes="scccccccccccssssss" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path12519"
+       sodipodi:cx="2051.3398"
+       sodipodi:cy="2035.9409"
+       sodipodi:rx="16.449423"
+       sodipodi:ry="16.449423"
+       d="m 2067.7893,2035.9409 a 16.449423,16.449423 0 0 1 -19.3059,16.1995"
+       sodipodi:start="0"
+       sodipodi:end="1.7453293"
+       sodipodi:open="true"
+       transform="matrix(1.0797208,-1.5081198,1.5081198,1.0797208,-3244.8014,2914.765)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path12519-3"
+       sodipodi:cx="2051.3398"
+       sodipodi:cy="2035.9409"
+       sodipodi:rx="16.449423"
+       sodipodi:ry="16.449423"
+       d="m 2067.7893,2035.9409 a 16.449423,16.449423 0 0 1 -19.3059,16.1995"
+       sodipodi:start="0"
+       sodipodi:end="1.7453293"
+       sodipodi:open="true"
+       transform="matrix(0.60048825,-0.80353705,0.838743,0.57528296,-899.43514,2497.6989)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path12519-3-4"
+       sodipodi:cx="2051.3398"
+       sodipodi:cy="2035.9409"
+       sodipodi:rx="16.449423"
+       sodipodi:ry="16.449423"
+       d="m 2067.7893,2035.9409 a 16.449423,16.449423 0 0 1 -19.3059,16.1995"
+       sodipodi:start="0"
+       sodipodi:end="1.7453293"
+       sodipodi:open="true"
+       transform="matrix(0.37723699,-0.36927505,0.52691267,0.26437817,190.14663,2242.3141)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path12519-3-1"
+       sodipodi:cx="2051.3398"
+       sodipodi:cy="2035.9409"
+       sodipodi:rx="16.449423"
+       sodipodi:ry="16.449423"
+       d="m 2067.7893,2035.9409 a 16.449423,16.449423 0 0 1 -19.3059,16.1995"
+       sodipodi:start="0"
+       sodipodi:end="1.7453293"
+       sodipodi:open="true"
+       transform="matrix(1.6835597,-2.2528378,2.3515431,1.6128929,-6195.9887,3358.254)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/negociator.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
+    <g
+       transform="translate(1234.4046,839.65838)"
+       id="g7702-5-0-0-1-6-4-9-1"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1-5-7-4-2"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7-9-0-8-0"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path12605"
+       sodipodi:cx="2035.7371"
+       sodipodi:cy="2361.1799"
+       sodipodi:rx="48.259705"
+       sodipodi:ry="41.002605"
+       d="m 2083.9968,2361.1799 a 48.259705,41.002605 0 1 1 -96.5194,0 48.259705,41.002605 0 1 1 96.5194,0 z"
+       transform="matrix(1.2164205,0,0,1.6017699,-424.64131,-1392.3424)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 2004.4365,2426.1309 96.15,0 -8.4702,34.1983 -29.77,18.5943 -20.3443,0 -26.0676,-16.2818 z"
+       id="path12611"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       style="fill:#9cc5ff;fill-opacity:1;stroke:none"
+       d="m 2068.8125,2401.7194 c 0,0 4.704,3.3354 12.2302,2.7368 7.5263,-0.5987 11.2894,-4.5329 11.2894,-4.5329 0,0 -7.9539,-3.3355 -12.6578,-2.3092 -4.7039,1.0263 -0.3421,0.6843 -10.8618,4.1053 z"
+       id="path12603"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       style="fill:#9cc5ff;fill-opacity:1;stroke:none"
+       d="m 2040.8067,2401.2355 c 0,0 -4.704,3.3354 -12.2302,2.7368 -7.5263,-0.5987 -11.2894,-4.5329 -11.2894,-4.5329 0,0 7.9539,-3.3355 12.6578,-2.3092 4.7039,1.0263 0.3421,0.6843 10.8618,4.1053 z"
+       id="path12603-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       d="m 2056.0902,2437.1542 c 0,0 0.9942,1.307 2.5849,1.0724 1.5907,-0.2346 2.3861,-1.7761 2.3861,-1.7761 0,0 -1.6811,-1.307 -2.6753,-0.9049 -0.9942,0.4022 -0.072,0.2682 -2.2957,1.6086 z"
+       id="path12603-66"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       d="m 2054.6183,2437.3067 c 0,0 -0.9942,1.307 -2.5849,1.0724 -1.5907,-0.2346 -2.3861,-1.7762 -2.3861,-1.7762 0,0 1.6811,-1.3069 2.6753,-0.9048 0.9942,0.4022 0.072,0.2681 2.2957,1.6086 z"
+       id="path12603-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path12687"
+       sodipodi:cx="2066.4727"
+       sodipodi:cy="2409.0566"
+       sodipodi:rx="5.6446977"
+       sodipodi:ry="11.888076"
+       d="m 2072.1174,2409.0566 a 5.6446977,11.888076 0 1 1 -11.2894,0 5.6446977,11.888076 0 1 1 11.2894,0 z"
+       transform="matrix(0.95519168,-0.35111949,0.29598792,1.1331085,-689.39022,412.18268)"
+       inkscape:transform-center-x="3.421029"
+       inkscape:transform-center-y="-4.6668678"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path12687-3"
+       sodipodi:cx="2066.4727"
+       sodipodi:cy="2409.0566"
+       sodipodi:rx="5.6446977"
+       sodipodi:ry="11.888076"
+       d="m 2072.1174,2409.0566 a 5.6446977,11.888076 0 1 1 -11.2894,0 5.6446977,11.888076 0 1 1 11.2894,0 z"
+       transform="matrix(-0.95519168,-0.35111949,-0.29598792,1.1331085,4792.4015,415.26163)"
+       inkscape:transform-center-x="-3.4209942"
+       inkscape:transform-center-y="-4.6668678"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/attractive.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728" />
+    <g
+       transform="translate(1663.1934,850.67478)"
+       id="g7702-5-0-0-1-6-4-9-1-0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/funny.png"
+       inkscape:export-xdpi="27.272728"
+       inkscape:export-ydpi="27.272728">
+      <path
+         transform="matrix(1.0048146,0,0,1.0048146,-1.7499747,-7.0666393)"
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-9-6-4-1-5-7-4-2-9"
+         style="opacity:0.71374045;fill:#00a221;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         d="m 977.04588,1566.8849 c 0,90.6903 -73.51905,164.2094 -164.20939,164.2094 -90.69035,0 -164.2094,-73.5191 -164.2094,-164.2094 0,-90.6904 73.51905,-164.2094 164.2094,-164.2094 90.69034,0 164.20939,73.519 164.20939,164.2094 z"
+         sodipodi:ry="164.2094"
+         sodipodi:rx="164.2094"
+         sodipodi:cy="1566.8849"
+         sodipodi:cx="812.83649"
+         id="path7670-1-5-2-0-7-9-0-8-0-2"
+         style="opacity:0.71374045;fill:#00a145;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.94391675,0,0,0.94391675,47.750024,88.353292)" />
+    </g>
+    <path
+       style="fill:#fffeb5;fill-opacity:1;stroke:none"
+       d="m 2412.0187,2364.9136 c -0.3457,0.7754 0.2312,1.6615 0.2958,2.469 2.8443,11.6565 6.6243,23.0542 10.4027,34.4374 6.2875,18.401 13.128,36.7287 22.4391,53.8382 3.551,6.3894 7.3318,12.6835 11.8024,18.4668 4.5011,5.5112 9.5728,10.869 16.0639,14.0195 2.3079,1.1823 4.8185,2.0849 7.4508,1.8816 5.6995,0.053 11.4809,-2.128 15.3747,-6.3578 3.8014,-3.6242 7.0909,-7.7401 9.9367,-12.146 5.7296,-8.8724 9.7892,-18.7085 13.5654,-28.5519 7.7837,-20.8098 13.5275,-42.3295 18.3458,-64.0053 0.9157,-4.3402 1.9542,-8.6723 2.6764,-13.0428 -0.2945,-0.8081 -1.4095,-0.434 -2.0173,-0.2342 -1.4539,0.7023 -2.7398,1.6592 -4.2535,2.2469 -5.9854,3.1019 -12.2105,5.7322 -18.7344,7.4571 -10.9681,3.1098 -22.4574,4.0936 -33.8401,3.785 -6.6139,-0.065 -13.2354,-0.293 -19.7939,-1.2422 -16.2846,-2.1215 -32.0623,-6.9473 -47.4642,-12.5321 -0.7249,-0.1237 -1.5269,-0.8051 -2.2503,-0.4892 z m 90.6771,42.6074 c 1.731,0.01 3.0275,1.4764 4.1652,2.5983 0.7164,0.7928 1.5403,1.6903 2.0759,2.5082 -5.661,0.097 -11.4608,0.077 -17.0349,0.049 2.6575,-1.9804 5.4799,-3.8145 8.6413,-4.8317 0.7055,-0.1678 1.4277,-0.3142 2.1525,-0.3243 z m -48.0066,0.6935 c 2.5656,0.2752 4.8767,1.6381 7.0922,2.8999 1.0965,0.7112 2.1683,1.4893 3.2287,2.2696 -5.7007,0.041 -11.402,0.056 -17.1024,-0.018 1.498,-1.8148 2.9871,-3.8742 5.1739,-4.9173 0.516,-0.2111 1.064,-0.2632 1.6076,-0.2342 z m 38.6403,50.7624 c -2.3263,2.6006 -4.7656,5.3448 -7.9973,6.7905 -2.0495,0.8949 -4.3316,0.035 -6.0701,-1.1527 -2.2931,-1.4404 -4.3524,-3.2909 -6.2547,-5.2145 6.8061,-0.2062 13.6094,-0.3857 20.4212,-0.5359 l -0.095,0.1082 0,0 z"
+       id="path12790"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/people/attrs/perks/funny.png"
+       inkscape:export-xdpi="27"
+       inkscape:export-ydpi="27" />
   </g>
 </svg>
