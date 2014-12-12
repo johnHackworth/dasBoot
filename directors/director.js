@@ -30,6 +30,7 @@ window.boot.directors.main.prototype = {
     this.world.player.sector = this.world.ports[0].sector;
     // this.initializeTestShip();
     this.initializePersons();
+    this.world.postInit();
   },
   initializeTestShip: function() {
     var port = this.world.ports[0];
@@ -59,7 +60,7 @@ window.boot.directors.main.prototype = {
     });
     boot.currentStage.engine.running = true;
   },
-  starBoatView: function() {
+  starBoatView: function(options) {
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
 
@@ -78,8 +79,10 @@ window.boot.directors.main.prototype = {
     }
     window.boot.currentStage.initHud({
       world: this.world,
-      sector: this.world.player.sector
+      sector: this.world.player.sector,
+      assault: options.assault
     });
+    // this.initEncounters(options);
     boot.currentStage.engine.running = true;
   }
 

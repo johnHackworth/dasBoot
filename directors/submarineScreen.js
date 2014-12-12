@@ -38,7 +38,8 @@ window.boot.stages.bootStage.prototype = {
       this.hudLayout = new window.boot.ui.HudLayout({
         stage: this,
         world: this.world,
-        sector: this.sector
+        sector: this.sector,
+        assault: options.assault
       });
 
     };
