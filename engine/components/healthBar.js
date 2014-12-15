@@ -12,28 +12,29 @@ window.pixEngine.components.HealthBar.prototype = {
       width: options.width, //this.view.width - 60,
       height: options.height, //10
       attr: options.attribute,
-      origin: options.origin || this
+      origin: options.origin || this,
+      color: options.color || 0x55CC88
     };
     if (options.container) {
       this.container = options.container;
       this.healthBar.background = this.stage.addBackgroundToContainer(options.container, this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
-      this.healthBar.progress = this.stage.addBackgroundToContainer(options.container, this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
+      this.healthBar.progress = this.stage.addBackgroundToContainer(options.container, this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, this.healthBar.color, 1);
     } else {
       this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x111111, 1);
-      this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, 0x55CC88, 1);
+      this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, this.healthBar.width, this.healthBar.height, this.healthBar.color, 1);
 
     }
-    this.healthBar.background.visible = false;
-    this.healthBar.progress.visible = false;
-    this.healthBar.visible = false;
+    // this.healthBar.background.visible = false;
+    // this.healthBar.progress.visible = false;
+    // this.healthBar.visible = false;
   },
   setHealthBarVisibility: function(value) {
     if (!this.healthBar || this.healthBar.visible === value) {
       return;
     }
-    this.healthBar.visible = value;
-    this.healthBar.background.visible = value;
-    this.healthBar.progress.visible = value;
+    // this.healthBar.visible = value;
+    // this.healthBar.background.visible = value;
+    // this.healthBar.progress.visible = value;
   },
   updateHealthBar: function(x, y) {
     var width = null;
@@ -42,16 +43,14 @@ window.pixEngine.components.HealthBar.prototype = {
       this.healthBar.posY = y;
       width = this.healthBar.width;
       width = width > 0 ? width : 1;
+
       if (this.container) {
         this.container.removeChild(this.healthBar.background);
         this.healthBar.background = this.stage.addBackgroundToContainer(this.container, this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
-
       } else {
         this.stage.removeView(this.healthBar.background);
         this.healthBar.background = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, 0x111111, 1);
-
       }
-
       this.healthBar.background.visible = this.healthBar.visible;
     }
     if (this.healthBar && this.healthBar.origin[this.healthBar.attr] < 100) {
@@ -61,19 +60,18 @@ window.pixEngine.components.HealthBar.prototype = {
       if (this.container) {
         this.container.removeChild(this.healthBar.progress);
         this.healthBar.progress = this.stage.addBackgroundToContainer(this.container, this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
-
       } else {
         this.stage.removeView(this.healthBar.progress);
         this.healthBar.progress = this.stage.addBackground(this.healthBar.posX, this.healthBar.posY, width, this.healthBar.height, this.getBarColor(), 1);
-
       }
-
     } else {
       this.setHealthBarVisibility(false);
     }
-
   },
   getBarColor: function() {
+    if(this.healthBar.color != 0x55CC88) {
+      return this.healthBar.color;
+    }
     var redPercentage = Math.floor(255 * (1 - this.healthBar.origin[this.healthBar.attr] / 100)).toString(16);
     var greenPercentage = Math.floor(255 * (this.healthBar.origin[this.healthBar.attr] / 100)).toString(16);
     return 1 * ('0x' + redPercentage + greenPercentage + '00');
