@@ -61,6 +61,7 @@ window.boot.directors.main.prototype = {
     boot.currentStage.engine.running = true;
   },
   starBoatView: function(options) {
+    options = options || {};
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
 
