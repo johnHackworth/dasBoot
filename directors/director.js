@@ -41,12 +41,9 @@ window.boot.directors.main.prototype = {
     port.sector.addNewShip(ship);
   },
   initializePersons: function() {
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 7; i++) {
       var person = new window.boot.dataModels.Person({});
-
-      if (i < 7) {
-        this.world.player.addPerson(person);
-      }
+      this.world.player.addPerson(person);
     }
   },
   initSectors: function() {
@@ -60,7 +57,7 @@ window.boot.directors.main.prototype = {
     });
     boot.currentStage.engine.running = true;
   },
-  starBoatView: function(options) {
+  startBoatView: function(options) {
     options = options || {};
     this.stage = new window.boot.stages.bootStage();
     this.stage.init({});
@@ -78,6 +75,19 @@ window.boot.directors.main.prototype = {
       });
       this.world.playerBoat.addPerson(person);
     }
+    window.boot.currentStage.initHud({
+      world: this.world,
+      sector: this.world.player.sector,
+      assault: options.assault
+    });
+    // this.initEncounters(options);
+    boot.currentStage.engine.running = true;
+  },
+  startCrewView: function(options) {
+    options = options || {};
+    this.stage = new window.boot.stages.crewStage();
+    this.stage.init({});
+
     window.boot.currentStage.initHud({
       world: this.world,
       sector: this.world.player.sector,
