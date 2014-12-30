@@ -33,6 +33,7 @@ window.boot.stages.sectorsStage.prototype = {
         world: this.world,
         sector: this.sector
       });
+      this.hudLayout.notificationDispatcher.showFirstMessage();
     };
 
   }
