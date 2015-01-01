@@ -156,6 +156,9 @@ pixEngine.ParticleGenerator.prototype = {
     return particle;
   },
   createParticle: function() {
+    if (!this.view) {
+      return;
+    }
     if (this.type && this.type.indexOf('pixel') >= 0) {
       return this.createPixelParticle();
     } else {

@@ -21,7 +21,7 @@ window.pixEngine.utils.Keyboard.prototype = {
   },
   whenPress: function(key, callback) {
     this.on('keyPress', function(code) {
-      if(key === code) {
+      if (key === code) {
         callback();
       }
     });
@@ -45,5 +45,8 @@ window.pixEngine.utils.Keyboard.prototype = {
   isCharacterPressed: function(char) {
     var code = char.toUpperCase().charCodeAt(0);
     return this.isPressed(code);
+  },
+  clear: function() {
+    this.off('keyPress');
   }
 };
