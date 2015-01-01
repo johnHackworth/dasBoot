@@ -1,9 +1,15 @@
 window.pixEngine = window.pixEngine || {};
-
+var pixengineTextures = {
+  pixel: PIXI.Texture.fromImage('engine/assets/pixel.png'),
+  circle: PIXI.Texture.fromImage('engine/assets/pixelCircle.png'),
+  round: PIXI.Texture.fromImage('engine/assets/pixelRound.png')
+};
 pixEngine.ParticleGenerator = function(options) {
+  this.textures = pixengineTextures;
   this.options = options;
   this.stage = options.stage;
   this.container = options.container;
+  this.lineFactor = options.lineFactor || 5;
   this.origin = options.origin;
   this.speed = typeof(options.speed) != "undefined" ? options.speed : 10;
   this.randomSpeed = options.randomSpeed || 0;
@@ -72,7 +78,91 @@ pixEngine.ParticleGenerator.prototype = {
       y: y
     };
   },
+  createPixelParticle: function() {
+    var particle = this.getPixel();
+    var size = this.size + (1 * Math.randInt(this.randomSize));
+
+    var randomOrigin = this.getRandomOrigin();
+    particle.x = Math.floor(this.origin.x + randomOrigin.x - size / 2);
+    particle.y = Math.floor(this.origin.y + randomOrigin.y - size / 2);
+
+    var speed = this.speed + (1 * this.randomSpeed);
+
+    particle.direction = (this.direction + this.spread / 2) - this.spread * Math.random();
+
+    particle.velocity = {
+      x: Math.cos(particle.direction) * speed,
+      y: Math.sin(particle.direction) * speed
+    };
+    particle.duration = this.duration + (1 * Math.randInt(this.randomDuration));
+    if (this.fadeInFadeOut) {
+      particle.alphaReached = false;
+      particle.alpha = 0;
+      particle.alphaGoal = this.opacity + (Math.random() * this.randomOpacity);
+      particle.fadding = particle.alphaGoal / particle.duration * 2;
+    } else {
+      particle.alpha = this.opacity + (Math.random() * this.randomOpacity);
+      particle.fadding = this.fadding ? particle.alpha / particle.duration : 0;
+    }
+
+    particle.viewType = 'particle';
+    if (this.container) {
+      this.container.addChild(particle);
+    } else {
+      if (this.after) {
+        this.stage.addViewAfter(particle, this.after);
+      } else if (this.before) {
+        this.stage.addViewBefore(particle, this.before);
+      } else {
+        this.stage.addVisualEntity(particle);
+      }
+    }
+
+    if (this.tint) {
+      particle.tint = this.tint;
+    } else {
+      particle.tint = this.getRandomColor();
+    }
+    this.view.push(particle);
+  },
+  getPixel: function() {
+    var particle = null;
+    var size = this.size + (1 * Math.randInt(this.randomSize));
+    if (this.type === 'pixel' ||
+      this.type === 'pixelLine') {
+      particle = new PIXI.Sprite(this.textures.pixel);
+      particle.width = size;
+      particle.height = size;
+      if (this.type === 'pixelLine') {
+        particle.height = Math.ceil(size / this.lineFactor);
+      }
+    } else if (this.type === 'pixelRound') {
+      particle = new PIXI.Sprite(this.textures.round);
+      particle.width = size;
+      particle.height = size;
+    } else if (this.type === 'pixelCircle') {
+      particle = new PIXI.Sprite(this.textures.circle);
+      particle.width = size;
+      particle.height = size;
+    } else {
+      particle = new PIXI.Sprite(this.textures.pixel);
+      particle.width = size;
+      particle.height = size;
+    }
+    particle.anchor = {
+      x: 0.5,
+      y: 0
+    };
+    return particle;
+  },
   createParticle: function() {
+    if (this.type && this.type.indexOf('pixel') >= 0) {
+      return this.createPixelParticle();
+    } else {
+      return this.createGraphicsParticle();
+    }
+  },
+  createGraphicsParticle: function() {
     if (this.options.debug) {
       debugger;
     }

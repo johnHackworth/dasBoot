@@ -2102,9 +2102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7231385"
-     inkscape:cx="1591.8559"
-     inkscape:cy="151.13983"
+     inkscape:zoom="1"
+     inkscape:cx="814.64075"
+     inkscape:cy="-3472.3385"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -11891,5 +11891,50 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/buttons/modalWindow.png"
        inkscape:export-xdpi="158.46001"
        inkscape:export-ydpi="158.46001" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect5625"
+       width="199"
+       height="199"
+       x="496.76944"
+       y="4159.0225"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/engine/assets/pixel.png"
+       inkscape:export-xdpi="22.277227"
+       inkscape:export-ydpi="22.277227" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#001f6f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.16386555;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5625-2"
+       width="1185.9694"
+       height="194.75482"
+       x="787.73535"
+       y="4170.7485"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/engine/assets/pixelLine.png"
+       inkscape:export-xdpi="22.988506"
+       inkscape:export-ydpi="22.988506" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#afafaf;stroke-opacity:1"
+       id="path5266"
+       sodipodi:cx="752.11597"
+       sodipodi:cy="4929.0093"
+       sodipodi:rx="496.76794"
+       sodipodi:ry="496.76794"
+       d="m 1248.8839,4929.0093 a 496.76794,496.76794 0 1 1 -993.53588,0 496.76794,496.76794 0 1 1 993.53588,0 z"
+       transform="matrix(0.20104962,0,0,0.20109885,451.62314,3567.0592)"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/engine/assets/pixelCircle.png"
+       inkscape:export-xdpi="22.505611"
+       inkscape:export-ydpi="22.505611" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect5625-5"
+       width="199"
+       height="199"
+       x="818.5"
+       y="4456.8623"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/engine/assets/pixelRound.png"
+       inkscape:export-xdpi="22.277227"
+       inkscape:export-ydpi="22.277227"
+       ry="55.5"
+       rx="45" />
   </g>
 </svg>
