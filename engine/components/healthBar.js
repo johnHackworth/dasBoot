@@ -11,6 +11,7 @@ window.pixEngine.components.HealthBar = function(options) {
   this.stage = options.stage;
   this.color = options.color || 0x55CC88;
   this.alwaysVisible = options.alwaysVisible;
+  this.alwaysHidden = false;
   this.initHealthBar(options);
 };
 
@@ -35,6 +36,9 @@ window.pixEngine.components.HealthBar.prototype = {
   setHealthBarVisibility: function(value) {
     if (this.visible === value || this.alwaysVisible) {
       return;
+    }
+    if (this.alwaysHidden) {
+      value = false;
     }
     this.visible = value;
     this.background.visible = value;
@@ -78,5 +82,9 @@ window.pixEngine.components.HealthBar.prototype = {
     var redPercentage = Math.floor(255 * (1 - this.origin[this.attr] / 100)).toString(16);
     var greenPercentage = Math.floor(255 * (this.origin[this.attr] / 100)).toString(16);
     return 1 * ('0x' + redPercentage + greenPercentage + '00');
+  },
+  hide: function() {
+    this.alwaysHidden = true;
+    this.setHealthBarVisibility(false);
   }
 };
