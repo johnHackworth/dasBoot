@@ -39,7 +39,7 @@ pixEngine.ParticleGenerator = function(options) {
     x: 0,
     y: 0
   };
-  this.type = options.type;
+  this.type = options.type || 'pixel';
   this.init();
 };
 pixEngine.ParticleGenerator.prototype = {
