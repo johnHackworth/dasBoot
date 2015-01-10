@@ -95,6 +95,19 @@ window.boot.directors.main.prototype = {
     });
     // this.initEncounters(options);
     boot.currentStage.engine.running = true;
+  },
+  startWorldView: function(options) {
+    options = options || {};
+    this.stage = new window.boot.stages.worldStage();
+    this.stage.init({});
+
+    window.boot.currentStage.initHud({
+      world: this.world,
+      sector: this.world.player.sector,
+      assault: options.assault
+    });
+    // this.initEncounters(options);
+    boot.currentStage.engine.running = true;
   }
 
 };
