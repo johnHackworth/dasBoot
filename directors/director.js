@@ -27,7 +27,13 @@ window.boot.directors.main.prototype = {
     this.world.player = new boot.dataModels.Player({
       world: this.world
     });
-    this.world.player.sector = this.world.ports[0].sector;
+    var port = null;
+    for (var i in this.world.ports) {
+      if (this.world.ports[i].country.name == 'Germany') {
+        port = this.world.ports[i];
+      }
+    }
+    this.world.player.sector = port.sector;
     // this.initializeTestShip();
     this.initializePersons();
     this.world.postInit();

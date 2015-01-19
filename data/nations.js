@@ -5,7 +5,7 @@ window.boot.data.nations = {
     "enemies": [],
     "allies": [],
     "flag": 'assets/flags/spanish.png',
-    "color": 0xFF0000
+    "color": 0xFF00ff
   },
   "Germany": {
     "name": "Germany",
@@ -14,11 +14,18 @@ window.boot.data.nations = {
     "color": 0x000000,
     "flag": 'assets/flags/german.png'
   },
+  "NaziGermany": {
+    "name": "NaziGermany",
+    "enemies": [],
+    "allies": [],
+    "color": 0xFF0000,
+    "flag": 'assets/flags/naziGermany.png'
+  },
   "England": {
     "name": "England",
     "enemies": [],
     "allies": ["France"],
-    "color": 0xFFFFFF,
+    "color": 0xDDDDDD,
     "flag": 'assets/flags/british.png'
   },
   "France": {
@@ -32,7 +39,7 @@ window.boot.data.nations = {
     "name": "Norway",
     "enemies": [],
     "allies": [],
-    "color": 0x660000,
+    "color": 0x660012,
     "flag": 'assets/flags/norway.png'
   },
   "Netherlands": {

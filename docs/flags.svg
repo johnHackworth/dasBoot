@@ -14,7 +14,7 @@
    id="svg6503"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Nuevo documento 9">
+   sodipodi:docname="flags.svg">
   <defs
      id="defs6505" />
   <sodipodi:namedview
@@ -24,13 +24,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="329.64177"
-     inkscape:cy="452.23543"
+     inkscape:zoom="0.7"
+     inkscape:cx="128.25447"
+     inkscape:cy="516.18492"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1311"
+     inkscape:window-width="1305"
      inkscape:window-height="744"
      inkscape:window-x="55"
      inkscape:window-y="24"
@@ -51,6 +51,56 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#b50b0b;fill-opacity:1;stroke:none"
+       id="rect6511-4-4"
+       width="217.14285"
+       height="151.91879"
+       x="339.97318"
+       y="684.82336"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect7084-0-3"
+       width="217.1828"
+       height="27.779196"
+       x="339.94855"
+       y="746.53845"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect7084-3-5-0"
+       width="30.809664"
+       height="153.03812"
+       x="431.75513"
+       y="684.66669"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-1-4-4"
+       width="217.04138"
+       height="15.48658"
+       x="339.88412"
+       y="753.56494"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-3-0-0-1"
+       width="17.176029"
+       height="150.97688"
+       x="438.83014"
+       y="685.23206"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912" />
     <rect
        style="fill:#190050;fill-opacity:1;stroke:none"
        id="rect6511"
@@ -353,5 +403,83 @@
        inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/spanish.png"
        inkscape:export-xdpi="82.894737"
        inkscape:export-ydpi="82.894737" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#909002;stroke-width:0.10000000000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6183"
+       sodipodi:cx="450.78058"
+       sodipodi:cy="757.65015"
+       sodipodi:rx="42.678944"
+       sodipodi:ry="42.678944"
+       d="m 493.45952,757.65015 a 42.678944,42.678944 0 1 1 -85.35789,0 42.678944,42.678944 0 1 1 85.35789,0 z"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82"
+       inkscape:export-ydpi="82" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-1-4-8"
+       width="64.255814"
+       height="15.48658"
+       x="805.67938"
+       y="263.86609"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-3-0-0-5"
+       width="17.176029"
+       height="63.093613"
+       x="830.24396"
+       y="239.97984"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-1-4-8-4"
+       width="31.173315"
+       height="15.48658"
+       x="816.28601"
+       y="288.02704"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-1-4-8-4-6"
+       width="31.173315"
+       height="15.48658"
+       x="830.42816"
+       y="240.04478"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-3-0-0-5-3"
+       width="15.6608"
+       height="29.506041"
+       x="805.60699"
+       y="249.32378"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7084-3-0-0-5-3-8"
+       width="14.903186"
+       height="29.506041"
+       x="855.3277"
+       y="263.84467"
+       inkscape:export-filename="/home/javi/non-work/dasBoot/assets/flags/naziGermany.png"
+       inkscape:export-xdpi="82.854912"
+       inkscape:export-ydpi="82.854912"
+       transform="matrix(0.751365,0.65988684,-0.65988684,0.751365,0,0)" />
   </g>
 </svg>
