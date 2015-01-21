@@ -48,5 +48,19 @@ window.boot.data.nations = {
     "allies": [],
     "color": 0xCC9900,
     "flag": 'assets/flags/netherlands.png'
-  }
+  },
+  "USA": {
+    "name": "USA",
+    "enemies": [],
+    "allies": [],
+    "color": 0x550099,
+    "flag": 'assets/flags/usa.png'
+  },
+  "SovietUnion": {
+    "name": "SovietUnion",
+    "enemies": [],
+    "allies": [],
+    "color": 0x550099,
+    "flag": 'assets/flags/sovietUnion.png'
+  },
 };
