@@ -35,57 +35,48 @@
             color: #FFFFFF;
 
         }
-        .loading {
-            font-size: 40px;
-            color: #FFFFFF;
-            font-family: verdana;
-            position: absolute;
-            top: 200px;
-            left: calc(50% - 100px);
-            -webkit-animation-name: spin;
-            -webkit-animation-duration: 4000ms;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-name: spin;
-            -moz-animation-duration: 4000ms;
-            -moz-animation-iteration-count: infinite;
-            -moz-animation-timing-function: linear;
-            -ms-animation-name: spin;
-            -ms-animation-duration: 4000ms;
-            -ms-animation-iteration-count: infinite;
-            -ms-animation-timing-function: linear;
+        .spinner {
+          width: 100px;
+          height: 100px;
+          border-radius: 1px;
+          background-color: #33F;
 
-            animation-name: spin;
-            animation-duration: 4000ms;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
+          margin: 100px auto;
+          -webkit-animation: rotateplane 2.2s infinite ease-in-out;
+          animation: rotateplane 1.2s infinite ease-in-out;
+        }
 
+        @-webkit-keyframes rotateplane {
+          0% { -webkit-transform: perspective(120px) }
+          50% { background-color: #33F; -webkit-transform: perspective(120px) rotateY(180deg) }
+          100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
         }
-        @-moz-keyframes spin {
-            from { -moz-transform: rotate(0deg); }
-            to { -moz-transform: rotate(360deg); }
+
+        @keyframes rotateplane {
+          0% {
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+          } 50% {
+            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+            -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+          } 100% {
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+          }
         }
-        @-webkit-keyframes spin {
-            from { -webkit-transform: rotate(0deg); }
-            to { -webkit-transform: rotate(360deg); }
-        }
-        @keyframes spin {
-            from {transform:rotate(0deg);}
-            to {transform:rotate(360deg);}
-        }
-        .warning {
-            padding: 200px 0;
-            font-size: 40px;
-            color: #FFFFFF;
-            font-family: verdana;
-            width: 100%;
+
+
+        .loadText {
+            color: #EEEEEE;
+            font-size: 20px;
+            font-family: helvetica, verdana, arial;
         }
     </style>
     <script src="pixi.js"></script>
   </head>
   <body>
 
-    <div class="loading" id="loader"> LOADING </div>
+    <div class="loading" id="loader"><div class="spinner"></div><div class="loadText"> LOADING </div></div>
 
     <script src="engine/collections.js"></script>
     <script src="engine/math.js"></script>
@@ -237,7 +228,7 @@
     <script src="directors/sectorsScreen.js"></script>
     <script src="directors/crewScreen.js"></script>
     <script src="directors/worldScreen.js"></script>
-    <script src="directors/director.js"></script>
+    <script src="directors/director.js2"></script>
 
 
   </body>
