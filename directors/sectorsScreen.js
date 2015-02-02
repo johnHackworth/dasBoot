@@ -19,7 +19,6 @@ window.boot.stages.sectorsStage.prototype = {
         assets: [],
         init: function(stage) {
           var self = this;
-          document.getElementById('loader').remove();
         }
       });
       window.boot.currentStage.init();

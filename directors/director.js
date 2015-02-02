@@ -12,7 +12,8 @@ window.boot.directors.main.prototype = {
     // if (window.boot.width < 1050) {
     //   window.boot.width = 1050;
     // }
-    this.initSectors();
+
+    document.getElementById('loader').remove();
 
   },
   initializeWorld: function() {
@@ -55,7 +56,13 @@ window.boot.directors.main.prototype = {
   initSectors: function() {
     this.stage = new window.boot.stages.sectorsStage();
   },
+  startScreen: function() {
+    this.stage = new window.boot.stages.startStage();
+    this.stage.init({});
+    boot.currentStage.engine.running = true;
+  },
   startSectors: function() {
+    this.initSectors();
     this.stage.init({});
     this.initializeWorld();
     window.boot.currentStage.initUI({
@@ -118,7 +125,5 @@ window.boot.directors.main.prototype = {
 
 };
 window.boot.mainDirector = new boot.directors.main();
-window.boot.mainDirector.startSectors();
-setTimeout(function() {
-  window.boot.mainDirector.startSectors();
-}, 100);
+window.boot.mainDirector.startScreen();
+// window.boot.mainDirector.startSectors();
