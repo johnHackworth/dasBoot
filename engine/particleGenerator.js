@@ -26,6 +26,7 @@ pixEngine.ParticleGenerator = function(options) {
   this.fadding = options.fadding;
   this.fadeInFadeOut = options.fadeInFadeOut;
   this.brittle = options.brittle;
+  this.particleRotation = options.particleRotation;
   this.delay = options.delay || 0;
   this.delayRandom = options.delayRandom || 0;
   this.direction = typeof options.direction == 'undefined' ? 0 : options.direction;
@@ -135,6 +136,9 @@ pixEngine.ParticleGenerator.prototype = {
       particle.height = size;
       if (this.type === 'pixelLine') {
         particle.height = Math.ceil(size / this.lineFactor);
+        if(this.particleRotation) {
+          particle.rotation = this.particleRotation;
+        }
       }
     } else if (this.type === 'pixelRound') {
       particle = new PIXI.Sprite(this.textures.round);
