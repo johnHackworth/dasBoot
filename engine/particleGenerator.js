@@ -87,7 +87,7 @@ pixEngine.ParticleGenerator.prototype = {
     particle.x = Math.floor(this.origin.x + randomOrigin.x - size / 2);
     particle.y = Math.floor(this.origin.y + randomOrigin.y - size / 2);
 
-    var speed = this.speed + (1 * this.randomSpeed);
+    var speed = this.speed + (1 * Math.randInt(this.randomSpeed));
 
     particle.direction = (this.direction + this.spread / 2) - this.spread * Math.random();
 
@@ -184,7 +184,7 @@ pixEngine.ParticleGenerator.prototype = {
         x: Math.floor(this.origin.x + randomOrigin.x - size / 2),
         y: Math.floor(this.origin.y + randomOrigin.y - size / 2)
       };
-      var speed = this.speed + (1 * this.randomSpeed);
+      var speed = this.speed + (1 * Math.randInt(this.randomSpeed));
 
       particle.direction = (this.direction + this.spread / 2) - this.spread * Math.random();
 
